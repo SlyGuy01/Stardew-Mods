@@ -1,0 +1,297 @@
+{
+  "ItemName": "Farmhouse_2",
+  "Type": "Building",
+  "Seasons": ["Spring"],
+  "TextureWidth": 320,
+  "TextureHeight": 144,
+  "ManualVariations": [
+	{
+      "Id": 0,
+      "ChanceWeight": 0.1,
+	  "Name": "Cabin Brick Holiday",
+	  "Keywords": [ "Cabin Brick Holiday" ]
+    },
+	{
+      "Id": 1,
+      "ChanceWeight": 0.1,
+	  "Name": "Cabin Brick",
+	  "Keywords": [ "Cabin Brick" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+	  "Name": "Cabin Color Holiday",
+	  "Keywords": [ "Cabin Color Holiday" ]
+    },
+	{
+      "Id": 3,
+      "ChanceWeight": 0.1,
+      "Name": "Cabin Color",
+	  "Keywords": [ "Cabin Color" ]
+    },
+    {
+      "Id": 4,
+      "ChanceWeight": 0.1,
+	  "Name": "Cabin White Holiday",
+	  "Keywords": [ "Cabin White Holiday" ]
+    },
+	{
+      "Id": 5,
+      "ChanceWeight": 0.1,
+      "Name": "Cabin White",
+	  "Keywords": [ "Cabin White" ]
+    },
+    {
+      "Id": 6,
+      "ChanceWeight": 0.1,
+	  "Name": "Cottage Brick Holiday",
+	  "Keywords": [ "Cottage Brick Holiday" ]
+    },
+	{
+      "Id": 7,
+      "ChanceWeight": 0.1,
+      "Name": "Cottage Brick",
+	  "Keywords": [ "Cottage Brick" ]
+    },
+    {
+      "Id": 8,
+      "ChanceWeight": 0.1,
+	  "Name": "Cottage Color Holiday",
+	  "Keywords": [ "Cottage Color Holiday" ]
+    },
+	{
+      "Id": 9,
+      "ChanceWeight": 0.1,
+      "Name": "Cottage Color",
+	  "Keywords": [ "Cottage Color" ]
+    },
+    {
+      "Id": 10,
+      "ChanceWeight": 0.1,
+	  "Name": "Cottage White Holiday",
+	  "Keywords": [ "Cottage White Holiday" ]
+    },
+	{
+      "Id": 11,
+      "ChanceWeight": 0.1,
+	  "Name": "Cottage White",
+	  "Keywords": [ "Cottage White" ]
+    },
+	{
+      "Id": 12,
+      "ChanceWeight": 0.1,
+	  "Name": "Greenhouse Brick Holiday",
+	  "Keywords": [ "Greenhouse Brick Holiday" ]
+    },
+	{
+      "Id": 13,
+      "ChanceWeight": 0.1,
+	  "Name": "Greenhouse Brick",
+	  "Keywords": [ "Greenhouse Brick" ]
+    },
+	{
+      "Id": 14,
+      "ChanceWeight": 0.1,
+	  "Name": "Greenhouse Color Holiday",
+	  "Keywords": [ "Greenhouse Color Holiday" ]
+    },
+	{
+      "Id": 15,
+      "ChanceWeight": 0.1,
+	  "Name": "Greenhouse Color",
+	  "Keywords": [ "Greenhouse Color" ]
+    },
+	{
+      "Id": 16,
+      "ChanceWeight": 0.1,
+	  "Name": "Greenhouse White Holiday",
+	  "Keywords": [ "Greenhouse White Holiday" ]
+    },
+	{
+      "Id": 17,
+      "ChanceWeight": 0.1,
+	  "Name": "Greenhouse White",
+	  "Keywords": [ "Greenhouse White" ]
+    },
+	{
+      "Id": 18,
+      "ChanceWeight": 0.1,
+	  "Name": "Lodge Brick Holiday",
+	  "Keywords": [ "Lodge Brick Holiday" ]
+    },
+	{
+      "Id": 19,
+      "ChanceWeight": 0.1,
+	  "Name": "Lodge Brick",
+	  "Keywords": [ "Lodge Brick" ]
+    },
+	{
+      "Id": 20,
+      "ChanceWeight": 0.1,
+	  "Name": "Lodge Color Holiday",
+	  "Keywords": [ "Lodge Color Holiday" ]
+    },
+	{
+      "Id": 21,
+      "ChanceWeight": 0.1,
+	  "Name": "Lodge Color",
+	  "Keywords": [ "Lodge Color" ]
+    },
+	{
+      "Id": 22,
+      "ChanceWeight": 0.1,
+	  "Name": "Lodge White Holiday",
+	  "Keywords": [ "Lodge White Holiday" ]
+    },
+	{
+      "Id": 23,
+      "ChanceWeight": 0.1,
+	  "Name": "Lodge White",
+	  "Keywords": [ "Lodge White" ]
+    },
+	{
+      "Id": 24,
+      "ChanceWeight": 0.1,
+	  "Name": "Manor Brick Holiday",
+	  "Keywords": [ "Manor Brick Holiday" ]
+    },
+	{
+      "Id": 25,
+      "ChanceWeight": 0.1,
+	  "Name": "Manor Brick",
+	  "Keywords": [ "Manor Brick" ]
+    },
+	{
+      "Id": 26,
+      "ChanceWeight": 0.1,
+	  "Name": "Manor Color Holiday",
+	  "Keywords": [ "Manor Color Holiday" ]
+    },
+	{
+      "Id": 27,
+      "ChanceWeight": 0.1,
+	  "Name": "Manor Color",
+	  "Keywords": [ "Manor Color" ]
+    },
+	{
+      "Id": 28,
+      "ChanceWeight": 0.1,
+	  "Name": "Manor White Holiday",
+	  "Keywords": [ "Manor White Holiday" ]
+    },
+	{
+      "Id": 29,
+      "ChanceWeight": 0.1,
+	  "Name": "Manor White",
+	  "Keywords": [ "Manor White" ]
+    },
+	{
+      "Id": 30,
+      "ChanceWeight": 0.1,
+	  "Name": "Rustic Brick Holiday",
+	  "Keywords": [ "Rustic Brick Holiday" ]
+    },
+	{
+      "Id": 31,
+      "ChanceWeight": 0.1,
+	  "Name": "Rustic Brick",
+	  "Keywords": [ "Rustic Brick" ]
+    },
+	{
+      "Id": 32,
+      "ChanceWeight": 0.1,
+	  "Name": "Rustic Color Holiday",
+	  "Keywords": [ "Rustic Color Holiday" ]
+    },
+	{
+      "Id": 33,
+      "ChanceWeight": 0.1,
+	  "Name": "Rustic Color",
+	  "Keywords": [ "Rustic Color" ]
+    },
+	{
+      "Id": 34,
+      "ChanceWeight": 0.1,
+	  "Name": "Rustic White Holiday",
+	  "Keywords": [ "Rustic White Holiday" ]
+    },
+	{
+      "Id": 35,
+      "ChanceWeight": 0.1,
+	  "Name": "Rustic White",
+	  "Keywords": [ "Rustic White" ]
+    },
+	{
+      "Id": 36,
+      "ChanceWeight": 0.1,
+	  "Name": "StainedGlass Brick Holiday",
+	  "Keywords": [ "StainedGlass Brick Holiday" ]
+    },
+	{
+      "Id": 37,
+      "ChanceWeight": 0.1,
+	  "Name": "StainedGlass Brick",
+	  "Keywords": [ "StainedGlass Brick" ]
+    },
+	{
+      "Id": 38,
+      "ChanceWeight": 0.1,
+	  "Name": "StainedGlass Color Holiday",
+	  "Keywords": [ "StainedGlass Color Holiday" ]
+    },
+	{
+      "Id": 39,
+      "ChanceWeight": 0.1,
+	  "Name": "StainedGlass Color",
+	  "Keywords": [ "StainedGlass Color" ]
+    },
+	{
+      "Id": 40,
+      "ChanceWeight": 0.1,
+	  "Name": "StainedGlass White Holiday",
+	  "Keywords": [ "StainedGlass White Holiday" ]
+    },
+	{
+      "Id": 41,
+      "ChanceWeight": 0.1,
+	  "Name": "StainedGlass White",
+	  "Keywords": [ "StainedGlass White" ]
+    },
+	{
+      "Id": 42,
+      "ChanceWeight": 0.1,
+	  "Name": "Vanilla Brick Holiday",
+	  "Keywords": [ "Vanilla Brick Holiday" ]
+    },
+	{
+      "Id": 43,
+      "ChanceWeight": 0.1,
+	  "Name": "Vanilla Brick",
+	  "Keywords": [ "Vanilla Brick" ]
+    },
+	{
+      "Id": 44,
+      "ChanceWeight": 0.1,
+	  "Name": "Vanilla Color Holiday",
+	  "Keywords": [ "Vanilla Color Holiday" ]
+    },
+	{
+      "Id": 45,
+      "ChanceWeight": 0.1,
+	  "Name": "Vanilla Color",
+	  "Keywords": [ "Vanilla Color" ]
+    },
+	{
+      "Id": 46,
+      "ChanceWeight": 0.1,
+	  "Name": "Vanilla White Holiday",
+	  "Keywords": [ "Vanilla White Holiday" ]
+    },
+	{
+      "Id": 47,
+      "ChanceWeight": 0.1,
+	  "Name": "Vanilla White",
+	  "Keywords": [ "Vanilla White" ]
+    }
+	]
+}

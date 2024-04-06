@@ -1,0 +1,12 @@
+{
+  "Name": "Ellie's Ideal Greenhouse",
+  "Author": "Ellibehr",
+  "Version": "1.4.1",
+  "Description": "Expands the greenhouse. Includes 3 options to choose from depending on your playstyle.",
+  "UniqueID": "Ellibehr.ElliesIdealGreenhouse",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:7497"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

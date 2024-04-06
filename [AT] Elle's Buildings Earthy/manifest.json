@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Elle's Earthy Seasonal Buildings for AT",
+  "Author": "Elle/Junimods",
+  "Version": "1.0.1",
+  "Description": "A replacement for buildings on your farm for each season!",
+  "UniqueID": "Elle.Earthy.SeasonalBuildings.AT",
+  "UpdateKeys": [ "Nexus:10038@Earthy" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.0"
+  }
+}
