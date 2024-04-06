@@ -1,0 +1,8 @@
+{
+  "ItemName": "Gold Clock",
+  "Type": "Building",
+  "Seasons": ["Spring"],
+  "TextureWidth": 48,
+  "TextureHeight": 80,
+  "Variations": 8
+}

@@ -1,0 +1,12 @@
+{
+   "Name": "Rustic Country Walls and Floors",
+   "Author": "DustBeauty",
+   "Version": "1.1",
+   "Description": "Rustic Country Walls and Floors",
+   "UniqueID": "RusticCountry.wallsandfloors",
+   "UpdateKeys": ["Nexus:5857"],
+   "MinimumApiVersion": "1.2.0",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

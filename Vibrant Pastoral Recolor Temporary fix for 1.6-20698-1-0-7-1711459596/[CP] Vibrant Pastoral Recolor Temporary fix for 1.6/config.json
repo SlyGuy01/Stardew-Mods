@@ -1,0 +1,19 @@
+{
+  "Green Fall": "true",
+  "Water Type": "opaque",
+  "Blue Grass Type": "vanilla",
+  "Town Interior Fix": "true",
+  "Farm House Upgrade Interior Fix": "true",
+  "Door Mismatching Color Fix": "true",
+  "Mini Map Fix": "true",
+  "Meadowland Map Fix": "true",
+  "Mossy Tree Fix": "true",
+  "Green Rain Tree Fix": "true",
+  "Carpenter Window Fix": "false",
+  "Desert Tiles Fix": "true",
+  "Skull Cavern Fix": "true",
+  "Bookseller Zone Shadow Fix": "true",
+  "Underwater Tree Animation Fix": "true",
+  "Seeds Spots Fix": "true",
+  "Force Replace Outdoors": "false"
+}
