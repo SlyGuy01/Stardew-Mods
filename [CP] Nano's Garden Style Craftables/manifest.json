@@ -1,0 +1,11 @@
+{
+    "Name": "[CP] Nano's Garden Style Craftables",
+    "Author": "Nano_NotRobot",
+    "Version": "1.1.1",
+    "UniqueID": "CP.GardenStyle.Craftables.Nano",
+    "MinimumApiVersion": "2.11.2",
+    "UpdateKeys": [ "Nexus:16935@CP" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

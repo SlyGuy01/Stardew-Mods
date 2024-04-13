@@ -1,0 +1,97 @@
+{
+"Format": "1.10.0",
+"ConfigSchema":
+    {
+        "GateStyle":
+        {
+            "AllowValues": "wood, hardwood, iron, stone",
+            "Default": "iron"
+        },
+},
+
+"Changes": [
+	{
+		"LogName": "wood iron gate",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Fence1",
+		"FromFile": "assets/Fence1_{{season}}.png",
+                                           "When":{"GateStyle": "iron"}
+	},
+	{
+		"LogName": "wood wood gate",
+		"Action": "EditImage",
+                                "PatchMode": "Replace",
+		"Target": "LooseSprites/Fence1",
+		"FromFile": "assets/gate wood/Fence1_{{season}}.png",
+                                           "When":{"GateStyle": "wood"}
+	},
+	{
+		"LogName": "wood hardwood gate",
+		"Action": "EditImage",
+                                "PatchMode": "Replace",
+		"Target": "LooseSprites/Fence1",
+		"FromFile": "assets/gate hardwood/Fence1_{{season}}.png",
+                                           "When":{"GateStyle": "hardwood"}
+	},
+	{
+		"LogName": "wood stone gate",
+		"Action": "EditImage",
+                                "PatchMode": "Replace",
+		"Target": "LooseSprites/Fence1",
+		"FromFile": "assets/gate stone/Fence1_{{season}}.png",
+                                           "When":{"GateStyle": "stone"}
+	},
+	{
+		"LogName": "hardwood",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Fence5",
+		"FromFile": "assets/Fence5_{{season}}.png",
+	},
+	{
+		"LogName": "iron",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Fence3",
+		"FromFile": "assets/Fence3_{{season}}.png",
+	},
+	{
+		"LogName": "stone",
+//		"Action": "Load",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Fence2",
+		"FromFile": "assets/Fence2_{{season}}.png",
+	},
+//Winter indoor
+	{
+		"LogName": "stone",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Fence1",
+		"FromFile": "assets/winter indoor/Fence1.png",
+                                           "When":{"IsOutdoors": "false",
+                                                         "Season": "winter"}
+	},
+	{
+		"LogName": "stone",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Fence2",
+		"FromFile": "assets/winter indoor/Fence2.png",
+                                           "When":{"IsOutdoors": "false",
+                                                         "Season": "winter"}
+	},
+	{
+		"LogName": "stone",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Fence3",
+		"FromFile": "assets/winter indoor/Fence3.png",
+                                           "When":{"IsOutdoors": "false",
+                                                         "Season": "winter"}
+	},
+	{
+		"LogName": "stone",
+		"Action": "EditImage",
+		"Target": "LooseSprites/Fence5",
+		"FromFile": "assets/winter indoor/Fence5.png",
+                                           "When":{"IsOutdoors": "false",
+                                                         "Season": "winter"}
+	},
+]
+}
