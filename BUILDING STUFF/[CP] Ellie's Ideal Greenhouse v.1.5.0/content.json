@@ -1,0 +1,16 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema": {
+        "GreenhouseType": {"AllowValues": "Modest, Large, Large Rows, Expanded, Expanded Rows, Spacious, Spacious Rows, Enormous, Enormous Rows",
+        "Default": "Modest"}
+
+    },
+	
+	"Changes": [
+    		{
+			"Action": "Load",
+			"Target": "Maps/Greenhouse",
+			"FromFile": "assets/{{GreenhouseType}} Greenhouse.tmx"
+		},
+	]
+}

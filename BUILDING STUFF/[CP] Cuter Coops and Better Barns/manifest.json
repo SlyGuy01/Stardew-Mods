@@ -1,0 +1,13 @@
+{
+   "Name": "Cuter Coops and Better Barns",
+   "Author": "DaisyNiko",
+   "Version": "1.1",
+   "Description": "slightly bigger, cuter coops + matching barns",
+   "UniqueID": "DaisyNiko.CCBB",
+   "MinimumApiVersion": "2.8.2",
+   "UpdateKeys": [ "Nexus:4226" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.6"
+   }
+}

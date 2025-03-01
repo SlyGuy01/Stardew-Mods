@@ -1,0 +1,50 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "WallColour": {
+            "AllowValues": "Vanilla, Blue, Chocolate, Cream, Green, Orange, PastelPink, Pink, Purple, Red, Teal",
+            "Default": "Blue"
+        }
+    },
+    "Changes": [
+        //coops
+        {
+            "Action": "Load",
+            "Target": "Maps/Coop",
+            "FromFile": "assets/Coop.tbin"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Coop2",
+            "FromFile": "assets/Coop2.tbin"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Coop3",
+            "FromFile": "assets/Coop3.tbin"
+        },
+        //barns
+        {
+            "Action": "Load",
+            "Target": "Maps/Barn",
+            "FromFile": "assets/Barn.tbin"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Barn2",
+            "FromFile": "assets/Barn2.tbin"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Barn3",
+            "FromFile": "assets/Barn3.tbin"
+        },
+        //tiles
+        {
+            "Action": "EditImage",
+            "Target": "Maps/coopTiles",
+            "FromFile": "assets/walls_{{WallColour}}.png",
+            "PatchMode": "Overlay"
+        }
+    ]
+}

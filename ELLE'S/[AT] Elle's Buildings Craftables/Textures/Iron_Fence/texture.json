@@ -1,0 +1,50 @@
+{
+  "ItemName": "Iron Fence",
+  "Type": "Craftable",
+  "TextureWidth": 48,
+  "TextureHeight": 128,
+  "ManualVariations": [
+	{
+      "Id": 0,
+      "ChanceWeight": 0.1,
+	  "Name": "Earthy",
+	  "Keywords": [ "Earthy" ]
+    },
+	{
+      "Id": 1,
+      "ChanceWeight": 0.1,
+	  "Name": "Eemie",
+	  "Keywords": [ "Eemie" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+	  "Name": "Foliage",
+	  "Keywords": [ "Foliage" ]
+    },
+	{
+      "Id": 3,
+      "ChanceWeight": 0.1,
+      "Name": "Starblue",
+	  "Keywords": [ "Starblue" ]
+    },
+    {
+      "Id": 4,
+      "ChanceWeight": 0.1,
+	  "Name": "Vanilla",
+	  "Keywords": [ "Vanilla" ]
+    },
+	{
+      "Id": 5,
+      "ChanceWeight": 0.1,
+      "Name": "Wittily",
+	  "Keywords": [ "Wittily" ]
+    },
+    {
+      "Id": 6,
+      "ChanceWeight": 0.1,
+	  "Name": "Elle",
+	  "Keywords": [ "Elle" ]
+    }
+	]
+}

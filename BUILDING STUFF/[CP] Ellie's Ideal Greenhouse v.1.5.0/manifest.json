@@ -1,0 +1,12 @@
+{
+  "Name": "Ellie's Ideal Greenhouse",
+  "Author": "Ellibehr",
+  "Version": "1.5.0",
+  "Description": "This is a greenhouse expansion mod with 5 map sizes (4 of which have 2 versions to pick from) for you to enjoy depending on your playstyle/installed mods!",
+  "UniqueID": "Ellibehr.ElliesIdealGreenhouse",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:7497"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

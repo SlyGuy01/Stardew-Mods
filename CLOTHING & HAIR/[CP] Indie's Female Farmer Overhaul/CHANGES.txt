@@ -1,0 +1,7 @@
+Changes to This Update:
+
+- Named hats with matching descriptions.
+- Aligned several hats for a better fit.
+- Removed redundant hat and replaced it with "Magic Rancher Hat". "Magic Wreath" is nearly the same as the removed hat.
+- Moved vanilla asset "Butterfly Bow" back to its original location on the sprite sheet. It was once under "Hunter's Cap" (refer also to "Pink Band" for moved asset).
+- Simplified and added code.

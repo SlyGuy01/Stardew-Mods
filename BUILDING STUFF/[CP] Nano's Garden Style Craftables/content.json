@@ -1,0 +1,2285 @@
+{
+	"Format":"1.19",
+	"ConfigSchema": 
+		{
+			"bee house":
+				{
+				"AllowValues": "flowery green,flowery red,green,red,false",
+				"Default": "flowery green"
+				},
+				
+			"charcoal kiln":
+				{
+				"AllowValues": "green,red,white,false",
+				"Default": "white"
+				},
+				
+			"chest":
+				{
+				"AllowValues": "light,dark,false",
+				"Default": "light"
+				},
+			"crab pot":
+				{
+				"AllowValues": "blue,pink,purple,yellow,false",
+				"Default": "pink"
+				},
+			"crystalarium":
+				{
+				"AllowValues": "dark,light,golden,false",
+				"Default": "golden"
+				},
+			"furnace":
+				{
+				"AllowValues": "green,white,red,false",
+				"Default": "red"
+				},
+			"garden pot":
+				{
+				"AllowValues": "brown,green,red,white,false",
+				"Default": "white"
+				},					
+			"iridium sprinkler":
+				{
+				"AllowValues": "turn left,turn right,false",
+				"Default": "turn left"
+				},	
+			"quality sprinkler":
+				{
+				"AllowValues": "turn left,turn right,false",
+				"Default": "turn right"
+				},	
+			"sprinkler":
+				{
+				"AllowValues": "blue,green,false",
+				"Default": "blue"
+				},
+			"iron lamp":
+				{
+				"AllowValues": "black,white,false",
+				"Default": "white"
+				},
+			"keg":
+				{
+				"AllowValues": "flowery light,flowery dark,light,dark,false",
+				"Default": "flowery light"
+				},
+			"lightning rod":
+				{
+				"AllowValues": "dark,flowery dark,light,flowery light,false",
+				"Default": "flowery dark"
+				},
+			"mini-fridge":
+				{
+				"AllowValues": "green,red,white,false",
+				"Default": "green"
+				},			
+			"preserves jar":
+				{
+				"AllowValues": "green,red,yellow,false",
+				"Default": "red"
+				},	
+			"recycling machine":
+				{
+				"AllowValues": "green,red,flowery green, flowery red, false",
+				"Default": "flowery green"
+				},
+			"scarecrow":
+				{
+				"AllowValues": "rabbit1,rabbit2,rabbit3,rabbit4,false",
+				"Default": "rabbit1"
+				},
+			"seed maker":
+				{
+				"AllowValues": "dark,light,false",
+				"Default": "light"
+				},
+			"stone chest":
+				{
+				"AllowValues": "retexture,v2,false",
+				"Default": "retexture"
+				},
+			"stone sign":
+				{
+				"AllowValues": "flowery light,flowery dark,light,dark,false",
+				"Default": "flowery dark"
+				},
+			"tapper":
+				{
+				"AllowValues": "flower1,flower2,flower3,flower4,false",
+				"Default": "flower1"
+				},	
+			"telephone":
+				{
+				"AllowValues": "retexture,false",
+				"Default": "retexture"
+				},	
+			"wood lamp":
+				{
+				"AllowValues": "red,green,brown,false",
+				"Default": "red"
+				},
+			"wood sign":
+				{
+				"AllowValues": "flowery light,flowery dark,light,dark,false",
+				"Default": "flowery light"
+				},
+			"workbench":
+				{
+				"AllowValues": "flowery light,flowery dark,light,dark,false",
+				"Default": "flowery dark"
+				},
+			"worm bin":
+				{
+				"AllowValues": "dark,light,false",
+				"Default": "dark"
+				},
+			"auto grabber":
+				{
+				"AllowValues": "blue,red,purple,false",
+				"Default": "blue"
+				},
+			"cheese press":
+				{
+				"AllowValues": "red,green,flowery red,flowery green,chest light,chest dark,false",
+				"Default": "flowery green"
+				},
+			"coffee maker":
+				{
+				"AllowValues": "red,green,purple,flowery red,flowery green,flowery purple,false",
+				"Default": "flowery red"
+				},
+			"loom":
+				{
+				"AllowValues": "red,green,flowery red,flowery green,false",
+				"Default": "flowery green"
+				},
+			"mayonnaise machine":
+				{
+				"AllowValues": "red,green,flowery red,flowery green,false",
+				"Default": "flowery red"
+				},
+			"mini-obelisk":
+				{
+				"AllowValues": "dark sign,light sign,pillar,red flower pillar,blue flower pillar,false",
+				"Default": "red flower pillar"
+				},
+			"oil maker":
+				{
+				"AllowValues": "dark green,dark red,light green,light red,false",
+				"Default": "dark red"
+				},
+			"sewing machine":
+				{
+				"AllowValues": "red,green,false",
+				"Default": "green"
+				},
+			"slime egg press":
+				{
+				"AllowValues": "purple,red,green,white,false",
+				"Default": "purple"
+				},
+			"slime incubator":
+				{
+				"AllowValues": "dark,light,false",
+				"Default": "dark"
+				},
+			"solar panel":
+				{
+				"AllowValues": "dark,light,flowery dark, flowery light,false",
+				"Default": "flowery dark"
+				},
+			"anvil":
+				{
+				"AllowValues": "blue,red,white,false",
+				"Default": "white"
+				},
+			"big chest":
+				{
+				"AllowValues": "dark,light,false",
+				"Default": "light"
+				},
+			"big stone chest":
+				{
+				"AllowValues": "v2,false",
+				"Default": "v2"
+				},
+			"bait maker":
+				{
+				"AllowValues": "dark,light,false",
+				"Default": "dark"
+				},					
+			"dehydrator":
+				{
+				"AllowValues": "dark,light,flowery dark,flowery light,false",
+				"Default": "flowery light"
+				},
+			"deluxe worm bin":
+				{
+				"AllowValues": "dark,light,false",
+				"Default": "dark"
+				},
+			"fish smoker":
+				{
+				"AllowValues": "dark,light,false",
+				"Default": "light"
+				},
+			"heavy furnace":
+				{
+				"AllowValues": "green,red,white,false",
+				"Default": "red"
+				},
+			"mini-forge":
+				{
+				"AllowValues": "flowery green,flowery red,green,red,false",
+				"Default": "flowery green"
+				},
+			"statue of blessings":
+				{
+				"AllowValues": "white,false",
+				"Default": "white"
+				},
+			"statue of the dwarf king":
+				{
+				"AllowValues": "white,false",
+				"Default": "white"
+				}
+			
+		},
+				
+
+
+
+	"Changes":[
+		
+		//bee house-flowery green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/bee house/flowery green.png",
+			"ToArea": { "X": 32, "Y": 32, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"bee house": "flowery green"
+			}
+		},		
+		//bee house-flowery red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/bee house/flowery red.png",
+			"ToArea": { "X": 32, "Y": 32, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"bee house": "flowery red"
+			}
+		},		
+		//bee house-green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/bee house/green.png",
+			"ToArea": { "X": 32, "Y": 32, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"bee house": "green"
+			}
+		},		
+		//bee house-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/bee house/red.png",
+			"ToArea": { "X": 32, "Y": 32, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"bee house": "red"
+			}
+		},
+
+	
+		//charcoal kiln-green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/charcoal kiln/green.png",
+			"ToArea": { "X": 32, "Y": 448, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"charcoal kiln": "green"
+			}
+		},	
+		//charcoal kiln-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/charcoal kiln/red.png",
+			"ToArea": { "X": 32, "Y": 448, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"charcoal kiln": "red"
+			}
+		},
+		//charcoal kiln-white
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/charcoal kiln/white.png",
+			"ToArea": { "X": 32, "Y": 448, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"charcoal kiln": "white"
+			}
+		},			
+		//chest recolor part
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/chest/recolor part.png",
+			"ToArea": { "X": 0, "Y": 672, "Width": 96, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 32},
+			"When":
+			{
+			"chest": "light,dark"
+			}
+		},
+
+		
+		//chest-light default
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/chest/light default.png",
+			"ToArea": { "X": 32, "Y": 512, "Width": 96, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 32},
+			"When":
+			{
+			"chest": "light"
+			}
+		},
+		
+		//chest-light nocolor part
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/chest/light nocolor.png",
+			"ToArea": { "X": 0, "Y": 704, "Width": 96, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 32},
+			"When":
+			{
+			"chest": "light"
+			}
+		},		
+		//chest-dark default
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/chest/dark default.png",
+			"ToArea": { "X": 32, "Y": 512, "Width": 96, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 32},
+			"When":
+			{
+			"chest": "dark"
+			}
+		},		
+		//chest-dark nocolor part
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/chest/dark nocolor.png",
+			"ToArea": { "X": 0, "Y": 704, "Width": 96, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 32},
+			"When":
+			{
+			"chest": "dark"
+			}
+		},
+
+
+		//crab pot-blue
+		{
+			"Action":"EditImage",
+			"Target":"Maps/springobjects",
+			"FromFile":"assets/crab pot/blue.png",
+			"ToArea": {"X":224, "Y":464, "Width":80, "Height":16},
+			"FromArea": { "X": 0, "Y": 0, "Width": 80, "Height": 16},
+			"When":
+			{
+			"crab pot": "blue"
+			}
+		},		
+		//crab pot-pink
+		{
+			"Action":"EditImage",
+			"Target":"Maps/springobjects",
+			"FromFile":"assets/crab pot/pink.png",
+			"ToArea": {"X":224, "Y":464, "Width":80, "Height":16},
+			"FromArea": { "X": 0, "Y": 0, "Width": 80, "Height": 16},
+			"When":
+			{
+			"crab pot": "pink"
+			}
+		},		
+		//crab pot-purple
+		{
+			"Action":"EditImage",
+			"Target":"Maps/springobjects",
+			"FromFile":"assets/crab pot/purple.png",
+			"ToArea": {"X":224, "Y":464, "Width":80, "Height":16},
+			"FromArea": { "X": 0, "Y": 0, "Width": 80, "Height": 16},
+			"When":
+			{
+			"crab pot": "purple"
+			}
+		},		
+		//crab pot-yellow
+		{
+			"Action":"EditImage",
+			"Target":"Maps/springobjects",
+			"FromFile":"assets/crab pot/yellow.png",
+			"ToArea": {"X":224, "Y":464, "Width":80, "Height":16},
+			"FromArea": { "X": 0, "Y": 0, "Width": 80, "Height": 16},
+			"When":
+			{
+			"crab pot": "yellow"
+			}
+		},
+
+
+		//crystalarium-light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/crystalarium/light.png",
+			"ToArea": { "X": 80, "Y": 64, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"crystalarium": "light"
+			}
+		},		
+		//crystalarium-dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/crystalarium/dark.png",
+			"ToArea": { "X": 80, "Y": 64, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"crystalarium": "dark"
+			}
+		},
+		
+		//crystalarium-golden
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/crystalarium/golden.png",
+			"ToArea": { "X": 80, "Y": 64, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"crystalarium": "golden"
+			}
+		},
+		
+
+		//furnace-green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/furnace/green.png",
+			"ToArea": { "X": 80, "Y": 32, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"furnace": "green"
+			}
+		},	
+		//furnace-white
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/furnace/white.png",
+			"ToArea": { "X": 80, "Y": 32, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"furnace": "white"
+			}
+		},		
+		//furnace-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/furnace/red.png",
+			"ToArea": { "X": 80, "Y": 32, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"furnace": "red"
+			}
+		},
+
+		
+		//garden pot-brown
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/garden pot/brown.png",
+			"ToArea": { "X": 96, "Y": 224, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"garden pot": "brown"
+			}
+		},			
+		//garden pot-green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/garden pot/green.png",
+			"ToArea": { "X": 96, "Y": 224, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"garden pot": "green"
+			}
+		},		
+		//garden pot-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/garden pot/red.png",
+			"ToArea": { "X": 96, "Y": 224, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"garden pot": "red"
+			}
+		},
+		//garden pot-white
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/garden pot/white.png",
+			"ToArea": { "X": 96, "Y": 224, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"garden pot": "white"
+			}
+		},	
+
+		
+		//iridium sprinkler-turn left
+		{
+			"Action":"EditImage",
+			"Target":"Maps/springobjects",
+			"FromFile":"assets/iridium sprinkler/turn left.png",
+			"ToArea": {"X":336, "Y":416, "Width":16, "Height":16},
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 16},
+			"When":
+			{
+			"iridium sprinkler": "turn left"
+			}
+		},				
+		//iridium sprinkler-turn right
+		{
+			"Action":"EditImage",
+			"Target":"Maps/springobjects",
+			"FromFile":"assets/iridium sprinkler/turn right.png",
+			"ToArea": {"X":336, "Y":416, "Width":16, "Height":16},
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 16},
+			"When":
+			{
+			"iridium sprinkler": "turn right"
+			}
+		},
+		
+
+		//quality sprinkler-turn right
+		{
+			"Action":"EditImage",
+			"Target":"Maps/springobjects",
+			"FromFile":"assets/quality sprinkler/turn right.png",
+			"ToArea": {"X":336, "Y":400, "Width":16, "Height":16},
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 16},
+			"When":
+			{
+			"quality sprinkler": "turn right"
+			}
+		},
+		//quality sprinkler-turn left
+		{
+			"Action":"EditImage",
+			"Target":"Maps/springobjects",
+			"FromFile":"assets/quality sprinkler/turn left.png",
+			"ToArea": {"X":336, "Y":400, "Width":16, "Height":16},
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 16},
+			"When":
+			{
+			"quality sprinkler": "turn left"
+			}
+		},
+		
+		
+		//sprinkler-blue
+		{
+			"Action":"EditImage",
+			"Target":"Maps/springobjects",
+			"FromFile":"assets/sprinkler/blue.png",
+			"ToArea": {"X":368, "Y":384, "Width":16, "Height":16},
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 16},
+			"When":
+			{
+			"sprinkler": "blue"
+			}
+		},				
+		//sprinkler-green
+		{
+			"Action":"EditImage",
+			"Target":"Maps/springobjects",
+			"FromFile":"assets/sprinkler/green.png",
+			"ToArea": {"X":368, "Y":384, "Width":16, "Height":16},
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 16},
+			"When":
+			{
+			"sprinkler": "green"
+			}
+		},
+		
+		
+		//iron lamp-white
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/iron lamp/white.png",
+			"ToArea": { "X": 16, "Y": 608, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"iron lamp": "white"
+			}
+		},		
+		//iron lamp-black
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/iron lamp/black.png",
+			"ToArea": { "X": 16, "Y": 608, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"iron lamp": "black"
+			}
+		},
+		
+		
+		//keg-flowery light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/keg/flowery light.png",
+			"ToArea": { "X": 64, "Y": 32, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"keg": "flowery light"
+			}
+		},		
+		//keg-flowery dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/keg/flowery dark.png",
+			"ToArea": { "X": 64, "Y": 32, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"keg": "flowery dark"
+			}
+		},		
+		//keg-light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/keg/light.png",
+			"ToArea": { "X": 64, "Y": 32, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"keg": "light"
+			}
+		},		
+		//keg-dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/keg/dark.png",
+			"ToArea": { "X": 64, "Y": 32, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"keg": "dark"
+			}
+		},
+			
+			
+		//lightning rod-flowery dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/lightning rod/flowery dark.png",
+			"ToArea": { "X": 16, "Y": 32, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"lightning rod": "flowery dark"
+			}
+		},	
+		//lightning rod-dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/lightning rod/dark.png",
+			"ToArea": { "X": 16, "Y": 32, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"lightning rod": "dark"
+			}
+		},
+		//lightning rod-flowery light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/lightning rod/flowery light.png",
+			"ToArea": { "X": 16, "Y": 32, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"lightning rod": "flowery light"
+			}
+		},	
+		//lightning rod-light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/lightning rod/light.png",
+			"ToArea": { "X": 16, "Y": 32, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"lightning rod": "light"
+			}
+		},	
+
+
+		//minifridge-green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/mini-fridge/green.png",
+			"ToArea": { "X": 0, "Y": 864, "Width": 48, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 32},
+			"When":
+			{
+			"mini-fridge": "green"
+			}
+		},	
+		//minifridge-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/mini-fridge/red.png",
+			"ToArea": { "X": 0, "Y": 864, "Width": 48, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 32},
+			"When":
+			{
+			"mini-fridge": "red"
+			}
+		},	
+		//minifridge-white
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/mini-fridge/white.png",
+			"ToArea": { "X": 0, "Y": 864, "Width": 48, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 32},
+			"When":
+			{
+			"mini-fridge": "white"
+			}
+		},	
+
+
+		//preserves jar-green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/preserves jar/green.png",
+			"ToArea": { "X": 112, "Y":32, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"preserves jar": "green"
+			}
+		},	
+
+		//preserves jar-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/preserves jar/red.png",
+			"ToArea": { "X": 112, "Y":32, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"preserves jar": "red"
+			}
+		},	
+		//preserves jar-yellow
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/preserves jar/yellow.png",
+			"ToArea": { "X": 112, "Y":32, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"preserves jar": "yellow"
+			}
+		},	
+		
+		
+		//recycling machine-green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/recycling machine/green.png",
+			"ToArea": { "X": 64, "Y": 64, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"recycling machine": "green"
+			}
+		},
+		//recycling machine-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/recycling machine/red.png",
+			"ToArea": { "X": 64, "Y": 64, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"recycling machine": "red"
+			}
+		},	
+		//recycling machine-flowery green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/recycling machine/flowery green.png",
+			"ToArea": { "X": 64, "Y": 64, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"recycling machine": "flowery green"
+			}
+		},
+		//recycling machine-flowery red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/recycling machine/flowery red.png",
+			"ToArea": { "X": 64, "Y": 64, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"recycling machine": "flowery red"
+			}
+		},
+		
+		
+		//scarecrow-rabbit1
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/scarecrow/rabbit1.png",
+			"ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"scarecrow": "rabbit1"
+			}
+		},	
+		//scarecrow-rabbit2
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/scarecrow/rabbit2.png",
+			"ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"scarecrow": "rabbit2"
+			}
+		},	
+		//scarecrow-rabbit3
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/scarecrow/rabbit3.png",
+			"ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"scarecrow": "rabbit3"
+			}
+		},		
+		//scarecrow-rabbit4
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/scarecrow/rabbit4.png",
+			"ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"scarecrow": "rabbit4"
+			}
+		},
+		
+	
+		//seed maker-dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/seed maker/dark.png",
+			"ToArea": { "X": 16, "Y": 96, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"seed maker": "dark"
+			}
+		},		
+		//seed maker-light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/seed maker/light.png",
+			"ToArea": { "X": 16, "Y": 96, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"seed maker": "light"
+			}
+		},
+		
+		
+		//stone chest-default
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/stone chest/default.png",
+			"ToArea": {"X": 0, "Y": 928, "Width": 96, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 32},
+			"When":
+			{
+			"stone chest": "retexture"
+			}
+		},
+		//stone chest-nocolor part
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/stone chest/nocolor.png",
+			"ToArea": {"X": 0, "Y": 960, "Width": 96, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 96, "Height": 32},
+			"When":
+			{
+			"stone chest": "retexture"
+			}
+		},	
+
+		
+		//stone sign-flowery light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/stone sign/flowery light.png",
+			"ToArea": { "X": 96, "Y": 128, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"stone sign": "flowery light"
+			}
+		},	
+		//stone sign-flowery dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/stone sign/flowery dark.png",
+			"ToArea": { "X": 96, "Y": 128, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"stone sign": "flowery dark"
+			}
+		},
+		//stone sign-light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/stone sign/light.png",
+			"ToArea": { "X": 96, "Y": 128, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"stone sign": "light"
+			}
+		},	
+		//stone sign-dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/stone sign/dark.png",
+			"ToArea": { "X": 96, "Y": 128, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"stone sign": "dark"
+			}
+		},
+	
+
+		//tapper-flower1
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/tapper/flower1.png",
+			"ToArea": { "X":16, "Y": 416, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"tapper": "flower1"
+			}
+		},	
+		//tapper-flower2
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/tapper/flower2.png",
+			"ToArea": { "X":16, "Y": 416, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"tapper": "flower2"
+			}
+		},	
+		//tapper-flower3
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/tapper/flower3.png",
+			"ToArea": { "X":16, "Y": 416, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"tapper": "flower3"
+			}
+		},
+		//tapper-flower4
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/tapper/flower4.png",
+			"ToArea": { "X":16, "Y": 416, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"tapper": "flower4"
+			}
+		},
+
+
+		//telephone
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/telephone/retexture.png",
+			"ToArea": { "X": 96, "Y": 832, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"telephone": "retexture"
+			}
+		},
+		
+		
+		//wood lamp-green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/wood lamp/green.png",
+			"ToArea": { "X": 0, "Y": 608, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"wood lamp": "green"
+			}
+		},
+		//wood lamp-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/wood lamp/red.png",
+			"ToArea": { "X": 0, "Y": 608, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"wood lamp": "red"
+			}
+		},
+		//wood lamp-brown
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/wood lamp/brown.png",
+			"ToArea": { "X": 0, "Y": 608, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"wood lamp": "brown"
+			}
+		},
+		
+		
+		//wood sign-flowery light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/wood sign/flowery light.png",
+			"ToArea": { "X": 80, "Y": 128, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"wood sign": "flowery light"
+			}
+		},
+		
+		//wood sign-flowery dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/wood sign/flowery dark.png",
+			"ToArea": { "X": 80, "Y": 128, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"wood sign": "flowery dark"
+			}
+		},
+		
+		//wood sign-light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/wood sign/light.png",
+			"ToArea": { "X": 80, "Y": 128, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"wood sign": "light"
+			}
+		},
+		
+		//wood sign-dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/wood sign/dark.png",
+			"ToArea": { "X": 80, "Y": 128, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"wood sign": "dark"
+			}
+		},
+		
+		
+		//workbench-flowery light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/workbench/flowery light.png",
+			"ToArea": {"X": 0, "Y": 832, "Width":16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"workbench": "flowery light"
+			}
+		},		
+		//workbench-flowery dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/workbench/flowery dark.png",
+			"ToArea": {"X": 0, "Y": 832, "Width":16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"workbench": "flowery dark"
+			}
+		},
+		//workbench-light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/workbench/light.png",
+			"ToArea": {"X": 0, "Y": 832, "Width":16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"workbench": "light"
+			}
+		},
+		//workbench-dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/workbench/dark.png",
+			"ToArea": {"X": 0, "Y": 832, "Width":16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"workbench": "dark"
+			}
+		},
+
+
+		//worm bin-dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/worm bin/dark.png",
+			"ToArea": { "X": 32, "Y": 608, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"worm bin": "dark"
+			}
+		},
+		
+		//worm bin-light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/worm bin/light.png",
+			"ToArea": { "X": 32, "Y": 608, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"worm bin": "light"
+			}
+		},
+		
+		//auto grabber-blue
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/auto grabber/blue.png",
+			"ToArea": { "X": 80, "Y": 640, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"auto grabber": "blue"
+			}
+		},
+		
+		//auto grabber-purple
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/auto grabber/purple.png",
+			"ToArea": { "X": 80, "Y": 640, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"auto grabber": "purple"
+			}
+		},
+		
+		//auto grabber-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/auto grabber/red.png",
+			"ToArea": { "X": 80, "Y": 640, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"auto grabber": "red"
+			}
+		},
+		
+		//cheese press-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/cheese press/red.png",
+			"ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"cheese press": "red"
+			}
+		},
+		
+		//cheese press-green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/cheese press/green.png",
+			"ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"cheese press": "green"
+			}
+		},
+		
+		//cheese press-flowery red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/cheese press/flowery red.png",
+			"ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"cheese press": "flowery red"
+			}
+		},
+		
+		//cheese press-flowery green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/cheese press/flowery green.png",
+			"ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"cheese press": "flowery green"
+			}
+		},
+		
+		//cheese press-chest light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/cheese press/chest light.png",
+			"ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"cheese press": "chest light"
+			}
+		},
+		
+		//cheese press-chest dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/cheese press/chest dark.png",
+			"ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"cheese press": "chest dark"
+			}
+		},
+		
+		//coffee maker-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/coffee maker/red.png",
+			"ToArea": { "X": 96, "Y": 960, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"coffee maker": "red"
+			}
+		},
+		
+		//coffee maker-green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/coffee maker/green.png",
+			"ToArea": { "X": 96, "Y": 960, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"coffee maker": "green"
+			}
+		},
+		
+		//coffee maker-purple
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/coffee maker/purple.png",
+			"ToArea": { "X": 96, "Y": 960, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"coffee maker": "purple"
+			}
+		},
+		
+		//coffee maker-flowery red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/coffee maker/flowery red.png",
+			"ToArea": { "X": 96, "Y": 960, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"coffee maker": "flowery red"
+			}
+		},
+		
+		//coffee maker-flowery green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/coffee maker/flowery green.png",
+			"ToArea": { "X": 96, "Y": 960, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"coffee maker": "flowery green"
+			}
+		},
+		
+		//coffee maker-flowery purple
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/coffee maker/flowery purple.png",
+			"ToArea": { "X": 96, "Y": 960, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"coffee maker": "flowery purple"
+			}
+		},
+		
+		//loom-green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/loom/green.png",
+			"ToArea": { "X": 16, "Y": 64, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"loom": "green"
+			}
+		},
+		
+		//loom-green-animation
+		{
+			"Action":"EditImage",
+			"Target":"Maps/springobjects",
+			"FromFile":"assets/loom/green.png",
+			"ToArea": { "X": 48, "Y": 288, "Width": 16, "Height": 16},
+			"FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16},
+			"When":
+			{
+			"loom": "green"
+			}
+		},
+		
+		//loom-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/loom/red.png",
+			"ToArea": { "X": 16, "Y": 64, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"loom": "red"
+			}
+		},
+		
+		//loom-red-mation
+		{
+			"Action":"EditImage",
+			"Target":"Maps/springobjects",
+			"FromFile":"assets/loom/red.png",
+			"ToArea": { "X": 48, "Y": 288, "Width": 16, "Height": 16},
+			"FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16},
+			"When":
+			{
+			"loom": "red"
+			}
+		},
+		
+		
+		//loom-flowery green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/loom/flowery green.png",
+			"ToArea": { "X": 16, "Y": 64, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"loom": "flowery green"
+			}
+		},
+		
+		//loom-flowery green-mation
+		{
+			"Action":"EditImage",
+			"Target":"Maps/springobjects",
+			"FromFile":"assets/loom/flowery green.png",
+			"ToArea": { "X": 48, "Y": 288, "Width": 16, "Height": 16},
+			"FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16},
+			"When":
+			{
+			"loom": "flowery green"
+			}
+		},
+		
+		//loom-flowery red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/loom/flowery red.png",
+			"ToArea": { "X": 16, "Y": 64, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"loom": "flowery red"
+			}
+		},
+		
+		//loom-flowery red-mation
+		{
+			"Action":"EditImage",
+			"Target":"Maps/springobjects",
+			"FromFile":"assets/loom/flowery red.png",
+			"ToArea": { "X": 48, "Y": 288, "Width": 16, "Height": 16},
+			"FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16},
+			"When":
+			{
+			"loom": "flowery red"
+			}
+		},
+		
+		//mayonnaise machine-green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/mayonnaise machine/green.png",
+			"ToArea": { "X": 0, "Y": 96, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"mayonnaise machine": "green"
+			}
+		},
+		
+		//mayonnaise machine-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/mayonnaise machine/red.png",
+			"ToArea": { "X": 0, "Y": 96, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"mayonnaise machine": "red"
+			}
+		},
+		
+		//mayonnaise machine-flowery green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/mayonnaise machine/flowery green.png",
+			"ToArea": { "X": 0, "Y": 96, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"mayonnaise machine": "flowery green"
+			}
+		},
+		
+		//mayonnaise machine-flowery red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/mayonnaise machine/flowery red.png",
+			"ToArea": { "X": 0, "Y": 96, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"mayonnaise machine": "flowery red"
+			}
+		},
+		
+		//mini-obelisk-dark sign
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/mini-obelisk/dark sign.png",
+			"ToArea": { "X": 96, "Y": 928, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"mini-obelisk": "dark sign"
+			}
+		},
+		
+		//mini-obelisk-light sign
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/mini-obelisk/light sign.png",
+			"ToArea": { "X": 96, "Y": 928, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"mini-obelisk": "light sign"
+			}
+		},
+		
+		//mini-obelisk-pillar
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/mini-obelisk/pillar.png",
+			"ToArea": { "X": 96, "Y": 928, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"mini-obelisk": "pillar"
+			}
+		},
+		
+		//mini-obelisk-red flower pillar
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/mini-obelisk/red flower pillar.png",
+			"ToArea": { "X": 96, "Y": 928, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"mini-obelisk": "red flower pillar"
+			}
+		},
+		
+		//mini-obelisk-blue flower pillar
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/mini-obelisk/blue flower pillar.png",
+			"ToArea": { "X": 96, "Y": 928, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"mini-obelisk": "blue flower pillar"
+			}
+		},
+		
+		//oil maker-dark green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/oil maker/dark green.png",
+			"ToArea": { "X": 48, "Y": 64, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"oil maker": "dark green"
+			}
+		},
+		
+		//oil maker-dark red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/oil maker/dark red.png",
+			"ToArea": { "X": 48, "Y": 64, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"oil maker": "dark red"
+			}
+		},
+		
+		//oil maker-light green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/oil maker/light green.png",
+			"ToArea": { "X": 48, "Y": 64, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"oil maker": "light green"
+			}
+		},
+		
+		//oil maker-light red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/oil maker/light red.png",
+			"ToArea": { "X": 48, "Y": 64, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"oil maker": "light red"
+			}
+		},
+		
+		//sewing machine-green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/sewing machine/green.png",
+			"ToArea": { "X": 112, "Y": 960, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"sewing machine": "green"
+			}
+		},
+		
+		//sewing machine-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/sewing machine/red.png",
+			"ToArea": { "X": 112, "Y": 960, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"sewing machine": "red"
+			}
+		},
+		
+		//slime egg press-green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/slime egg press/green.png",
+			"ToArea": { "X": 96, "Y": 608, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"slime egg press": "green"
+			}
+		},
+		
+		//slime egg press-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/slime egg press/red.png",
+			"ToArea": { "X": 96, "Y": 608, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"slime egg press": "red"
+			}
+		},
+		
+		//slime egg press-purple
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/slime egg press/purple.png",
+			"ToArea": { "X": 96, "Y": 608, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"slime egg press": "purple"
+			}
+		},
+		
+		//slime egg press-white
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/slime egg press/white.png",
+			"ToArea": { "X": 96, "Y": 608, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"slime egg press": "white"
+			}
+		},
+		
+		//slime incubator-light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/slime incubator/light.png",
+			"ToArea": { "X": 64, "Y": 608, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"slime incubator": "light"
+			}
+		},
+		
+		//slime incubator-dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/slime incubator/dark.png",
+			"ToArea": { "X": 64, "Y": 608, "Width": 32, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"slime incubator": "dark"
+			}
+		},
+		
+		//solar panel-dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/solar panel/dark.png",
+			"ToArea": { "X": 112, "Y": 896, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"solar panel": "dark"
+			}
+		},
+		
+		//solar panel-light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/solar panel/light.png",
+			"ToArea": { "X": 112, "Y": 896, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"solar panel": "light"
+			}
+		},
+		
+		//solar panel-flowery dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/solar panel/flowery dark.png",
+			"ToArea": { "X": 112, "Y": 896, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"solar panel": "flowery dark"
+			}
+		},
+		
+		//solar panel-flowery light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/solar panel/flowery light.png",
+			"ToArea": { "X": 112, "Y": 896, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"solar panel": "flowery light"
+			}
+		},
+		
+		//anvil-blue
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/anvil/blue.png",
+			"ToArea": { "X": 80, "Y": 1152, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"anvil": "blue"
+			}
+		},
+		
+		//anvil-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/anvil/red.png",
+			"ToArea": { "X": 80, "Y": 1152, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"anvil": "red"
+			}
+		},
+		
+		//anvil-white
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/anvil/white.png",
+			"ToArea": { "X": 80, "Y": 1152, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"anvil": "white"
+			}
+		},
+		
+		
+		//big chest-light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/big chest/light.png",
+			"ToArea": { "X": 0, "Y": 1216, "Width": 96, "Height": 96},
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 96},
+			"When":
+			{
+			"big chest": "light"
+			}
+		},
+		
+		//big chest-dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/big chest/dark.png",
+			"ToArea": { "X": 0, "Y": 1216, "Width": 96, "Height": 96},
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 96},
+			"When":
+			{
+			"big chest": "dark"
+			}
+		},
+		
+		//bait maker-dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/bait maker/dark.png",
+			"ToArea": { "X": 80, "Y": 1120, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"bait maker": "dark"
+			}
+		},
+		
+		//bait maker-light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/bait maker/light.png",
+			"ToArea": { "X": 80, "Y": 1120, "Width": 16, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"bait maker": "light"
+			}
+		},
+		
+		//stone chest v2-default
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/stone chest/v2 default.png",
+			"ToArea": {"X": 0, "Y": 928, "Width": 96, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 32},
+			"When":
+			{
+			"stone chest": "v2"
+			}
+		},
+		//stone chest v2-nocolor part
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/stone chest/v2 nocolor.png",
+			"ToArea": {"X": 0, "Y": 960, "Width": 96, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 96, "Height": 32},
+			"When":
+			{
+			"stone chest": "v2"
+			}
+		},	
+		
+		//big stone chest-default
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/big stone chest/default.png",
+			"ToArea": {"X": 0, "Y": 1312, "Width": 96, "Height": 32},
+			"FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 32},
+			"When":
+			{
+			"big stone chest": "v2"
+			}
+		},
+		//big stone chest-nocolor part
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/big stone chest/nocolor.png",
+			"ToArea": {"X": 0, "Y": 1344, "Width": 96, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 96, "Height": 32},
+			"When":
+			{
+			"big stone chest": "v2"
+			}
+		},	
+		
+		//dehydrator-dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/dehydrator/dark.png",
+			"ToArea": {"X": 96, "Y": 1120, "Width": 16, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"dehydrator": "dark"
+			}
+		},	
+		
+		//dehydrator-light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/dehydrator/light.png",
+			"ToArea": {"X": 96, "Y": 1120, "Width": 16, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"dehydrator": "light"
+			}
+		},	
+		
+		//dehydrator-flowery dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/dehydrator/flowery dark.png",
+			"ToArea": {"X": 96, "Y": 1120, "Width": 16, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"dehydrator": "flowery dark"
+			}
+		},
+		
+		//dehydrator-flowery light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/dehydrator/flowery light.png",
+			"ToArea": {"X": 96, "Y": 1120, "Width": 16, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"dehydrator": "flowery light"
+			}
+		},
+		
+		//deluxe worm bin-dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/deluxe worm bin/dark.png",
+			"ToArea": {"X": 32, "Y": 1184, "Width": 16, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"deluxe worm bin": "dark"
+			}
+		},
+		
+		//deluxe worm bin-light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/deluxe worm bin/light.png",
+			"ToArea": {"X": 32, "Y": 1184, "Width": 16, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"deluxe worm bin": "light"
+			}
+		},
+		
+		//fish smoker-dark
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/fish smoker/dark.png",
+			"ToArea": {"X": 0, "Y": 1184, "Width": 32, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"fish smoker": "dark"
+			}
+		},
+		
+		//fish smoker-light
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/fish smoker/light.png",
+			"ToArea": {"X": 0, "Y": 1184, "Width": 32, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"fish smoker": "light"
+			}
+		},
+		
+		//heavy furnace-green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/heavy furnace/green.png",
+			"ToArea": {"X": 0, "Y": 1152, "Width": 32, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"heavy furnace": "green"
+			}
+		},
+		
+		//heavy furnace-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/heavy furnace/red.png",
+			"ToArea": {"X": 0, "Y": 1152, "Width": 32, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"heavy furnace": "red"
+			}
+		},
+		
+		//heavy furnace-white
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/heavy furnace/white.png",
+			"ToArea": {"X": 0, "Y": 1152, "Width": 32, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"heavy furnace": "white"
+			}
+		},
+		
+		//mini-forge-flowery green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/mini-forge/flowery green.png",
+			"ToArea": {"X": 96, "Y": 1152, "Width": 16, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"mini-forge": "flowery green"
+			}
+		},
+		
+		//mini-forge-flowery red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/mini-forge/flowery red.png",
+			"ToArea": {"X": 96, "Y": 1152, "Width": 16, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"mini-forge": "flowery red"
+			}
+		},
+		
+		//mini-forge-red
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/mini-forge/red.png",
+			"ToArea": {"X": 96, "Y": 1152, "Width": 16, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"mini-forge": "red"
+			}
+		},
+		
+		//mini-forge-green
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/mini-forge/green.png",
+			"ToArea": {"X": 96, "Y": 1152, "Width": 16, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"mini-forge": "green"
+			}
+		},
+		
+		//statue of blessings-white
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/statue of blessings/white.png",
+			"ToArea": {"X": 32, "Y": 1152, "Width": 32, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"When":
+			{
+			"statue of blessings": "white"
+			}
+		},
+		
+		//statue of the dwarf king-white
+		{
+			"Action":"EditImage",
+			"Target":"TileSheets/Craftables",
+			"FromFile":"assets/statue of the dwarf king/white.png",
+			"ToArea": {"X": 64, "Y": 1152, "Width": 16, "Height": 32},
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"When":
+			{
+			"statue of the dwarf king": "white"
+			}
+		}
+	]
+}

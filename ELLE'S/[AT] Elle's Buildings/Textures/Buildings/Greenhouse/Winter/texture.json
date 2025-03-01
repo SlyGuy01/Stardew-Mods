@@ -1,0 +1,8 @@
+{
+  "ItemName": "Greenhouse",
+  "Type": "Building",
+  "Seasons": ["Winter"],
+  "TextureWidth": 240,
+  "TextureHeight": 320,
+  "Variations": 5
+}
