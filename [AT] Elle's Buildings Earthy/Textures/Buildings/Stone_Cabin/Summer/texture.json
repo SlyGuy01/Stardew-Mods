@@ -1,8 +1,0 @@
-{
-  "ItemName": "Stone Cabin",
-  "Type": "Building",
-  "Seasons": ["Summer"],
-  "TextureWidth": 480,
-  "TextureHeight": 112,
-  "Variations": 12
-}

@@ -1,8 +1,0 @@
-{
-  "ItemName": "Big Shed",
-  "Type": "Building",
-  "Seasons": ["Spring"],
-  "TextureWidth": 224,
-  "TextureHeight": 128,
-  "Variations": 9
-}

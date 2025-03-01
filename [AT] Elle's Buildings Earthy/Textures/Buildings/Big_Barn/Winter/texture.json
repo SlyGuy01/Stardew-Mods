@@ -1,8 +1,0 @@
-{
-  "ItemName": "Big Barn",
-  "Type": "Building",
-  "Seasons": ["Winter"],
-  "TextureWidth": 112,
-  "TextureHeight": 128,
-  "Variations": 6
-}

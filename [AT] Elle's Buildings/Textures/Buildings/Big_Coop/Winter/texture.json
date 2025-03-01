@@ -1,8 +1,0 @@
-{
-  "ItemName": "Big Coop",
-  "Type": "Building",
-  "Seasons": ["Winter"],
-  "TextureWidth": 96,
-  "TextureHeight": 128,
-  "Variations": 6
-}

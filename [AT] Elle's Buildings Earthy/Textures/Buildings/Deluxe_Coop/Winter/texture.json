@@ -1,8 +1,0 @@
-{
-  "ItemName": "Deluxe Coop",
-  "Type": "Building",
-  "Seasons": ["Winter"],
-  "TextureWidth": 192,
-  "TextureHeight": 128,
-  "Variations": 6
-}

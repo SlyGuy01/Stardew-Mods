@@ -1,8 +1,0 @@
-{
-  "ItemName": "Fish Pond",
-  "Type": "Building",
-  "Seasons": ["Summer"],
-  "TextureWidth": 160,
-  "TextureHeight": 176,
-  "Variations": 1
-}

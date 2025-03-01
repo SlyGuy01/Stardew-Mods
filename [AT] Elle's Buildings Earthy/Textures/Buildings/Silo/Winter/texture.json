@@ -1,8 +1,0 @@
-{
-  "ItemName": "Silo",
-  "Type": "Building",
-  "Seasons": ["Winter"],
-  "TextureWidth": 48,
-  "TextureHeight": 128,
-  "Variations": 6
-}

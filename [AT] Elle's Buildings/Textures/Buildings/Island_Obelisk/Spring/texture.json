@@ -1,8 +1,0 @@
-{
-  "ItemName": "Island Obelisk",
-  "Type": "Building",
-  "Seasons": ["Spring"],
-  "TextureWidth": 48,
-  "TextureHeight": 128,
-  "Variations": 6
-}

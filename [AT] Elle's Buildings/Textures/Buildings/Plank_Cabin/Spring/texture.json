@@ -1,8 +1,0 @@
-{
-  "ItemName": "Plank Cabin",
-  "Type": "Building",
-  "Seasons": ["Spring"],
-  "TextureWidth": 480,
-  "TextureHeight": 112,
-  "Variations": 12
-}
