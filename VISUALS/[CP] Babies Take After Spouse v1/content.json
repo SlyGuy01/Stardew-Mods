@@ -1,0 +1,192 @@
+{
+  "Format": "2.0.0",
+  
+  "ConfigSchema": {
+    "Skin Color": {"AllowValues": "Default, Darker",
+	"Default": "Default"},
+    "Female Toddler Hairstyle": {"AllowValues": "Pigtails, Hairbuns",
+	"Default": "Pigtails"},
+    "Male Toddler Hairstyle": {"AllowValues": "Combed, Messy",
+	"Default": "Combed"},
+    "Sebastian Ginger Babies": {"AllowValues": "No, Yes",
+	"Default": "No"}
+ },
+  
+  "Changes": [
+    
+	// Baby
+        {
+         "Action": "EditImage",
+         "Target": "Characters/Baby, Characters/Baby_dark",
+         "FromFile": "assets/Baby/{{spouse}}Baby.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Skin Color": "Default"}
+        },
+   
+        {
+         "Action": "EditImage",
+         "Target": "Characters/Baby, Characters/Baby_dark",
+         "FromFile": "assets/Baby/{{spouse}}BabyDark.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Skin Color": "Darker"}
+        },
+   
+        {
+         "Action": "EditImage",
+         "Target": "Characters/Baby, Characters/Baby_dark",
+         "FromFile": "assets/Baby/{{spouse}}BabyGinger.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Skin Color": "Default",
+			 "Sebastian Ginger Babies": "Yes"}
+        },
+		
+	// Female	
+        {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "assets/Female/{{spouse}}Pigtails.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Skin Color": "Default",
+			 "Female Toddler Hairstyle": "Pigtails"}
+        },	
+		
+		{
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "assets/Female/{{spouse}}PigtailsDark.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Skin Color": "Darker",
+			 "Female Toddler Hairstyle": "Pigtails"}
+        },
+
+        {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "assets/Female/{{spouse}}PigtailsGinger.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Skin Color": "Default",
+			 "Female Toddler Hairstyle": "Pigtails",
+		     "Sebastian Ginger Babies": "Yes"}
+        },			
+		
+        {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "assets/Female/{{spouse}}Hairbuns.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Skin Color": "Default",
+			 "Female Toddler Hairstyle": "Hairbuns"}
+        },
+
+        {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "assets/Female/{{spouse}}HairbunsDark.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Skin Color": "Darker",
+			 "Female Toddler Hairstyle": "Hairbuns"}
+        },
+
+        {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "assets/Female/{{spouse}}HairbunsGinger.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Skin Color": "Default",
+			 "Female Toddler Hairstyle": "Hairbuns",
+		     "Sebastian Ginger Babies": "Yes"}
+        },
+
+	// Male	
+        {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "assets/Male/{{spouse}}Combed.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Skin Color": "Default",
+			 "Male Toddler Hairstyle": "Combed"}
+        },
+		
+		{
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "assets/Male/{{spouse}}CombedDark.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Skin Color": "Darker",
+			 "Male Toddler Hairstyle": "Combed"}
+        },
+		
+	    {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "assets/Male/{{spouse}}CombedGinger.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Skin Color": "Default",
+			 "Male Toddler Hairstyle": "Combed",
+		     "Sebastian Ginger Babies": "Yes"}
+        },
+		
+		{
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "assets/Male/{{spouse}}Messy.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Skin Color": "Default",
+			 "Male Toddler Hairstyle": "Messy"}
+        },
+		
+		{
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "assets/Male/{{spouse}}MessyDark.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Skin Color": "Darker",
+			 "Male Toddler Hairstyle": "Messy"}
+        },
+		
+	    {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "assets/Male/{{spouse}}MessyGinger.png",
+		 "PatchMode": "Replace",
+         "When": {
+			 "Skin Color": "Default",
+			 "Male Toddler Hairstyle": "Messy",
+		     "Sebastian Ginger Babies": "Yes"}
+        },
+		
+	// Seasonal
+	    {
+         "Action": "EditImage",
+         "Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+         "FromFile": "assets/Seasonal/Season{{spouse}}Female.png",
+		 "PatchMode": "Overlay",
+         "When": {
+		     "Season": "Fall, Winter"}
+        },	
+		{
+         "Action": "EditImage",
+         "Target": "Characters/Toddler, Characters/Toddler_dark",
+         "FromFile": "assets/Seasonal/Season{{spouse}}Male.png",
+		 "PatchMode": "Overlay",
+         "When": {
+		     "Season": "Fall, Winter"}
+        }	
+	
+	
+   ]
+}
