@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Harvey_Compat",
+      "LogName": "CFE_Harvey_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Harvey",
       "Entries": {
@@ -9,8 +9,19 @@
         "AcceptGift_(O)395": "{{i18n: CFE_Harvey_Coffee}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
+      }
+    },
+    {
+      "LogName": "CFE_Harvey_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Harvey",
+      "Entries": {
+        "AcceptGift_(O)342": "{{i18n: CFE_Harvey_Pickles}}",
+        "AcceptGift_(O)237": "{{i18n: CFE_Harvey_SuperMeal}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -21,21 +32,19 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Harvey_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Harvey_RockCandy}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Harvey_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Harvey_RabbitsFoot}}",
-        "AcceptGift_(O)342": "{{i18n: CFE_Harvey_Pickles}}",
-        "AcceptGift_(O)237": "{{i18n: CFE_Harvey_SuperMeal}}"
-      },
-      "When": { "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Harvey_RabbitsFoot}}"
+      }
     },
+
     {
       "LogName": "CFE_Harvey_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Harvey": "{{i18n: CFE_Harvey_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Harvey_Dialogue",
       "Action": "EditData",
@@ -50,8 +59,8 @@
         "spring_23_1": "{{i18n: CFE_Harvey_spring23}}",
         "spring_23_2": "{{i18n: CFE_Harvey_spring23}}",
 
-        "summer_10_1": "{{i18n: CFE_Harvey_summer10}}",
-        "summer_10_2": "{{i18n: CFE_Harvey_summer10}}",
+        "summer_10_1": "{{i18n: CFE_Harvey_summer10 | ShortLuauName={{ShortLuauName}}}}",
+        "summer_10_2": "{{i18n: CFE_Harvey_summer10 | ShortLuauName={{ShortLuauName}}}}",
 
         "winter_7_1": "{{i18n: CFE_Harvey_winter7}}",
         "winter_7_2": "{{i18n: CFE_Harvey_winter7}}",
@@ -62,16 +71,16 @@
         "summer_Tue8": "{{i18n: CFE_Harvey_summerTue8}}",
         "summer_Tue4": "{{i18n: CFE_Harvey_summerTue4}}",
         "summer_Tue2": "{{i18n: CFE_Harvey_summerTue2}}",
-        "summer_Wed8": "{{i18n: CFE_Harvey_summerWed8}}",
+        "summer_Wed8": "{{i18n: CFE_Harvey_summerWed8 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "summer_Thu10": "{{i18n: CFE_Harvey_summerThu10}}",
         "summer_Thu6": "{{i18n: CFE_Harvey_summerThu6}}",
         "summer_Thu2": "{{i18n: CFE_Harvey_summerThu2}}",
-        "summer_Fri10": "{{i18n: CFE_Harvey_summerFri10}}",
+        "summer_Fri10": "{{i18n: CFE_Harvey_summerFri10 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "summer_Fri6": "{{i18n: CFE_Harvey_summerFri6}}",
         "summer_Fri4": "{{i18n: CFE_Harvey_summerFri4}}",
         "summer_Fri2": "{{i18n: CFE_Harvey_summerFri2}}",
 
-        "fall_Fri10": "{{i18n: CFE_Harvey_fallFri10}}",
+        "fall_Fri10": "{{i18n: CFE_Harvey_fallFri10 |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "fall_Fri8": "{{i18n: CFE_Harvey_fallFri8}}",
         "fall_Fri6": "{{i18n: CFE_Harvey_fallFri6}}",
         "fall_Fri4": "{{i18n: CFE_Harvey_fallFri4}}",
@@ -82,7 +91,7 @@
 
         "winter_Wed10": "{{i18n: CFE_Harvey_winterWed10}}",
         "winter_Wed8": "{{i18n: CFE_Harvey_winterWed8}}",
-        "winter_Sat10": "{{i18n: CFE_Harvey_winterSat10}}",
+        "winter_Sat10": "{{i18n: CFE_Harvey_winterSat10 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "winter_Sun8": "{{i18n: CFE_Harvey_winterSun8}}",
         "winter_Sun4": "{{i18n: CFE_Harvey_winterSun4}}",
 
@@ -95,7 +104,7 @@
         "Mon2_081": "{{i18n: CFE_Harvey_Mon2_081}}",
         "Mon2_082": "{{i18n: CFE_Harvey_Mon2_082}}",
         "Mon2_083": "{{i18n: CFE_Harvey_Mon2_083}}",
-        "Tue10": "{{i18n: CFE_Harvey_Tue10}}",
+        "Tue10": "{{i18n: CFE_Harvey_Tue10 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "Tue8": "{{i18n: CFE_Harvey_Tue8}}",
         "Tue6": "{{i18n: CFE_Harvey_Tue6}}",
         "Tue4": "{{i18n: CFE_Harvey_Tue4}}",
@@ -122,9 +131,9 @@
 
         "Sat": "{{i18n: CFE_Harvey_Sat}}",
         "Sun": "{{i18n: CFE_Harvey_Sun}}"
-      },
-      "When": { "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Harvey_Marriage_GenericDialogue",
       "Action": "EditData",
@@ -133,8 +142,7 @@
         "spouseRoom_Harvey": "{{i18n: CFE_Harvey_Married_spouseRoom_{{random: 1,2,3,4,5}}}}",
         "jobLeave_Harvey": "{{i18n: CFE_Harvey_Married_jobLeave_{{Random: 1,2,3,4}}}}",
         "jobReturn_Harvey": "{{i18n: CFE_Harvey_Married_jobReturn_{{Random: 1,2,3,4}}}}"
-      },
-      "When": { "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
       "LogName": "CFE_Harvey_Marriage",
@@ -153,11 +161,11 @@
 
         "Rainy_Night_0": "{{i18n: CFE_Harvey_Married_RainyNight_{{Random: 1,2}}{{GenderNeutralCompat}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}",
         "Rainy_Night_1": "{{i18n: CFE_Harvey_Married_RainyNight_{{Random: 3,4}}}}",
-        "Rainy_Night_2": "{{i18n: CFE_Harvey_Married_RainyNight_{{Random: 5,6}}}}",
+        "Rainy_Night_2": "{{i18n: CFE_Harvey_Married_RainyNight_{{Random: 5,6}} |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "Rainy_Night_3": "{{i18n: CFE_Harvey_Married_RainyNight_{{Random: 7,8}}}}",
         "Rainy_Night_4": "{{i18n: CFE_Harvey_Married_RainyNight_{{Random: 9,10}}}}",
 
-        "Indoor_Day_0": "{{i18n: CFE_Harvey_Married_IndoorDay_{{Random: 1,2,3}}}}",
+        "Indoor_Day_0": "{{i18n: CFE_Harvey_Married_IndoorDay_{{Random: 1,2,3}} |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "Indoor_Day_1": "{{i18n: CFE_Harvey_Married_IndoorDay_{{Random: 4,5,6}}}}",
         "Indoor_Day_2": "{{i18n: CFE_Harvey_Married_IndoorDay_{{Random: 7,8,9}}}}",
         "Indoor_Day_3": "{{i18n: CFE_Harvey_Married_IndoorDay_{{Random: 10,11,12}}}}",
@@ -180,7 +188,7 @@
 
         "OneKid_0": "{{i18n: CFE_Harvey_Married_OneKid_{{Random: 1,2}}}}",
         "OneKid_1": "{{i18n: CFE_Harvey_Married_OneKid_{{Random: 3,4}}}}",
-        "OneKid_2": "{{i18n: CFE_Harvey_Married_OneKid_{{Random: 5,6}}}}",
+        "OneKid_2": "{{i18n: CFE_Harvey_Married_OneKid_{{Random: 5,6}} |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "OneKid_3": "{{i18n: CFE_Harvey_Married_OneKid_{{Random: 7,8}}}}",
         "TwoKids_0": "{{i18n: CFE_Harvey_Married_TwoKids_{{Random: 1,2}}}}",
         "TwoKids_1": "{{i18n: CFE_Harvey_Married_TwoKids_{{Random: 3,4}}}}",
@@ -201,18 +209,18 @@
         "spring_16": "{{i18n: CFE_Harvey_Married_spring16}}",
         "spring_25": "{{i18n: CFE_Harvey_Married_spring25}}",
 
-        "summer_4": "{{i18n: CFE_Harvey_Married_summer4}}",
+        "summer_4": "{{i18n: CFE_Harvey_Married_summer4 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "summer_16": "{{i18n: CFE_Harvey_Married_summer16}}",
-        "summer_17": "{{i18n: CFE_Harvey_Married_summer17}}",
+        "summer_17": "{{i18n: CFE_Harvey_Married_summer17 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "summer_23": "{{i18n: CFE_Harvey_Married_summer23}}",
 
-        "fall_4": "{{i18n: CFE_Harvey_Married_fall4}}",
+        "fall_4": "{{i18n: CFE_Harvey_Married_fall4 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "fall_9": "{{i18n: CFE_Harvey_Married_fall9}}",
         "fall_11": "{{i18n: CFE_Harvey_Married_fall11}}",
         "fall_18": "{{i18n: CFE_Harvey_Married_fall18}}",
 
         "winter_11": "{{i18n: CFE_Harvey_Married_winter11}}",
-        "winter_16": "{{i18n: CFE_Harvey_Married_winter16}}",
+        "winter_16": "{{i18n: CFE_Harvey_Married_winter16 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "winter_24": "{{i18n: CFE_Harvey_Married_winter24}}",
         "winter_26": "{{i18n: CFE_Harvey_Married_winter26}}"
         //Seasonal Dialogue
@@ -220,8 +228,7 @@
         //currently unused. key looks like "fall_Harvey"
 
         //Affection Specific Dialogue
-      },
-      "When": { "Query: '{{CFE_Harvey}}' = 'true' OR ('{{CFE_Harvey}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

@@ -1,16 +1,30 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Marnie_Compat",
+      "LogName": "CFE_Marnie_Compat.UGDE",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Marnie",
       "Entries": {
         //any keys that overlap go here
-        "AcceptGift_(O)446": "{{i18n: CFE_Marnie_RabbitsFoot}}"
+        "AcceptGift_(O)446": "{{i18n: CFE_Marnie_RabbitsFoot}}",
+        "AcceptGift_(O)221": "{{i18n: CFE_Marnie_PinkCake}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Marnie}}' = 'true' OR ('{{CFE_Marnie}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.UGDE": "true"
+      }
+    },
+    {
+      "LogName": "CFE_Marnie_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marnie",
+      "Entries": {
+        "AcceptGift_(O)221": "{{i18n: CFE_Marnie_PinkCake}}",
+        "AcceptGift_(O)72": "{{i18n: CFE_Marnie_Diamond}}",
+        "AcceptGift_(O)240": "{{i18n: CFE_Marnie_FarmersLunch}}",
+        "AcceptGift_(O)608": "{{i18n: CFE_Marnie_PumpkinPie}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -20,30 +34,29 @@
       "Entries": {
         "AcceptGift_(O)373": "{{i18n: CFE_Marnie_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Marnie_RockCandy}}",
-        "AcceptGift_(O)797": "{{i18n: CFE_Marnie_Pearl}}",
-        "AcceptGift_(O)72": "{{i18n: CFE_Marnie_Diamond}}",
-        "AcceptGift_(O)240": "{{i18n: CFE_Marnie_FarmersLunch}}",
-        "AcceptGift_(O)221": "{{i18n: CFE_Marnie_PinkCake}}",
-        "AcceptGift_(O)608": "{{i18n: CFE_Marnie_PumpkinPie}}"
-      },
-      "When": { "Query: '{{CFE_Marnie}}' = 'true' OR ('{{CFE_Marnie}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)797": "{{i18n: CFE_Marnie_Pearl}}"
+      }
     },
+
     {
       "LogName": "CFE_Marnie_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Marnie": "{{i18n: CFE_Marnie_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Marnie}}' = 'true' OR ('{{CFE_Marnie}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Marnie_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Marnie",
       "Entries": {
-        //Date Specific Dialogue
+        //Special Dialogue
+        "Tue8_inlaw_Shane": "{{i18n: CFE_Marnie_Tue8inlawShane}}",
+        "Tue_inlaw_Shane": "{{i18n: CFE_Marnie_TueinlawShane}}",
 
+        //Date Specific Dialogue
         "spring_1_2": "{{i18n: CFE_Marnie_spring1y2}}",
         "spring_12_1": "{{i18n: CFE_Marnie_spring12}}",
         "spring_12_2": "{{i18n: CFE_Marnie_spring12}}",
@@ -54,8 +67,15 @@
         "winter_24_1": "{{i18n: CFE_Marnie_winter24}}",
         "winter_24_2": "{{i18n: CFE_Marnie_winter24}}",
         "winter_28_1": "{{i18n: CFE_Marnie_winter28}}",
-        "winter_28_2": "{{i18n: CFE_Marnie_winter28}}",
-
+        "winter_28_2": "{{i18n: CFE_Marnie_winter28}}"
+      }
+    },
+    {
+      "LogName": "CFE_Marnie_Dialogue_Compat.Haywrites",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Marnie",
+      "When": { "ModdedDialogCompat.Hay": "true" },
+      "Entries": {
         //Heart Specific Dialogue
         "summer_Mon2": "{{i18n: CFE_Marnie_summerMon2}}",
         "summer_Tue10": "{{i18n: CFE_Marnie_summerTue10}}",
@@ -81,7 +101,6 @@
         "Mon4": "{{i18n: CFE_Marnie_Mon4}}",
         "Mon2": "{{i18n: CFE_Marnie_Mon2}}",
         "Tue10": "{{i18n: CFE_Marnie_Tue10}}",
-        "Tue8_inlaw_Shane": "{{i18n: CFE_Marnie_Tue8inlawShane}}",
         "Tue8": "{{i18n: CFE_Marnie_Tue8}}",
         "Tue6": "{{i18n: CFE_Marnie_Tue6}}",
         "Tue4": "{{i18n: CFE_Marnie_Tue4}}",
@@ -108,10 +127,8 @@
         "winter_Thu": "{{i18n: CFE_Marnie_winterThu}}",
         "winter_Fri": "{{i18n: CFE_Marnie_winterFri}}",
 
-        "Tue_inlaw_Shane": "{{i18n: CFE_Marnie_TueinlawShane}}",
         "Wed": "{{i18n: CFE_Marnie_Wed}}"
-      },
-      "When": { "Query: '{{CFE_Marnie}}' = 'true' OR ('{{CFE_Marnie}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

@@ -1,39 +1,39 @@
 {
   "Changes": [
-    /* {
-      "LogName": "CFE_Sandy_Compat",
-      "Action": "EditData",
-      "Target": "Characters/Dialogue/Sandy",
-      "Entries": {
-        //any keys that overlap go here
-      },
-      "When": { "ModdedDialogCompat": "true" "Query: '{{CFE_Sandy}}' = 'true' OR ('{{CFE_Sandy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
-    }, */
     {
-      "LogName": "CFE_Sandy_GiftTastes",
+      "LogName": "CFE_Sandy_Compat.MSGR",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sandy",
       "Entries": {
-        // we can also add reveal gift taste code to these now that they use i18n.
         "AcceptGift_(O)279": "{{i18n: CFE_Sandy_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Sandy_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Sandy_PrismaticShard}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Sandy_RabbitsFoot}}",
         "AcceptGift_(O)905": "{{i18n: CFE_Sandy_MangoStickyRice}}"
       },
-      "When": { "Query: '{{CFE_Sandy}}' = 'true' OR ('{{CFE_Sandy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
+      }
     },
+    /*    {
+ "LogName": "CFE_Sandy_GiftTastes",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sandy",
+      "Entries": {
+      }
+    }, */
+
     {
       "LogName": "CFE_Sandy_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Sandy": "{{i18n: CFE_Sandy_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Sandy}}' = 'true' OR ('{{CFE_Sandy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
-      "LogName": "Sandy",
+      "LogName": "CFE_Sandy_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sandy",
       "Entries": {
@@ -106,8 +106,7 @@
 
         "Fri": "{{i18n: CFE_Sandy_Fri}}",
         "Sat": "{{i18n: CFE_Sandy_Sat}}"
-      },
-      "When": { "Query: '{{CFE_Sandy}}' = 'true' OR ('{{CFE_Sandy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

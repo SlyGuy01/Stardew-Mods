@@ -1,16 +1,15 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Haley_Compat",
+      "LogName": "CFE_Haley_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Haley",
       "Entries": {
-        //any keys that overlap go here
-        "AcceptGift_(O)221": "{{i18n: CFE_Haley_PinkCake{{GenderNeutralCompat}}}}"
+        "AcceptGift_(O)221": "{{i18n: CFE_Haley_PinkCake{{GenderNeutralCompat}}}}",
+        "AcceptGift_(O)610": "{{i18n: CFE_Haley_FruitSalad}}" //UGDE does not currently add this key, but it seemed silly to add a whole second block for one line. Maybe this will spark their author to add the line haha
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {
@@ -18,22 +17,21 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Haley",
       "Entries": {
-        "AcceptGift_(O)373": "{{i18n: CFE_Haley_GoldPumpkin}}",
-        "AcceptGift_(O)797": "{{i18n: CFE_Haley_Pearl}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Haley_RabbitsFoot}}",
-        "AcceptGift_(O)610": "{{i18n: CFE_Haley_FruitSalad}}",
-      },
-      "When": { "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)373": "{{i18n: CFE_Haley_GoldPumpkin |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
+        "AcceptGift_(O)797": "{{i18n: CFE_Haley_Pearl |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
+        "AcceptGift_(O)446": "{{i18n: CFE_Haley_RabbitsFoot}}"
+      }
     },
+
     {
       "LogName": "CFE_Haley_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Haley": "{{i18n: CFE_Haley_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Haley_Dialogue",
       "Action": "EditData",
@@ -43,9 +41,12 @@
 
         //Date Specific Dialogue
         "spring_1_2": "{{i18n: CFE_Haley_spring1y2}}",
-        "summer_12_1": "{{i18n: CFE_Haley_summer12}}",
-        "summer_12_2": "{{i18n: CFE_Haley_summer12}}",
-        "fall_1": "{{i18n: CFE_Haley_fall1}}",
+        "summer_12_1": "{{i18n: CFE_Haley_summer12 | ShortLuauName={{ShortLuauName}}}}",
+        "summer_12_2": "{{i18n: CFE_Haley_summer12 | ShortLuauName={{ShortLuauName}}}}",
+
+        "fall_1_1": "{{i18n: CFE_Haley_fall1}}",
+        "fall_1_2": "{{i18n: CFE_Haley_fall1}}",
+
         "winter_28_1": "{{i18n: CFE_Haley_winter28}}",
         "winter_28_2": "{{i18n: CFE_Haley_winter28}}",
 
@@ -61,7 +62,7 @@
         "summer_Thu6": "{{i18n: CFE_Haley_summerThu6}}",
         "summer_Thu4": "{{i18n: CFE_Haley_summerThu4}}",
         "summer_Thu2": "{{i18n: CFE_Haley_summerThu2{{GenderNeutralCompat}}}}",
-        "summer_Fri10": "{{i18n: CFE_Haley_summerFri10}}",
+        "summer_Fri10": "{{i18n: CFE_Haley_summerFri10 |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "summer_Fri8": "{{i18n: CFE_Haley_summerFri8}}",
         "summer_Fri4": "{{i18n: CFE_Haley_summerFri4{{GenderNeutralCompat}}}}",
         "summer_Sat10": "{{i18n: CFE_Haley_summerSat10}}",
@@ -88,7 +89,7 @@
         "fall_Fri8": "{{i18n: CFE_Haley_fallFri8}}",
         "fall_Fri4": "{{i18n: CFE_Haley_fallFri4}}",
         "fall_Sat8": "{{i18n: CFE_Haley_fallSat8}}",
-        "fall_Sun10": "{{i18n: CFE_Haley_fallSun10}}",
+        "fall_Sun10": "{{i18n: CFE_Haley_fallSun10 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "fall_Sun8_inlaw_Emily": "{{i18n: CFE_Haley_fallSun8inlawEmily}}",
         "fall_Sun6_inlaw_Emily": "{{i18n: CFE_Haley_repeated_1}}",
         "fall_Sun4_inlaw_Emily": "{{i18n: CFE_Haley_fallSun4inlawEmily}}",
@@ -116,7 +117,7 @@
         "Wed8": "{{i18n: CFE_Haley_Wed8}}",
         "Wed4": "{{i18n: CFE_Haley_Wed4}}",
         "Wed2": "{{i18n: CFE_Haley_Wed2}}",
-        "Thu10": "{{i18n: CFE_Haley_Thu10}}",
+        "Thu10": "{{i18n: CFE_Haley_Thu10 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "Thu6": "{{i18n: CFE_Haley_Thu6}}",
         "Thu4": "{{i18n: CFE_Haley_Thu4{{GenderNeutralCompat}} |ObjectivePronoun={{lowercase:{{Random:{{GNMTObjectivePronoun}}}}}}}}",
         "Thu2": "{{i18n: CFE_Haley_Thu2}}",
@@ -139,17 +140,16 @@
         "summer_Sun_inlaw_Emily": "{{i18n: CFE_Haley_repeated_2}}",
         "fall_Sun_inlaw_Emily": "{{i18n: CFE_Haley_repeated_2}}",
         "winter_Sun_inlaw_Emily": "{{i18n: CFE_Haley_repeated_2}}"
-      },
-      "When": { "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Haley_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Haley": "{{i18n: CFE_Haley_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      },
-      "When": { "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
       "LogName": "CFE_Haley_Marriage",
@@ -218,7 +218,7 @@
 
         "summer_6": "{{i18n: CFE_Haley_Married_summer6}}",
         "summer_8": "{{i18n: CFE_Haley_Married_summer8}}",
-        "summer_12": "{{i18n: CFE_Haley_Married_summer12}}",
+        "summer_12": "{{i18n: CFE_Haley_Married_summer12 | ShortLuauName={{ShortLuauName}}}}",
         "summer_22": "{{i18n: CFE_Haley_Married_summer22}}",
         "summer_27": "{{i18n: CFE_Haley_Married_summer27}}",
 
@@ -238,8 +238,7 @@
         //currently unused. key looks like "fall_Haley"
 
         //Affection Specific Dialogue
-      },
-      "When": { "Query: '{{CFE_Haley}}' = 'true' OR ('{{CFE_Haley}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

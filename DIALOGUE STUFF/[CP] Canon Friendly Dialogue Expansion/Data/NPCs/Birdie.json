@@ -19,8 +19,7 @@
         "Birdie25": "{{i18n: CFE_Birdie_25}}",
         "Birdie26": "{{i18n: CFE_Birdie_26}}",
         "Birdie27": "{{i18n: CFE_Birdie_27}}"
-      },
-      "When": { "Query: '{{CFE_Birdie}}' = 'true' OR ('{{CFE_Birdie}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

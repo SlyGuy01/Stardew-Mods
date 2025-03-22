@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Penny_Compat",
+      "LogName": "CFE_Penny_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Penny",
       "Entries": {
@@ -10,8 +10,24 @@
         "AcceptGift_(O)60": "{{i18n: CFE_Penny_Emerald}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
+      }
+    },
+    {
+      "LogName": "CFE_Penny_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Penny",
+      "Entries": {
+        "AcceptGift_(O)72": "{{i18n: CFE_Penny_Diamond |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
+        "AcceptGift_(O)651": "{{i18n: CFE_Penny_PoppyseedMuffin}}",
+        "AcceptGift_(O)376": "{{i18n: CFE_Penny_Poppy |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
+        "AcceptGift_(O)230": "{{i18n: CFE_Penny_RedPlate}}",
+        "AcceptGift_(O)244": "{{i18n: CFE_Penny_RootsPlatter}}",
+        "AcceptGift_(O)218": "{{i18n: CFE_Penny_TomKhaSoup}}",
+        "AcceptGift_(O)254": "{{i18n: CFE_Penny_Melon}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -20,28 +36,21 @@
       "Target": "Characters/Dialogue/Penny",
       "Entries": {
         "AcceptGift_(O)373": "{{i18n: CFE_Penny_GoldPumpkin}}",
-        "AcceptGift_(O)797": "{{i18n: CFE_Penny_Pearl}}",
-        "AcceptGift_(O)74": "{{i18n: CFE_Penny_PrismaticShard}}",
-        "AcceptGift_(O)72": "{{i18n: CFE_Penny_Diamond}}",
-        "AcceptGift_(O)254": "{{i18n: CFE_Penny_Melon}}",
-        "AcceptGift_(O)376": "{{i18n: CFE_Penny_Poppy}}",
-        "AcceptGift_(O)651": "{{i18n: CFE_Penny_PoppyseedMuffin}}",
-        "AcceptGift_(O)230": "{{i18n: CFE_Penny_RedPlate}}",
-        "AcceptGift_(O)244": "{{i18n: CFE_Penny_RootsPlatter}}",
-        "AcceptGift_(O)873": "{{i18n: CFE_Penny_Sandfish}}",
-        "AcceptGift_(O)218": "{{i18n: CFE_Penny_TomKhaSoup}}"
-      },
-      "When": { "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)797": "{{i18n: CFE_Penny_Pearl |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
+        "AcceptGift_(O)74": "{{i18n: CFE_Penny_PrismaticShard |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
+        "AcceptGift_(O)873": "{{i18n: CFE_Penny_Sandfish}}"
+      }
     },
+
     {
       "LogName": "CFE_Penny_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Penny": "{{i18n: CFE_Penny_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Penny_Dialogue",
       "Action": "EditData",
@@ -54,8 +63,8 @@
         "spring_23_1": "{{i18n: CFE_Penny_spring23}}",
         "spring_23_2": "{{i18n: CFE_Penny_spring23}}",
 
-        "summer_10_1": "{{i18n: CFE_Penny_summer10}}",
-        "summer_10_2": "{{i18n: CFE_Penny_summer10}}",
+        "summer_10_1": "{{i18n: CFE_Penny_summer10 | ShortLuauName={{ShortLuauName}}}}",
+        "summer_10_2": "{{i18n: CFE_Penny_summer10 | ShortLuauName={{ShortLuauName}}}}",
 
         "fall_15_1": "{{i18n: CFE_Penny_fall15}}",
         "fall_15_2": "{{i18n: CFE_Penny_fall15}}",
@@ -102,7 +111,7 @@
 
         "winter_Mon10": "{{i18n: CFE_Penny_winterMon10}}",
         "winter_Mon6": "{{i18n: CFE_Penny_winterMon6}}",
-        "winter_Tue10": "{{i18n: CFE_Penny_winterTue10}}",
+        "winter_Tue10": "{{i18n: CFE_Penny_winterTue10 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "winter_Tue8": "{{i18n: CFE_Penny_winterTue8}}",
         "winter_Tue4": "{{i18n: CFE_Penny_winterTue4}}",
         "winter_Wed8": "{{i18n: CFE_Penny_winterWed8}}",
@@ -149,9 +158,9 @@
         "winter_Mon": "{{i18n: CFE_Penny_winterMon}}",
         "winter_Wed": "{{i18n: CFE_Penny_winterWed}}",
         "winter_Fri": "{{i18n: CFE_Penny_winterFri}}"
-      },
-      "When": { "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Penny_Marriage_GenericDialogue",
       "Action": "EditData",
@@ -160,8 +169,7 @@
         "spouseRoom_Penny": "{{i18n: CFE_Penny_Married_spouseRoom_{{random: 1,2,3,4,5}}}}",
         "jobLeave_Penny": "{{i18n: CFE_Penny_Married_jobLeave_{{Random: 1,2,3,4}}}}",
         "jobReturn_Penny": "{{i18n: CFE_Penny_Married_jobReturn_{{Random: 1,2,3,4}}}}"
-      },
-      "When": { "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
       "LogName": "CFE_Penny_Marriage",
@@ -212,9 +220,9 @@
         "TwoKids_0": "{{i18n: CFE_Penny_Married_TwoKids_{{Random: 1,2}}}}",
         "TwoKids_1": "{{i18n: CFE_Penny_Married_TwoKids_{{Random: 3,4}}}}",
         "TwoKids_2": "{{i18n: CFE_Penny_Married_TwoKids_{{Random: 5,6}}}}",
-        "TwoKids_3": "{{i18n: CFE_Penny_Married_TwoKids_{{Random: 7,8}}}}",
+        "TwoKids_3": "{{i18n: CFE_Penny_Married_TwoKids_{{Random: 7,8}} |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
 
-        "Outdoor_0": "{{i18n: CFE_Penny_Married_Outdoor_{{Random: 1,2}}}}",
+        "Outdoor_0": "{{i18n: CFE_Penny_Married_Outdoor_{{Random: 1,2}} |LovePortraitsNeutral={{LovePortraitsNeutralToken}} |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "Outdoor_1": "{{i18n: CFE_Penny_Married_Outdoor_{{Random: 3,4}}}}",
         "Outdoor_2": "{{i18n: CFE_Penny_Married_Outdoor_{{Random: 5,6}}}}",
         "Outdoor_3": "{{i18n: CFE_Penny_Married_Outdoor_{{Random: 7,8}}}}",
@@ -257,8 +265,7 @@
         //only shown inside the farmhouse between 11 and 6pm, or at the start of day if no other dialogue is chosen first.
         //Bad or Neutral responses are randomly chosen between if the player has less than 9 hearts, Good or Neutral responses have a 50/50 chance with 10+ hearts, and the likelihood of a Good response goes up to 87% with 11+ hearts
         //currently unused. key looks like "Bad_3"
-      },
-      "When": { "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

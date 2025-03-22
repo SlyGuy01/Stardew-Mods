@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Leo_Compat",
+      "LogName": "CFE_Leo_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Leo",
       "Entries": {
@@ -9,8 +9,20 @@
         "AcceptGift_(O)444": "{{i18n: CFE_Leo_DuckFeather}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Leo}}' = 'true' OR ('{{CFE_Leo}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
+      }
+    },
+    {
+      "LogName": "CFE_Leo_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Leo",
+      "Entries": {
+        "AcceptGift_(O)834": "{{i18n: CFE_Leo_Mango}}",
+        "AcceptGift_(O)289": "{{i18n: CFE_Leo_OstrichEgg}}",
+        "AcceptGift_(O)906": "{{i18n: CFE_Leo_Poi}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -21,14 +33,10 @@
         "AcceptGift_(O)279": "{{i18n: CFE_Leo_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Leo_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Leo_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Leo_RabbitsFoot}}",
-
-        "AcceptGift_(O)834": "{{i18n: CFE_Leo_Mango}}",
-        "AcceptGift_(O)289": "{{i18n: CFE_Leo_OstrichEgg}}",
-        "AcceptGift_(O)906": "{{i18n: CFE_Leo_Poi}}"
-      },
-      "When": { "Query: '{{CFE_Leo}}' = 'true' OR ('{{CFE_Leo}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Leo_RabbitsFoot}}"
+      }
     },
+
     {
       "LogName": "CFE_Leo_Dialogue",
       "Action": "EditData",
@@ -48,8 +56,7 @@
         "Sun2": "{{i18n: CFE_Leo_Sun2}}",
         //Generic Weekday Dialogue
         "summer_Mon": "{{i18n: CFE_Leo_summerMon}}"
-      },
-      "When": { "Query: '{{CFE_Leo}}' = 'true' OR ('{{CFE_Leo}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

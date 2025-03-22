@@ -1,21 +1,41 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Pam_Compat",
+      "LogName": "CFE_Pam_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Pam",
       "Entries": {
-        //any keys that overlap go here
+        "AcceptGift_(O)24": "{{i18n: CFE_Pam_Parsnip}}",
+        "AcceptGift_(O)199": "{{i18n: CFE_Pam_ParsnipSoup}}",
+        "AcceptGift_(O)90": "{{i18n: CFE_Pam_CactusFruit}}"
+      },
+      "When": {
+        "ModdedDialogCompat.GiftTaste": "true"
+      }
+    },
+    {
+      "LogName": "CFE_Pam_Compat.UGDE",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pam",
+      "Entries": {
         "AcceptGift_(O)346": "{{i18n: CFE_Pam_Beer}}",
         "AcceptGift_(O)459": "{{i18n: CFE_Pam_Mead}}",
         "AcceptGift_(O)303": "{{i18n: CFE_Pam_PaleAle}}",
-        "AcceptGift_(O)24": "{{i18n: CFE_Pam_Parsnip}}",
-        "AcceptGift_(O)199": "{{i18n: CFE_Pam_ParsnipSoup}}",
         "AcceptGift_(O)873": "{{i18n: CFE_Pam_PinaColada}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Pam}}' = 'true' OR ('{{CFE_Pam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.UGDE": "true"
+      }
+    },
+    {
+      "LogName": "CFE_Pam_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pam",
+      "Entries": {
+        "AcceptGift_(O)208": "{{i18n: CFE_Pam_GlazedYams}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -26,35 +46,42 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Pam_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Pam_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Pam_Pearl}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Pam_RabbitsFoot}}",
-        "AcceptGift_(O)90": "{{i18n: CFE_Pam_CactusFruit}}",
-        "AcceptGift_(O)208": "{{i18n: CFE_Pam_GlazedYams}}"
-      },
-      "When": { "Query: '{{CFE_Pam}}' = 'true' OR ('{{CFE_Pam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Pam_RabbitsFoot}}"
+      }
     },
+
     {
       "LogName": "CFE_Pam_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Pam": "{{i18n: CFE_Pam_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Pam}}' = 'true' OR ('{{CFE_Pam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Pam_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Pam",
       "Entries": {
+        //Special Dialogue
+
         //Date Specific Dialogue
         "spring_1_2": "{{i18n: CFE_Pam_spring1y2}}",
         "spring_23_1": "{{i18n: CFE_Pam_spring23}}",
         "spring_23_2": "{{i18n: CFE_Pam_spring23}}",
+
         "winter_7_1": "{{i18n: CFE_Pam_winter7}}",
         "winter_7_2": "{{i18n: CFE_Pam_winter7}}",
         "winter_28_1": "{{i18n: CFE_Pam_winter28}}",
-        "winter_28_2": "{{i18n: CFE_Pam_winter28}}",
-
+        "winter_28_2": "{{i18n: CFE_Pam_winter28}}"
+      }
+    },
+    {
+      "LogName": "CFE_Pam_Dialogue_Compat.Haywrites",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pam",
+      "Entries": {
         //Heart Specific Dialogue
         "summer_Mon8": "{{i18n: CFE_Pam_summerMon8}}",
         "summer_Tue10": "{{i18n: CFE_Pam_summerTue10}}",
@@ -110,8 +137,7 @@
         //Generic Weekday Dialogue
         "winter_Mon": "{{i18n: CFE_Pam_winterMon}}",
         "Fri": "{{i18n: CFE_Pam_Fri}}"
-      },
-      "When": { "Query: '{{CFE_Pam}}' = 'true' OR ('{{CFE_Pam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

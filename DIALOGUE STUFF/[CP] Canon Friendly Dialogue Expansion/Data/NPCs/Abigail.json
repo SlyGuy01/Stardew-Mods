@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Abigail_Compat",
+      "LogName": "CFE_Abigail_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Abigail",
       "Entries": {
@@ -10,8 +10,21 @@
         "AcceptGift_(O)276": "{{i18n: CFE_Abigail_Pumpkin}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
+      }
+    },
+    {
+      "LogName": "CFE_Abigail_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Abigail",
+      "Entries": {
+        "AcceptGift_(O)904": "{{i18n: CFE_Abigail_BananaPudding}}",
+        "AcceptGift_(O)611": "{{i18n: CFE_Abigail_BlackberryCobbler}}",
+        "AcceptGift_(O)220": "{{i18n: CFE_Abigail_ChocolateCake{{GenderNeutralCompat}} |AdultInformalNoun={{lowercase:{{Random:{{GNMTAdultInformalNoun}}}}}}}}",
+        "AcceptGift_(O)226": "{{i18n: CFE_Abigail_SpicyEel}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -19,27 +32,22 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Abigail",
       "Entries": {
-        "AcceptGift_(O)373": "{{i18n: CFE_Abigail_GoldPumpkin}}",
+        "AcceptGift_(O)373": "{{i18n: CFE_Abigail_GoldPumpkin |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Abigail_RockCandy}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Abigail_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Abigail_RabbitsFoot}}",
-
-        "AcceptGift_(O)904": "{{i18n: CFE_Abigail_BananaPudding}}",
-        "AcceptGift_(O)611": "{{i18n: CFE_Abigail_BlackberryCobbler}}",
-        "AcceptGift_(O)220": "{{i18n: CFE_Abigail_ChocolateCake{{GenderNeutralCompat}} |AdultInformalNoun={{lowercase:{{Random:{{GNMTAdultInformalNoun}}}}}}}}",
-        "AcceptGift_(O)226": "{{i18n: CFE_Abigail_SpicyEel}}"
-      },
-      "When": { "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Abigail_RabbitsFoot}}"
+      }
     },
+
     {
       "LogName": "CFE_Abigail_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Abigail": "{{i18n: CFE_Abigail_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Abigail_Dialogue",
       "Action": "EditData",
@@ -53,8 +61,8 @@
         "spring_1_2": "{{i18n: CFE_Abigail_spring1y2}}",
 
         "summer_6_1": "{{i18n: CFE_Abigail_summer6y1}}",
-        "summer_10_1": "{{i18n: CFE_Abigail_summer10}}",
-        "summer_10_2": "{{i18n: CFE_Abigail_summer10}}",
+        "summer_10_1": "{{i18n: CFE_Abigail_summer10 | ShortLuauName={{ShortLuauName}}}}",
+        "summer_10_2": "{{i18n: CFE_Abigail_summer10 | ShortLuauName={{ShortLuauName}}}}",
         "summer_27_1": "{{i18n: CFE_Abigail_summer27}}",
         "summer_27_2": "{{i18n: CFE_Abigail_summer27}}",
 
@@ -87,7 +95,7 @@
         "summer_Fri6": "{{i18n: CFE_Abigail_summerFri6}}",
         "summer_Fri4": "{{i18n: CFE_Abigail_summerFri4}}",
         "summer_Fri2": "{{i18n: CFE_Abigail_summerFri2}}",
-        "summer_Sat10": "{{i18n: CFE_Abigail_summerSat10}}",
+        "summer_Sat10": "{{i18n: CFE_Abigail_summerSat10 |LovePortraitsHappy={{LovePortraitsHappyToken}} |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "summer_Sat6": "{{i18n: CFE_Abigail_summerSat6}}",
         "summer_Sat4": "{{i18n: CFE_Abigail_summerSat4}}",
         "summer_Sun6": "{{i18n: CFE_Abigail_summerSun6}}",
@@ -102,10 +110,10 @@
         "fall_Wed8": "{{i18n: CFE_Abigail_fallWed8}}",
         "fall_Wed4": "{{i18n: CFE_Abigail_fallWed4}}",
         "fall_Thu10": "{{i18n: CFE_Abigail_fallThu10}}",
-        "fall_Thu8": "{{i18n: CFE_Abigail_repeated_7}}",
+        "fall_Thu8": "{{i18n: CFE_Abigail_repeated_7 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "fall_Thu6": "{{i18n: CFE_Abigail_fallThu6}}",
         "fall_Thu4": "{{i18n: CFE_Abigail_fallThu4}}",
-        "fall_Fri10": "{{i18n: CFE_Abigail_fallFri10}}",
+        "fall_Fri10": "{{i18n: CFE_Abigail_fallFri10 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "fall_Fri6": "{{i18n: CFE_Abigail_fallFri6}}",
         "fall_Sat8": "{{i18n: CFE_Abigail_repeated_2}}",
         "fall_Sat6": "{{i18n: CFE_Abigail_fallSat6}}",
@@ -151,30 +159,29 @@
         "Thu6": "{{i18n: CFE_Abigail_Thu6}}",
         "Thu4": "{{i18n: CFE_Abigail_Thu4}}",
         "Thu2": "{{i18n: CFE_Abigail_repeated_6}}",
-        "Fri8": "{{i18n: CFE_Abigail_repeated_7}}",
+        "Fri8": "{{i18n: CFE_Abigail_repeated_7 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "Fri6": "{{i18n: CFE_Abigail_Fri6}}",
         "Fri4": "{{i18n: CFE_Abigail_Fri4}}",
         "Fri2": "{{i18n: CFE_Abigail_Fri2}}",
-        "Sat10": "{{i18n: CFE_Abigail_Sat10}}",
+        "Sat10": "{{i18n: CFE_Abigail_Sat10 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "Sat8": "{{i18n: CFE_Abigail_Sat8}}",
-        "Sat6": "{{i18n: CFE_Abigail_Sat6}}",
+        "Sat6": "{{i18n: CFE_Abigail_Sat6 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "Sat4": "{{i18n: CFE_Abigail_repeated_8}}",
         "Sat2": "{{i18n: CFE_Abigail_Sat2}}",
 
         //Generic Weekday Dialogue
         "spring_Thu": "{{i18n:  CFE_Abigail_springThu}}",
         "fall_Tue": "{{i18n: CFE_Abigail_repeated_9}}"
-      },
-      "When": { "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Abigail_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Abigail": "{{i18n: CFE_Abigail_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      },
-      "When": { "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
       "LogName": "CFE_Abigail_Marriage",
@@ -186,7 +193,7 @@
         //Weather specific dialogue
         //note that Indoor_Day is the key for any weather besides rain, even when the Abigail is outside. Day means prior to 6pm. Indoor_Night is specific to inside the farmhouse when it's not raining after 6pm.
         "Rainy_Day_0": "{{i18n: CFE_Abigail_Married_RainyDay_{{Random: 1,2}}}}",
-        "Rainy_Day_1": "{{i18n: CFE_Abigail_Married_RainyDay_{{Random: 3,4}}}}",
+        "Rainy_Day_1": "{{i18n: CFE_Abigail_Married_RainyDay_{{Random: 3,4}} |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "Rainy_Day_2": "{{i18n: CFE_Abigail_Married_RainyDay_{{Random: 5,6}}}}",
         "Rainy_Day_3": "{{i18n: CFE_Abigail_Married_RainyDay_{{Random: 7,8}}}}",
         "Rainy_Day_4": "{{i18n: CFE_Abigail_Married_RainyDay_{{Random: 9,10}}}}",
@@ -201,7 +208,7 @@
         "Indoor_Day_1": "{{i18n: CFE_Abigail_Married_IndoorDay_{{Random: 4,5,6}}}}",
         "Indoor_Day_2": "{{i18n: CFE_Abigail_Married_IndoorDay_{{Random: 7,8,9}}}}",
         "Indoor_Day_3": "{{i18n: CFE_Abigail_Married_IndoorDay_{{Random: 10,11,12}}}}",
-        "Indoor_Day_4": "{{i18n: CFE_Abigail_Married_IndoorDay_{{Random: 13,14,15}}}}",
+        "Indoor_Day_4": "{{i18n: CFE_Abigail_Married_IndoorDay_{{Random: 13,14,15}} |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
 
         "Indoor_Night_0": "{{i18n: CFE_Abigail_Married_IndoorNight_{{Random: 1,2}}}}",
         "Indoor_Night_1": "{{i18n: CFE_Abigail_Married_IndoorNight_{{Random: 3,4}}}}",
@@ -236,10 +243,10 @@
 
         //Date Specific Dialogue
         "spring_6": "{{i18n: CFE_Abigail_Married_spring6}}",
-        "spring_16": "{{i18n: CFE_Abigail_Married_spring16}}",
+        "spring_16": "{{i18n: CFE_Abigail_Married_spring16 |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
 
         "summer_19": "{{i18n: CFE_Abigail_Married_summer19}}",
-        "summer_22": "{{i18n: CFE_Abigail_Married_summer22}}",
+        "summer_22": "{{i18n: CFE_Abigail_Married_summer22 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "summer_23": "{{i18n: CFE_Abigail_Married_summer23}}",
 
         "fall_12": "{{i18n: CFE_Abigail_Married_fall12}}",
@@ -260,8 +267,7 @@
         //only shown inside the farmhouse between 11 and 6pm, or at the start of day if no other dialogue is chosen first.
         //Bad or Neutral responses are randomly chosen between if the player has less than 9 hearts, Good or Neutral responses have a 50/50 chance with 10+ hearts, and the likelihood of a Good response goes up to 87% with 11+ hearts
         //currently unused. key looks like "Bad_3"
-      },
-      "When": { "Query: '{{CFE_Abigail}}' = 'true' OR ('{{CFE_Abigail}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

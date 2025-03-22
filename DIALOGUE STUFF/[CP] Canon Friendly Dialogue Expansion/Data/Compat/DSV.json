@@ -1,10 +1,11 @@
 {
   "Changes": [
-    //ABIGAIL
+    // ABIGAIL
     {
       "LogName": "DSV Abigail Daily Dialogue - Nonbinary Sebastian",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Abigail",
+      "Priority": "Late +2",
       "Entries": {
         "Thu2": "{{i18n: CFE_Abigail_repeated_6.DSV.NonbinarySebastian}}",
         "summer_Fri2": "{{i18n: CFE_Abigail_summerFri2.DSV.NonbinarySebastian}}",
@@ -22,6 +23,7 @@
       "LogName": "DSV Abigail Daily Dialogue - Nonbinary Abigail",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Abigail",
+      "Priority": "Late +2",
       "Entries": {
         "Tue4": "{{i18n: CFE_Abigail_Tue4.DSV.NonbinaryAbigail}}",
         "Tue8": "{{i18n: CFE_Abigail_Tue8.DSV.NonbinaryAbigail}}"
@@ -37,6 +39,7 @@
       "LogName": "DSV Abigail Marriage Dialogue - Nonbinary Abigail",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogueAbigail",
+      "Priority": "Late +2",
       "Entries": {
         "Rainy_Day_3": "{{i18n: CFE_Abigail_Married_RainyDay_{{Random: 7.DSV.NonbinaryAbigail,8}}}}",
         "patio_Abigail": "{{i18n: CFE_Abigail_Married_patio_{{Random: 1.DSV.NonbinaryAbigail,2,3.DSV.NonbinaryAbigail}}}}"
@@ -52,6 +55,7 @@
       "LogName": "DSV Abigail Festival Dialogue - Chinese-Filipino (Flower Dance)",
       "Action": "EditData",
       "Target": "Data/Festivals/spring24",
+      "Priority": "Late +2",
       "Entries": {
         "Abigail": "{{i18n: CFE_FlowerDance_Abigail.DSV.ChineseFilipinoAbigail}}"
       },
@@ -65,11 +69,12 @@
         "SyncedRandom": "True"
       }
     },
-    //ALEX
+    // ALEX
     {
       "LogName": "DSV Alex Daily Dialogue - Modded Evelyn & George",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Alex",
+      "Priority": "Late +2",
       "Entries": {
         "Sat4": "{{i18n: CFE_Alex_Sat4.DSV.ModdedEvelyn |AlexGrandma={{AlexGrandmaToken}}}}",
         "fall_Sun6": "{{i18n: CFE_Alex_fallSun6.DSV.ModdedGeorge |AlexGrandpa={{AlexGrandpaToken}}}}",
@@ -85,6 +90,7 @@
       "LogName": "DSV Alex Marriage Dialogue - Modded Evelyn & George",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogueAlex",
+      "Priority": "Late +2",
       "Entries": {
         "Indoor_Day_4": "{{i18n: CFE_Alex_Married_IndoorDay_{{Random: 13,14,15.DSV.ModdedEvelynGeorge}} |AlexGrandma={{AlexGrandmaToken}} |AlexGrandpa={{AlexGrandpaToken}} }}",
         "funLeave_Alex": "{{i18n: CFE_Alex_Married_funLeave_{{Random: 1,2.DSV.ModdedEvelynGeorge}} |AlexGrandma={{AlexGrandmaToken}} |AlexGrandpa={{AlexGrandpaToken}} }}",
@@ -97,11 +103,12 @@
         "DSV.Core/ConfigValue:AlexDialogue": "True"
       }
     },
-    //CAROLINE
+    // CAROLINE
     {
       "LogName": "DSV Caroline Daily Dialogue - Nonbinary Abigail",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Caroline",
+      "Priority": "Late +2",
       "Entries": {
         "Mon2": "{{i18n: CFE_Caroline_Mon2.DSV.NonbinaryAbigail}}",
         "Mon4": "{{i18n: CFE_Caroline_Mon4.DSV.NonbinaryAbigail}}",
@@ -124,6 +131,7 @@
       "LogName": "DSV Caroline Daily Dialogue - Chinese-Filipino Abigail",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Caroline",
+      "Priority": "Late +2",
       "Entries": {
         "winter_Fri6": "{{i18n: CFE_Caroline_winterFri6.DSV.ModdedAbigail}}"
       },
@@ -138,6 +146,7 @@
       "LogName": "DSV Caroline Daily Dialogue - Trans Sam",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Caroline",
+      "Priority": "Late +2",
       "Entries": {
         "Tue6": "{{i18n: CFE_Caroline_Tue6.DSV.TransSam}}"
       },
@@ -151,6 +160,7 @@
       "LogName": "DSV Caroline Daily Dialogue - Religion Edits",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Caroline",
+      "Priority": "Late +2",
       "Entries": {
         "Sun2": "{{i18n:CFE_Caroline_Sun2.DSV.ReligionEdits}}",
         "Sun4": "{{i18n:CFE_Caroline_Sun4.DSV.ReligionEdits}}"
@@ -166,6 +176,7 @@
       "LogName": "DSV Caroline Festival Dialogue - Nonbinary Abigail (Flower Dance)",
       "Action": "EditData",
       "Target": "Data/Festivals/spring24",
+      "Priority": "Late +2",
       "Entries": {
         "Caroline": "{{i18n: CFE_FlowerDance_Caroline.DSV.NonbinaryAbigail}}"
       },
@@ -183,6 +194,7 @@
       "LogName": "DSV Caroline Festival Dialogue - Nonbinary Abigail (Spirits Eve)",
       "Action": "EditData",
       "Target": "Data/Festivals/fall27",
+      "Priority": "Late +2",
       "Entries": {
         "Caroline_y2": "{{i18n: CFE_SpiritsEve_Caroline_y2.DSV.NonbinaryAbigail}}"
       },
@@ -196,11 +208,12 @@
         "SyncedRandom": "True"
       }
     },
-    //CLINT
+    // CLINT
     {
       "LogName": "DSV Clint Gift Dialogue - Blind Clint",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Clint",
+      "Priority": "Late +2",
       "Entries": {
         "AcceptGift_(O)60": "{{i18n: CFE_Clint_Emerald.DSV.BlindClint}}",
         "AcceptGift_(O)64": "{{i18n: CFE_Clint_Ruby.DSV.BlindClint}}",
@@ -218,6 +231,7 @@
       "LogName": "DSV Clint Daily Dialogue - Turkish Gus",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Clint",
+      "Priority": "Late +2",
       "Entries": {
         "Fri8": "{{i18n: CFE_Clint_Fri8.DSV.TurkishGus}}"
       },
@@ -228,11 +242,12 @@
         "DSV.Core/ConfigValue:GusVariant |contains= Modded": true
       }
     },
-    //DEMETRIUS
+    // DEMETRIUS
     {
       "LogName": "DSV Demetrius Daily Dialogue - Nonbinary Sebastian",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Demetrius",
+      "Priority": "Late +2",
       "Entries": {
         "Sun6": "{{i18n: CFE_Demetrius_Sun6.DSV.NonbinarySebastian}}",
         "Sun8": "{{i18n: CFE_Demetrius_Sun8.DSV.NonbinarySebastian}}",
@@ -250,6 +265,7 @@
       "LogName": "DSV Demetrius Festival Dialogue - Nonbinary Sebastian (Spirits Eve)",
       "Action": "EditData",
       "Target": "Data/Festivals/fall27",
+      "Priority": "Late +2",
       "Entries": {
         "Demetrius_y2": "{{i18n: CFE_SpiritsEve_Demetrius_y2.DSV.NonbinarySebastian}}"
       },
@@ -263,18 +279,21 @@
         "SyncedRandom": "True"
       }
     },
-    //ELLIOTT
+    // ELLIOTT
     {
       "LogName": "DSV Elliott Gift Dialogue - Jewish Elliott",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Elliott",
+      "Priority": "Late +2",
       "Entries": {
         "AcceptGift_(O)715": "{{i18n: CFE_Elliott_Lobster}}",
         "AcceptGift_(O)732": "{{i18n: CFE_Elliott_CrabCakes}}",
         "AcceptGift_(O)218": "{{i18n: CFE_Elliott_TomKhaSoup}}",
         "AcceptGift_(O)242": "{{i18n: CFE_Elliott_DishOTheSea.DSV.JewishElliott}}",
         "AcceptGift_(O)705": "{{i18n: CFE_Elliott_Albacore.DSV.JewishElliott}}",
-        "AcceptGift_(O)231": "{{i18n: CFE_Elliott_EggplantParmesan.DSV.JewishElliott}}"
+        "AcceptGift_(O)231": "{{i18n: CFE_Elliott_EggplantParmesan.DSV.JewishElliott}}",
+        "fall_Wed6": "{{i18n: CFE_Elliott_repeated_6.DSV.JewishElliott}}",
+        "fall_Wed2": "{{i18n: CFE_Elliott_repeated_6.DSV.JewishElliott}}"
       },
       "When": {
         "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
@@ -288,6 +307,7 @@
       "LogName": "DSV Elliott Married Dialogue - Jewish Elliott",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogueElliott",
+      "Priority": "Late +2",
       "Entries": {
         "Indoor_Night_4": "{{i18n: CFE_Elliott_Married_IndoorNight_{{Random: 9,10}}.DSV.JewishElliott}}"
       },
@@ -302,6 +322,7 @@
       "LogName": "DSV Elliott Married Dialogue - Black Elliott",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogueElliott",
+      "Priority": "Late +2",
       "Entries": {
         "Rainy_Day_3": "{{i18n: CFE_Elliott_Married_RainyDay_{{Random: 6,7.DSV.BlackElliott}}}}"
       },
@@ -316,6 +337,7 @@
       "LogName": "DSV Elliott Festival Dialogue - Jewish Elliott (Luau)",
       "Action": "EditData",
       "Target": "Data/Festivals/summer11",
+      "Priority": "Late +2",
       "Entries": {
         "Elliott": "{{i18n: CFE_Luau_Elliott.DSV.JewishElliott}}"
       },
@@ -329,11 +351,12 @@
         "SyncedRandom": "True"
       }
     },
-    //EVELYN
+    // EVELYN
     {
       "LogName": "DSV Evelyn Daily Dialogue - Modded Evelyn",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Evelyn",
+      "Priority": "Late +2",
       "Entries": {
         "Thu4": "{{i18n: CFE_Evelyn_Thu4.DSV.{{DSV.Core/ConfigValue:EvelynVariant}}Evelyn}}",
         "Thu8": "{{i18n: CFE_Evelyn_Thu8.DSV.ModdedEvelyn}}",
@@ -353,6 +376,7 @@
       "LogName": "DSV Evelyn Daily Dialogue - Religion Edits",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Evelyn",
+      "Priority": "Late +2",
       "Entries": {
         "Fri4": "{{i18n: CFE_Evelyn_Fri4.DSV.ReligionEdits}}"
       },
@@ -363,11 +387,12 @@
         "Query: '{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true' OR '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh}}' = 'true'": true
       }
     },
-    //GEORGE
+    // GEORGE
     {
       "LogName": "DSV George Daily Dialogue - Religion Edits",
       "Action": "EditData",
       "Target": "Characters/Dialogue/George",
+      "Priority": "Late +2",
       "Entries": {
         "fall_Sat10": "{{i18n: CFE_George_fallSat10.DSV.ReligionEdits}}"
       },
@@ -382,6 +407,7 @@
       "LogName": "DSV George Daily Dialogue - Jewish Mullners",
       "Action": "EditData",
       "Target": "Characters/Dialogue/George",
+      "Priority": "Late +2",
       "Entries": {
         "fall_Sat10": "{{i18n: CFE_George_fallSat10.DSV.ReligionEdits.JewishMullners}}",
         "Sun10": "{{i18n: CFE_George_Sun10.DSV.JewishMullners}}"
@@ -393,11 +419,12 @@
         "DSV.Core/ConfigValue:JewishMullners": "True"
       }
     },
-    //GUS
+    // GUS
     {
       "LogName": "DSV Gus Rainy Dialogue - Turkish Gus",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
+      "Priority": "Late +2",
       "Entries": {
         "Gus": "{{i18n: CFE_Gus_rainy_{{random: 1.DSV.TurkishGus,2,3}}}}"
       },
@@ -412,6 +439,7 @@
       "LogName": "DSV Gus Daily Dialogue - Turkish Gus",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Gus",
+      "Priority": "Late +2",
       "Entries": {
         "winter_28_1": "{{i18n: CFE_Gus_winter28.DSV.TurkishGus}}",
         "winter_28_2": "{{i18n: CFE_Gus_winter28.DSV.TurkishGus}}",
@@ -436,6 +464,7 @@
       "LogName": "DSV Gus Daily Dialogue - Aro-Ace Gus",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Gus",
+      "Priority": "Late +2",
       "Entries": {
         "Wed8": "{{i18n: CFE_Gus_Wed8.DSV.AroAceGus}}",
         "Wed10": "{{i18n: CFE_Gus_Wed10.DSV.AroAceGus}}"
@@ -451,6 +480,7 @@
       "LogName": "DSV Gus Daily Dialogue - Nonbinary Emily",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Gus",
+      "Priority": "Late +2",
       "Entries": {
         "Wed4": "{{i18n: CFE_Gus_Wed4.DSV.NonbinaryEmily}}",
         "Thu10": "{{i18n: CFE_Gus_Thu10.DSV.NonbinaryEmily}}"
@@ -466,6 +496,7 @@
       "LogName": "DSV Gus Festival Dialogue - Turkish Gus (Luau)",
       "Action": "EditData",
       "Target": "Data/Festivals/summer11",
+      "Priority": "Late +2",
       "Entries": {
         "Gus_y2": "{{i18n: CFE_Luau_Gus_y2.DSV.TurkishGus}}"
       },
@@ -479,11 +510,12 @@
         "SyncedRandom": "True"
       }
     },
-    //HALEY
+    // HALEY
     {
       "LogName": "DSV Haley Daily Dialogue - Modded Haley",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Haley",
+      "Priority": "Late +2",
       "Entries": {
         "summer_Mon4": "{{i18n: CFE_Haley_summerMon4.DSV.ModdedHaley}}",
         "winter_Mon6": "{{i18n: CFE_Haley_winterMon6.DSV.ModdedHaley}}"
@@ -499,6 +531,7 @@
       "LogName": "DSV Haley Daily Dialogue - Nonbinary Emily",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Haley",
+      "Priority": "Late +2",
       "Entries": {
         "Sun8_inlaw_Emily": "{{i18n: CFE_Haley_Sun8inlawEmily.DSV.NonbinaryEmily}}",
         "summer_Sun8_inlaw_Emily": "{{i18n: CFE_Haley_summerSun8inlawEmily.DSV.NonbinaryEmily}}",
@@ -515,6 +548,7 @@
       "LogName": "DSV Haley Marriage Dialogue - Modded Haley",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogueHaley",
+      "Priority": "Late +2",
       "Entries": {
         "Rainy_Day_3": "{{i18n: CFE_Haley_Married_RainyDay_{{Random: 7.DSV.ModdedHaley,8}}}}",
         "Rainy_Day_4": "{{i18n: CFE_Haley_Married_RainyDay_{{Random: 9{{GenderNeutralCompat}}.DSV.{{DSV.Core/ConfigValue:HaleyVariant}}Haley,10{{GenderNeutralCompat}}}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}"
@@ -530,6 +564,7 @@
       "LogName": "DSV Haley Marriage Dialogue - Nonbinary Emily",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogueHaley",
+      "Priority": "Late +2",
       "Entries": {
         "Rainy_Night_2": "{{i18n: CFE_Haley_Married_RainyNight_{{Random: 5,6.DSV.NonbinaryEmily}}}}",
         "Outdoor_1": "{{i18n: CFE_Haley_Married_Outdoor_{{Random: 3.DSV.NonbinaryEmily,4}}}}",
@@ -546,6 +581,7 @@
       "LogName": "DSV Haley Festival Dialogue - Flower Queen's Crown (Flower Dance)",
       "Action": "EditData",
       "Target": "Data/Festivals/spring24",
+      "Priority": "Late +2",
       "Entries": {
         "Haley_y2": "{{i18n: CFE_FlowerDance_Haley_y2.DSV.FlowerQueensCrown}}"
       },
@@ -556,15 +592,16 @@
         "Year |contains= 1, 2, 3, 4": false,
         "CFE_Festivals": "true",
         "SyncedRandom": "True",
-				"DSV.Core/ConfigValue:FlowerQueensCrown": "True",
+        "DSV.Core/ConfigValue:FlowerQueensCrown": "True",
         "DSV.Core/FlowerQueen |contains= Haley": false
       }
     },
-    //HARVEY
+    // HARVEY
     {
       "LogName": "DSV Harvey Daily Dialogue - Modded Harvey",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Harvey",
+      "Priority": "Late +2",
       "Entries": {
         "Tue2": "{{i18n: CFE_Harvey_Tue2.DSV.ModdedHarvey}}",
         "summer_Fri4": "{{i18n: CFE_Harvey_summerFri4.DSV.ModdedHarvey}}",
@@ -581,6 +618,7 @@
       "LogName": "DSV Harvey Marriage Dialogue - Modded Sikh Harvey",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogueHarvey",
+      "Priority": "Late +2",
       "Entries": {
         "Indoor_Night_0": "{{i18n: CFE_Harvey_Married_IndoorNight_{{Random: 1{{GenderNeutralCompat}}.DSV.ModdedSikhHarvey,2{{GenderNeutralCompat}}}}{{GenderNeutralCompat}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}",
         "Indoor_Night_1": "{{i18n: CFE_Harvey_Married_IndoorNight_{{Random: 3.DSV.ModdedSikhHarvey,4}}}}",
@@ -593,11 +631,12 @@
         "DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh": true
       }
     },
-    //JODI
+    // JODI
     {
       "LogName": "DSV Jodi Daily Dialogue - No More War",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Jodi",
+      "Priority": "Late +2",
       "Entries": {
         "Sun4_2": "{{i18n: CFE_Jodi_Sun4y2.DSV.NoMoreWar}}",
         "summer_Mon4_2": "{{i18n: CFE_Jodi_summerMon4y2.DSV.NoMoreWar}}",
@@ -615,6 +654,7 @@
       "LogName": "DSV Jodi Daily Dialogue - Religion Edits",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Jodi",
+      "Priority": "Late +2",
       "Entries": {
         "Mon2": "{{i18n: CFE_Jodi_Mon2.DSV.ReligionEdits}}"
       },
@@ -625,11 +665,12 @@
         "Query: '{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true' OR '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh}}' = 'true'": true
       }
     },
-    //KENT
+    // KENT
     {
       "LogName": "DSV Kent Daily Dialogue - No More War",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Kent",
+      "Priority": "Late +2",
       "Entries": {
         "AcceptGift_(O)446": "{{i18n: CFE_Kent_RabbitsFoot.DSV.NoMoreWar}}",
         "winter_Mon10": "{{i18n: CFE_Kent_winterMon10.DSV.NoMoreWar}}",
@@ -651,6 +692,7 @@
       "LogName": "DSV Kent Daily Dialogue - Omani Kent",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Kent",
+      "Priority": "Late +2",
       "Entries": {
         "summer_Wed10": "{{i18n: CFE_Kent_summerWed10.DSV.OmaniKent}}",
         "winter_Fri10": "{{i18n: CFE_Kent_winterFri10.DSV.OmaniKent}}"
@@ -666,6 +708,7 @@
       "LogName": "DSV Kent Daily Dialogue - Trans Sam",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Kent",
+      "Priority": "Late +2",
       "Entries": {
         "Thu6": "{{i18n: CFE_Kent_Thu6.DSV.TransSam}}",
         "winter_Fri10": "{{i18n: CFE_Kent_winterFri10.DSV.OmaniKent}}"
@@ -676,11 +719,12 @@
         "DSV.Core/ConfigValue:KentDialogue": "True"
       }
     },
-    //LEAH
+    // LEAH
     {
       "LogName": "DSV Leah Daily Dialogue - Native Leah",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Leah",
+      "Priority": "Late +2",
       "Entries": {
         "AcceptGift_(O)348": null,
         "AcceptGift_(O)350": "{{i18n: CFE_Leah_Juice.DSV.NativeLeah}}",
@@ -702,6 +746,7 @@
       "LogName": "DSV Leah Marriage Dialogue - Turkish Gus",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Leah",
+      "Priority": "Late +2",
       "Entries": {
         "fall_10": "{{i18n: CFE_Leah_Married_fall10.DSV.TurkishGus}}"
       },
@@ -712,11 +757,12 @@
         "DSV.Core/ConfigValue:GusVariant |contains= Modded": true
       }
     },
-    //LINUS
+    // LINUS
     {
       "LogName": "DSV Linus Daily Dialogue - Modded Linus",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Linus",
+      "Priority": "Late +2",
       "Entries": {
         "Tue10": "{{i18n: CFE_Linus_Tue10.DSV.ModdedLinus}}",
         "summer_Tue8": "{{i18n: CFE_Linus_summerTue8.DSV.ModdedLinus}}",
@@ -731,11 +777,12 @@
         "HasMod |contains= FlashShifter.StardewValleyExpandedCP": false
       }
     },
-    //MARU
+    // MARU
     {
       "LogName": "DSV Maru Daily Dialogue - Nonbinary Sebastian",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Maru",
+      "Priority": "Late +2",
       "Entries": {
         "summer_Tue2": "{{i18n: CFE_Maru_summerTue2.DSV.NonbinarySebastian}}",
         "summer_Fri4": "{{i18n: CFE_Maru_summerFri4.DSV.NonbinarySebastian}}",
@@ -755,6 +802,7 @@
       "LogName": "DSV Maru Festival Dialogue - Nonbinary Sebastian (Festival of Ice)",
       "Action": "EditData",
       "Target": "Data/Festivals/winter8",
+      "Priority": "Late +2",
       "Entries": {
         "Maru": "{{i18n: CFE_IceFest_Maru.DSV.NonbinarySebastian}}"
       },
@@ -768,11 +816,12 @@
         "SyncedRandom": "True"
       }
     },
-    //PAM
+    // PAM
     {
       "LogName": "DSV Pam Daily Dialogue - Religion Edits",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Pam",
+      "Priority": "Late +2",
       "Entries": {
         "winter_Thu10": "{{i18n: CFE_Pam_winterThu10.DSV.ReligionEdits}}"
       },
@@ -783,11 +832,12 @@
         "Query: '{{DSV.Core/ConfigValue:JodiVariant |contains= Modded}}' = 'true' OR '{{HasMod |contains= DSVTeam.AddOnPack.HopefulfoxJodi}}' = 'true' OR '{{DSV.Core/ConfigValue:KentVariant |contains= Omani, OmaniDisabled}}' = 'true' OR '{{DSV.Core/ConfigValue:JewishMullners}}' = 'true' OR '{{DSV.Core/ConfigValue:HarveyVariant |contains= ModdedSikh}}' = 'true'": true
       }
     },
-    //PENNY
+    // PENNY
     {
       "LogName": "DSV Penny Daily Dialogue - Trans Penny & Sam",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Penny",
+      "Priority": "Late +2",
       "Entries": {
         "Thu10": "{{i18n: CFE_Penny_Thu10.DSV.TransPennySam}}"
       },
@@ -801,6 +851,7 @@
       "LogName": "DSV Penny Daily Dialogue - Modded Linus",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Penny",
+      "Priority": "Late +2",
       "Entries": {
         "winter_Fri2": "{{i18n: CFE_Penny_winterFri2.DSV.ModdedLinus}}"
       },
@@ -815,8 +866,9 @@
       "LogName": "DSV Penny Marriage Dialogue - Trans Penny",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialoguePenny",
+      "Priority": "Late +2",
       "Entries": {
-        "Indoor_Night_1": "{{i18n: CFE_Penny_Married_IndoorNight_{{Random: 3.DSV.TransPenny,4}}}}"
+        "Indoor_Night_1": "{{i18n: CFE_Penny_Married_IndoorNight_{{Random: 3.DSV.TransPenny,4}} |LovePortraitsHappy={{LovePortraitsHappyToken}}}}"
       },
       "When": {
         "Query: '{{CFE_Penny}}' = 'true' OR ('{{CFE_Penny}}' = 'random' AND '{{Random: true, false}}' = 'true')": true,
@@ -824,11 +876,12 @@
         "DSV.Core/ConfigValue:PennyDialogue": "True"
       }
     },
-    //PIERRE
+    // PIERRE
     {
       "LogName": "DSV Pierre Daily Dialogue - Nonbinary Abigail",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Pierre",
+      "Priority": "Late +2",
       "Entries": {
         "Fri4": "{{i18n: CFE_Pierre_repeated_3}}",
         "summer_Sun10": "{{i18n: CFE_Pierre_repeated_3.DSV.NonbinaryAbigail}}",
@@ -842,11 +895,12 @@
         "DSV.Core/ConfigValue:NonbinaryAbigail": "True"
       }
     },
-    //ROBIN
+    // ROBIN
     {
       "LogName": "DSV Robin Daily Dialogue - Nonbinary Sebastian",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Robin",
+      "Priority": "Late +2",
       "Entries": {
         "Thu8": "{{i18n: CFE_Robin_repeated_1.DSV.NonbinarySebastian}}",
         "Sat4": "{{i18n: CFE_Robin_Sat4.DSV.NonbinarySebastian}}",
@@ -860,11 +914,12 @@
         "DSV.Core/ConfigValue:NonbinarySebastian": "True"
       }
     },
-    //SAM
+    // SAM
     {
       "LogName": "DSV Sam Daily Dialogue - Trans Penny & Sam",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sam",
+      "Priority": "Late +2",
       "Entries": {
         "winter_Tue8": "{{i18n: CFE_Sam_winterTue8.DSV.TransPennySam}}",
         "Thu4_2": "{{i18n: CFE_Sam_Thu4y2.DSV.TransSam}}"
@@ -879,6 +934,7 @@
       "LogName": "DSV Sam Daily Dialogue - Nonbinary Abigail",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sam",
+      "Priority": "Late +2",
       "Entries": {
         "Sat8_1": "{{i18n: CFE_Sam_repeated_2.DSV.NonbinaryAbigail}}",
         "Sat6": "{{i18n: CFE_Sam_repeated_2.DSV.NonbinaryAbigail}}"
@@ -894,6 +950,7 @@
       "LogName": "DSV Sam Daily Dialogue - Nonbinary Sebastian",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sam",
+      "Priority": "Late +2",
       "Entries": {
         "summer_Thu4": "{{i18n: CFE_Sam_summerThu4.DSV.NonbinarySebastian}}"
       },
@@ -908,6 +965,7 @@
       "LogName": "DSV Sam Daily Dialogue - No More War",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sam",
+      "Priority": "Late +2",
       "Entries": {
         "fall_Tue6": "{{i18n: CFE_Sam_fallTue6.DSV.NoMoreWar}}"
       },
@@ -922,6 +980,7 @@
       "LogName": "DSV Sam Marriage Dialogue - Nonbinary Abigail",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogueSam",
+      "Priority": "Late +2",
       "Entries": {
         "fall_4": "{{i18n: CFE_Sam_Married_fall4.DSV.NonbinaryAbigail}}"
       },
@@ -936,6 +995,7 @@
       "LogName": "DSV Sam Marriage Dialogue - Nonbinary Sebastian",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogueSam",
+      "Priority": "Late +2",
       "Entries": {
         "Rainy_Day_1": "{{i18n: CFE_Sam_Married_RainyDay_{{Random: 3,4.DSV.NonbinarySebastian}}}}",
         "spring_8": "{{i18n: CFE_Sam_Married_spring8.DSV.NonbinarySebastian}}"
@@ -947,11 +1007,12 @@
         "DSV.Core/ConfigValue:NonbinarySebastian": "True"
       }
     },
-    //SANDY
+    // SANDY
     {
       "LogName": "DSV Sandy Daily Dialogue - Modded Sandy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sandy",
+      "Priority": "Late +2",
       "Entries": {
         "summer_Mon10": "{{i18n: CFE_Sandy_summerMon10.DSV.ModdedSandy}}"
       },
@@ -966,6 +1027,7 @@
       "LogName": "DSV Sandy Daily Dialogue - Nonbinary Emily",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sandy",
+      "Priority": "Late +2",
       "Entries": {
         "Mon6": "{{i18n: CFE_Sandy_Mon6.DSV.NonbinaryEmily}}",
         "Mon8": "{{i18n: CFE_Sandy_repeated_1.DSV.NonbinaryEmily}}",
@@ -978,11 +1040,12 @@
         "DSV.Core/ConfigValue:NonbinaryEmily": "True"
       }
     },
-    //SEBASTIAN
+    // SEBASTIAN
     {
       "LogName": "DSV Sebastian Daily Dialogue - Nonbinary Abigail",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sebastian",
+      "Priority": "Late +2",
       "Entries": {
         "winter_Wed10": "{{i18n: CFE_Sebastian_winterWed10.DSV.NonbinaryAbigail}}"
       },
@@ -993,11 +1056,12 @@
         "DSV.Core/ConfigValue:NonbinaryAbigail": "True"
       }
     },
-    //VINCENT
+    // VINCENT
     {
       "LogName": "DSV Vincent Daily Dialogue - No More War",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Vincent",
+      "Priority": "Late +2",
       "Entries": {
         "Sat2": "{{i18n: CFE_Vincent_Sat2.DSV.NoMoreWar}}"
       },

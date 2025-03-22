@@ -1,17 +1,17 @@
 {
   "Changes": [
-    /* {
-      "LogName": "CFE_Alex_Compat",
+    {
+      "LogName": "CFE_Alex_Compat.MSGR",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Alex",
       "Entries": {
-        //any keys that overlap go here
+        "AcceptGift_(O)201": "{{i18n: CFE_Alex_CompleteBreakfast}}",
+        "AcceptGift_(O)212": "{{i18n: CFE_Alex_SalmonDinner}}"
       },
       "When": {
-     "ModdedDialogCompat": "true",
-     "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
-    }
-    }, */
+        "ModdedDialogCompat.MSGR": "true"
+      }
+    },
     {
       "LogName": "CFE_Alex_GiftTastes",
       "Action": "EditData",
@@ -20,22 +20,19 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Alex_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Alex_RockCandy}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Alex_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Alex_RabbitsFoot}}",
-
-        "AcceptGift_(O)201": "{{i18n: CFE_Alex_CompleteBreakfast}}",
-        "AcceptGift_(O)212": "{{i18n: CFE_Alex_SalmonDinner}}"
-      },
-      "When": { "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Alex_RabbitsFoot}}"
+      }
     },
+
     {
       "LogName": "CFE_Alex_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Alex": "{{i18n: CFE_Alex_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Alex_Dialogue",
       "Action": "EditData",
@@ -61,7 +58,7 @@
         "winter_28_2": "{{i18n: CFE_Alex_winter28}}",
 
         //Heart Specific Dialogue
-        "summer_Mon10": "{{i18n: CFE_Alex_summerMon10}}",
+        "summer_Mon10": "{{i18n: CFE_Alex_summerMon10 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "summer_Mon8": "{{i18n: CFE_Alex_repeated_6}}",
         "summer_Mon6": "{{i18n: CFE_Alex_summerMon6}}",
         "summer_Mon4": "{{i18n: CFE_Alex_summerMon4}}",
@@ -86,7 +83,7 @@
         "summer_Sun4": "{{i18n: CFE_Alex_summerSun4}}",
         "summer_Sun2": "{{i18n: CFE_Alex_summerSun2}}",
 
-        "fall_Mon10": "{{i18n: CFE_Alex_fallMon10}}",
+        "fall_Mon10": "{{i18n: CFE_Alex_fallMon10 |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "fall_Mon6": "{{i18n: CFE_Alex_fallMon6}}",
         "fall_Mon2": "{{i18n: CFE_Alex_fallMon2}}",
         "fall_Tue8": "{{i18n: CFE_Alex_fallTue8}}",
@@ -94,7 +91,7 @@
         "fall_Tue4": "{{i18n: CFE_Alex_fallTue4}}",
         "fall_Wed8": "{{i18n: CFE_Alex_fallWed8}}",
         "fall_Thu10": "{{i18n: CFE_Alex_fallThu10}}",
-        "fall_Thu6": "{{i18n: CFE_Alex_fallThu6}}",
+        "fall_Thu6": "{{i18n: CFE_Alex_fallThu6 |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "fall_Thu4": "{{i18n: CFE_Alex_fallThu4{{GenderNeutralCompat}}}}",
         "fall_Thu2": "{{i18n: CFE_Alex_fallThu2}}",
         "fall_Fri10": "{{i18n: CFE_Alex_fallFri10}}",
@@ -111,7 +108,7 @@
         "fall_Sun6": "{{i18n: CFE_Alex_fallSun6}}",
         "fall_Sun4": "{{i18n: CFE_Alex_fallSun4}}",
 
-        "winter_Mon10": "{{i18n: CFE_Alex_winterMon10}}",
+        "winter_Mon10": "{{i18n: CFE_Alex_winterMon10 |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "winter_Mon8": "{{i18n: CFE_Alex_winterMon8}}",
         "winter_Mon6": "{{i18n: CFE_Alex_winterMon6{{GenderNeutralCompat}}}}",
         "winter_Mon4": "{{i18n: CFE_Alex_winterMon4}}",
@@ -127,7 +124,7 @@
         "winter_Thu8": "{{i18n: CFE_Alex_winterThu8}}",
         "winter_Thu6": "{{i18n: CFE_Alex_winterThu6}}",
         "winter_Thu4": "{{i18n: CFE_Alex_winterThu4}}",
-        "winter_Fri10": "{{i18n: CFE_Alex_winterFri10}}",
+        "winter_Fri10": "{{i18n: CFE_Alex_winterFri10 |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "winter_Fri6": "{{i18n: CFE_Alex_winterFri6}}",
         "winter_Sat10": "{{i18n: CFE_Alex_winterSat10}}",
         "winter_Sat4": "{{i18n: CFE_Alex_winterSat4}}",
@@ -175,17 +172,16 @@
         "fall_Sat_inlaw_Haley": "{{i18n: CFE_Alex_repeated_2}}",
 
         "Sat_inlaw_Haley": "{{i18n: CFE_Alex_repeated_2}}"
-      },
-      "When": { "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Alex_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Alex": "{{i18n: CFE_Alex_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      },
-      "When": { "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
       "LogName": "CFE_Alex_Marriage",
@@ -204,7 +200,7 @@
 
         "Rainy_Night_0": "{{i18n: CFE_Alex_Married_RainyNight_{{Random: 1,2}}}}",
         "Rainy_Night_1": "{{i18n: CFE_Alex_Married_RainyNight_{{Random: 3,4}}}}",
-        "Rainy_Night_2": "{{i18n: CFE_Alex_Married_RainyNight_{{Random: 5,6}}}}",
+        "Rainy_Night_2": "{{i18n: CFE_Alex_Married_RainyNight_{{Random: 5,6}} |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "Rainy_Night_3": "{{i18n: CFE_Alex_Married_RainyNight_{{Random: 7,8}}}}",
         "Rainy_Night_4": "{{i18n: CFE_Alex_Married_RainyNight_{{Random: 9,10}}}}",
 
@@ -233,9 +229,9 @@
         "OneKid_1": "{{i18n: CFE_Alex_Married_OneKid_{{Random: 3,4}}}}",
         "OneKid_2": "{{i18n: CFE_Alex_Married_OneKid_{{Random: 5,6}}}}",
         "OneKid_3": "{{i18n: CFE_Alex_Married_OneKid_{{Random: 7,8}}}}",
-        "TwoKids_0": "{{i18n: CFE_Alex_Married_TwoKids_{{Random: 1,2}}}}",
-        "TwoKids_1": "{{i18n: CFE_Alex_Married_TwoKids_{{Random: 3,4}}}}",
-        "TwoKids_2": "{{i18n: CFE_Alex_Married_TwoKids_{{Random: 5,6}}}}",
+        "TwoKids_0": "{{i18n: CFE_Alex_Married_TwoKids_{{Random: 1,2}} |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
+        "TwoKids_1": "{{i18n: CFE_Alex_Married_TwoKids_{{Random: 3,4}} |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
+        "TwoKids_2": "{{i18n: CFE_Alex_Married_TwoKids_{{Random: 5,6}} |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "TwoKids_3": "{{i18n: CFE_Alex_Married_TwoKids_{{Random: 7,8}}}}",
 
         "Outdoor_0": "{{i18n: CFE_Alex_Married_Outdoor_{{Random: 1,2}}}}",
@@ -256,7 +252,7 @@
         "summer_15": "{{i18n: CFE_Alex_Married_summer15}}",
         "summer_20": "{{i18n: CFE_Alex_Married_summer20}}",
 
-        "fall_3": "{{i18n: CFE_Alex_Married_fall3}}",
+        "fall_3": "{{i18n: CFE_Alex_Married_fall3 |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "fall_7": "{{i18n: CFE_Alex_Married_fall7}}",
         "fall_11": "{{i18n: CFE_Alex_Married_fall11}}",
         "fall_22": "{{i18n: CFE_Alex_Married_fall22}}",
@@ -273,8 +269,7 @@
         //only shown inside the farmhouse between 11 and 6pm, or at the start of day if no other dialogue is chosen first.
         //Bad or Neutral responses are randomly chosen between if the player has less than 9 hearts, Good or Neutral responses have a 50/50 chance with 10+ hearts, and the likelihood of a Good response goes up to 87% with 11+ hearts
         //currently unused. key looks like "Bad_3"
-      },
-      "When": { "Query: '{{CFE_Alex}}' = 'true' OR ('{{CFE_Alex}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

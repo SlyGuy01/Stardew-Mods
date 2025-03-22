@@ -1,16 +1,25 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Sam_Compat",
+      "LogName": "CFE_Sam_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sam",
       "Entries": {
         "AcceptGift_(O)90": "{{i18n: CFE_Sam_CactusFruit}}"
-        //any keys that overlap go here
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
+      }
+    },
+    {
+      "LogName": "CFE_Sam_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sam",
+      "Entries": {
+        "AcceptGift_(O)562": "{{i18n: CFE_Sam_TigersEye}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -22,11 +31,10 @@
         "AcceptGift_(O)279": "{{i18n: CFE_Sam_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Sam_Pearl}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Sam_RabbitsFoot}}",
-        "AcceptGift_(O)731": "{{i18n: CFE_Sam_MapleBar{{GenderNeutralCompat}}}}",
-        "AcceptGift_(O)562": "{{i18n: CFE_Sam_TigersEye}}"
-      },
-      "When": { "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)731": "{{i18n: CFE_Sam_MapleBar{{GenderNeutralCompat}}}}"
+      }
     },
+
     {
       "LogName": "CFE_Sam_Rainy",
       "Action": "EditData",
@@ -37,7 +45,7 @@
       "When": { "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     },
     {
-      "LogName": "Sam",
+      "LogName": "CFE_Sam_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sam",
       "Entries": {
@@ -88,14 +96,14 @@
         "summer_Sun4": "{{i18n: CFE_Sam_summerSun4}}",
         "summer_Sun2": "{{i18n: CFE_Sam_summerSun2}}",
 
-        "fall_Mon10_1": "{{i18n: CFE_Sam_fallMon10y1}}",
+        "fall_Mon10_1": "{{i18n: CFE_Sam_fallMon10y1 |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "fall_Mon10_2": "{{i18n: CFE_Sam_fallMon10y2}}",
         "fall_Mon6_1": "{{i18n: CFE_Sam_fallMon6y1}}",
         "fall_Mon6_2": "{{i18n: CFE_Sam_fallMon6y{{Random: 1,2}}}}",
         "fall_Mon2": "{{i18n: CFE_Sam_fallMon2}}",
         "fall_Tue8": "{{i18n: CFE_Sam_fallTue8}}",
         "fall_Tue6": "{{i18n: CFE_Sam_fallTue6}}",
-        "fall_Wed10": "{{i18n: CFE_Sam_fallWed10}}",
+        "fall_Wed10": "{{i18n: CFE_Sam_fallWed10 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "fall_Wed8": "{{i18n: CFE_Sam_fallWed8}}",
         "fall_Thu6_1": "{{i18n: CFE_Sam_fallThu6y1}}",
         "fall_Thu6_2": "{{i18n: CFE_Sam_fallThu6y2}}",
@@ -152,20 +160,19 @@
         //Generic Weekday Dialogue
         "summer_Mon": "{{i18n: CFE_Sam_summerMon}}",
         "Thu_2": "{{i18n: CFE_Sam_Thuy2}}"
-      },
-      "When": { "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
-      "LogName": "CFE_Sam_Married_spouseRoom",
+      "LogName": "CFE_Sam_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Sam": "{{i18n: CFE_Sam_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      },
-      "When": { "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
-      "LogName": "Sam Marriage",
+      "LogName": "CFE_Sam_Marriage",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogueSam",
       "Entries": {
@@ -200,7 +207,7 @@
 
         "OneKid_0": "{{i18n: CFE_Sam_Married_OneKid_{{Random: 1,2}}}}",
         "OneKid_1": "{{i18n: CFE_Sam_Married_OneKid_{{Random: 3,4}}}}",
-        "OneKid_2": "{{i18n: CFE_Sam_Married_OneKid_{{Random: 5,6}}}}",
+        "OneKid_2": "{{i18n: CFE_Sam_Married_OneKid_{{Random: 5,6}} |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "OneKid_3": "{{i18n: CFE_Sam_Married_OneKid_{{Random: 7,8}}}}",
 
         "TwoKids_0": "{{i18n: CFE_Sam_Married_TwoKids_{{Random: 1,2}}}}",
@@ -229,14 +236,13 @@
         "fall_13": "{{i18n: CFE_Sam_Married_fall13}}",
         "fall_23": "{{i18n: CFE_Sam_Married_fall23}}",
         "winter_3": "{{i18n: CFE_Sam_Married_winter3}}",
-        "winter_14": "{{i18n: CFE_Sam_Married_winter14}}",
+        "winter_14": "{{i18n: CFE_Sam_Married_winter14 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "winter_20": "{{i18n: CFE_Sam_Married_winter20}}",
         "winter_26": "{{i18n: CFE_Sam_Married_winter26}}"
 
         //season specific dialogue
         //affection specific dialogue
-      },
-      "When": { "Query: '{{CFE_Sam}}' = 'true' OR ('{{CFE_Sam}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

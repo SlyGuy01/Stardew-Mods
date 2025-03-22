@@ -1,16 +1,30 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Vincent_Compat",
+      "LogName": "CFE_Vincent_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Vincent",
       "Entries": {
         //any keys that overlap go here
-        "AcceptGift_(O)221": "{{i18n: CFE_Vincent_PinkCake}}"
+        "AcceptGift_(O)221": "{{i18n: CFE_Vincent_PinkCake}}",
+        "AcceptGift_(O)398": "{{i18n: CFE_Vincent_Grape{{GenderNeutralCompat}} |Title={{Random:{{GNMTTitle}}}}}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Vincent}}' = 'true' OR ('{{CFE_Vincent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
+      }
+    },
+    {
+      "LogName": "CFE_Vincent_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Vincent",
+      "Entries": {
+        //any keys that overlap go here
+        "AcceptGift_(O)612": "{{i18n: CFE_Vincent_CranberryCandy}}",
+        "AcceptGift_(O)903": "{{i18n: CFE_Vincent_GingerAle}}",
+        "AcceptGift_(O)721": "{{i18n: CFE_Vincent_Snail}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -21,22 +35,18 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Vincent_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Vincent_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Vincent_Pearl}}",
-        "AcceptGift_(O)74": "{{i18n: CFE_Vincent_PrismaticShard}}",
-        "AcceptGift_(O)612": "{{i18n: CFE_Vincent_CranberryCandy}}",
-        "AcceptGift_(O)903": "{{i18n: CFE_Vincent_GingerAle}}",
-        "AcceptGift_(O)398": "{{i18n: CFE_Vincent_Grape{{GenderNeutralCompat}} |Title={{Random:{{GNMTTitle}}}}}}",
-        "AcceptGift_(O)721": "{{i18n: CFE_Vincent_Snail}}"
-      },
-      "When": { "Query: '{{CFE_Vincent}}' = 'true' OR ('{{CFE_Vincent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)74": "{{i18n: CFE_Vincent_PrismaticShard}}"
+      }
     },
+
     /*{
       "LogName": "CFE_Vincent_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
-      "Entries": { //left for future use }, 
-      "When": { "Query: '{{CFE_Vincent}}' = 'true' OR ('{{CFE_Vincent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
-    },       
+      "Entries": { //left for future use },
+    },
  */
+
     {
       "LogName": "CFE_Vincent_Dialogue",
       "Action": "EditData",
@@ -127,9 +137,6 @@
         "Fri": "{{i18n: CFE_Vincent_Fri}}",
         "Sat_1": "{{i18n: CFE_Vincent_Saty1}}",
         "Sat_2": "{{i18n: CFE_Vincent_repeated_5}}"
-      },
-      "When": {
-        "Query: '{{CFE_Vincent}}' = 'true' OR ('{{CFE_Vincent}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
       }
     }
   ]

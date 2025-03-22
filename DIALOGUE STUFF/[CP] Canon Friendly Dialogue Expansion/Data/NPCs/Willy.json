@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Willy_Compat",
+      "LogName": "CFE_Willy_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Willy",
       "Entries": {
@@ -9,8 +9,24 @@
         "AcceptGift_(O)143": "{{i18n: CFE_Willy_Catfish{{GenderNeutralCompat}} |ElderInformalNoun={{lowercase:{{Random:{{GNMTElderInformalNoun}}}}}}}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Willy}}' = 'true' OR ('{{CFE_Willy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
+      }
+    },
+    {
+      "LogName": "CFE_Willy_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Willy",
+      "Entries": {
+        "AcceptGift_(O)72": "{{i18n: CFE_Willy_Diamond}}",
+        "AcceptGift_(O)337": "{{i18n: CFE_Willy_IridiumBar}}",
+        "AcceptGift_(O)459": "{{i18n: CFE_Willy_Mead{{GenderNeutralCompat}} |ElderInformalNoun={{lowercase:{{Random:{{GNMTElderInformalNoun}}}}}}}}",
+        "AcceptGift_(O)149": "{{i18n: CFE_Willy_Squid}}",
+        "AcceptGift_(O)276": "{{i18n: CFE_Willy_Pumpkin}}",
+        "AcceptGift_(O)154": "{{i18n: CFE_Willy_SeaCucumber{{GenderNeutralCompat}} |GenericNoun={{lowercase:{{Random:{{GNMTGenericNoun}}}}}}}}",
+        "AcceptGift_(O)698": "{{i18n: CFE_Willy_Sturgeon}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -22,29 +38,24 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Willy_GoldPumpkin}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Willy_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Willy_PrismaticShard{{GenderNeutralCompat}} |ElderInformalNoun={{lowercase:{{Random:{{GNMTElderInformalNoun}}}}}}}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Willy_RabbitsFoot}}",
-        "AcceptGift_(O)72": "{{i18n: CFE_Willy_Diamond}}",
-        "AcceptGift_(O)337": "{{i18n: CFE_Willy_IridiumBar}}",
-        "AcceptGift_(O)459": "{{i18n: CFE_Willy_Mead{{GenderNeutralCompat}} |ElderInformalNoun={{lowercase:{{Random:{{GNMTElderInformalNoun}}}}}}}}",
-        "AcceptGift_(O)149": "{{i18n: CFE_Willy_Squid}}",
-        "AcceptGift_(O)276": "{{i18n: CFE_Willy_Pumpkin}}",
-        "AcceptGift_(O)154": "{{i18n: CFE_Willy_SeaCucumber{{GenderNeutralCompat}} |GenericNoun={{lowercase:{{Random:{{GNMTGenericNoun}}}}}}}}",
-        "AcceptGift_(O)698": "{{i18n: CFE_Willy_Sturgeon}}"
-      },
-      "When": { "Query: '{{CFE_Willy}}' = 'true' OR ('{{CFE_Willy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Willy_RabbitsFoot}}"
+      }
     },
+
     /* {
       "LogName": "CFE_Willy_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": { //left for future use }
-      "When": { "Query: '{{CFE_Willy}}' = 'true' OR ('{{CFE_Willy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
     }, */
+
     {
       "LogName": "CFE_Willy_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Willy",
       "Entries": {
+        //special dialogue
+
         //Date Specific Dialogue
         "spring_1_2": "{{i18n: CFE_Willy_spring1y2}}",
 
@@ -56,8 +67,16 @@
         "winter_15_1": "{{i18n: CFE_Willy_winter15}}",
         "winter_15_2": "{{i18n: CFE_Willy_winter15}}",
         "winter_28_1": "{{i18n: CFE_Willy_winter28}}",
-        "winter_28_2": "{{i18n: CFE_Willy_winter28}}",
+        "winter_28_2": "{{i18n: CFE_Willy_winter28}}"
 
+      }
+    },
+    {
+      "LogName": "CFE_Willy_Dialogue_Compat.Haywrites",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Willy",
+      "When": { "ModdedDialogCompat.Hay": "true" },
+      "Entries": {
         //Heart Specific Dialogue
         "spring_Fri8": "{{i18n: CFE_Willy_springFri8}}",
         "spring_Fri2": "{{i18n: CFE_Willy_springFri2}}",
@@ -117,8 +136,7 @@
         "winter_Tue": "{{i18n: CFE_Willy_winterTue}}",
         "Mon": "{{i18n: CFE_Willy_Mon}}",
         "Fri": "{{i18n: CFE_Willy_Fri}}"
-      },
-      "When": { "Query: '{{CFE_Willy}}' = 'true' OR ('{{CFE_Willy}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

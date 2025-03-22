@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Sebastian_Compat",
+      "LogName": "CFE_Sebastian_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Sebastian",
       "Entries": {
@@ -9,8 +9,7 @@
         "AcceptGift_(O)84": "{{i18n: CFE_Sebastian_FrozenTear}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {
@@ -21,19 +20,19 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Sebastian_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Sebastian_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Sebastian_Pearl}}",
-        "AcceptGift_(O)74": "{{i18n: CFE_Sebastian_PrismaticShard}}"
-      },
-      "When": { "Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)74": "{{i18n: CFE_Sebastian_PrismaticShard |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}"
+      }
     },
+
     {
       "LogName": "CFE_Sebastian_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Sebastian": "{{i18n: CFE_Sebastian_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Sebastian_Billiards",
       "Action": "EditData",
@@ -41,9 +40,9 @@
       "Entries": {
         "Fri.000": "{{i18n: CFE_Sebastian_Billiards_{{random: 1,2}}}}",
         "marriage_Fri.001": "{{i18n: CFE_Sebastian_Married_Billiards_{{random: 1,2}}}}"
-      },
-      "When": { "Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Sebastian_Dialogue",
       "Action": "EditData",
@@ -74,7 +73,7 @@
         "winter_28_2": "{{i18n: CFE_Sebastian_winter28}}",
 
         //Heart Specific Dialogue
-        "summer_Mon10": "{{i18n: CFE_Sebastian_summerMon10}}",
+        "summer_Mon10": "{{i18n: CFE_Sebastian_summerMon10 |LovePortraitsExpression7={{LovePortraitsExpression7Token}}}}",
         "summer_Mon4": "{{i18n: CFE_Sebastian_summerMon4}}",
         "summer_Mon2": "{{i18n: CFE_Sebastian_summerMon2}}",
         "summer_Tue6": "{{i18n: CFE_Sebastian_summerTue6}}",
@@ -85,7 +84,7 @@
         "summer_Thu2": "{{i18n: CFE_Sebastian_summerThu2}}",
         "summer_Fri4": "{{i18n: CFE_Sebastian_summerFri4}}",
         "summer_Fri2": "{{i18n: CFE_Sebastian_summerFri2}}",
-        "summer_Sat10": "{{i18n: CFE_Sebastian_summerSat10}}",
+        "summer_Sat10": "{{i18n: CFE_Sebastian_summerSat10 |LovePortraitsExpression7={{LovePortraitsExpression7Token}}}}",
         "summer_Sat6": "{{i18n: CFE_Sebastian_summerSat6}}",
         "summer_Sat4": "{{i18n: CFE_Sebastian_summerSat4}}",
         "summer_Sat2": "{{i18n: CFE_Sebastian_summerSat2}}",
@@ -110,7 +109,7 @@
         "fall_Sun6": "{{i18n: CFE_Sebastian_fallSun6}}",
         "fall_Sun4": "{{i18n: CFE_Sebastian_fallSun4}}",
 
-        "winter_Mon10": "{{i18n: CFE_Sebastian_winterMon10}}",
+        "winter_Mon10": "{{i18n: CFE_Sebastian_winterMon10 |LovePortraitsExpression7={{LovePortraitsExpression7Token}}}}",
         "winter_Mon6": "{{i18n: CFE_Sebastian_winterMon6}}",
         "winter_Tue8": "{{i18n: CFE_Sebastian_winterTue8}}",
         "winter_Tue2": "{{i18n: CFE_Sebastian_winterTue2}}",
@@ -126,7 +125,7 @@
         "winter_Sun6_inlaw_Maru": "{{i18n: CFE_Sebastian_winterSun6inlawMaru}}",
         "winter_Sun4": "{{i18n: CFE_Sebastian_winterSun4}}",
 
-        "Mon10": "{{i18n: CFE_Sebastian_Mon10}}",
+        "Mon10": "{{i18n: CFE_Sebastian_Mon10 |LovePortraitsExpression7={{LovePortraitsExpression7Token}}}}",
         "Mon8": "{{i18n: CFE_Sebastian_Mon8}}",
         "Tue10": "{{i18n: CFE_Sebastian_Tue10}}",
         "Tue4": "{{i18n: CFE_Sebastian_Tue4}}",
@@ -143,20 +142,19 @@
 
         //Generic Weekday Dialogue
         "summer_Thu": "{{i18n: CFE_Sebastian_summerThu}}"
-      },
-      "When": { "Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
-      "LogName": "CFE_Sebastian_Married_spouseRoom",
+      "LogName": "CFE_Sebastian_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Sebastian": "{{i18n: CFE_Sebastian_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      },
-      "When": { "Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
-      "LogName": "CFE_Sebastian_Married",
+      "LogName": "CFE_Sebastian_Marriage",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogueSebastian",
       "Entries": {
@@ -183,7 +181,7 @@
         "Indoor_Night_1": "{{i18n: CFE_Sebastian_Married_IndoorNight_{{Random: 3,4}}}}",
         "Indoor_Night_2": "{{i18n: CFE_Sebastian_Married_IndoorNight_{{Random: 5,6}}}}",
         "Indoor_Night_3": "{{i18n: CFE_Sebastian_Married_IndoorNight_{{Random: 7,8}}}}",
-        "Indoor_Night_4": "{{i18n: CFE_Sebastian_Married_IndoorNight_{{Random: 9,10}}}}",
+        "Indoor_Night_4": "{{i18n: CFE_Sebastian_Married_IndoorNight_{{Random: 9,10}} |LovePortraitsExpression7={{LovePortraitsExpression7Token}}}}",
 
         //Location Specific Dialogue
         "funLeave_Sebastian": "{{i18n: CFE_Sebastian_Married_funLeave_{{Random: 1,2}}}}",
@@ -194,9 +192,9 @@
         "OneKid_2": "{{i18n: CFE_Sebastian_Married_OneKid_{{Random: 5,6}}}}",
         "OneKid_3": "{{i18n: CFE_Sebastian_Married_OneKid_{{Random: 7,8}}}}",
         "TwoKids_0": "{{i18n: CFE_Sebastian_Married_TwoKids_{{Random: 1,2}}}}",
-        "TwoKids_1": "{{i18n: CFE_Sebastian_Married_TwoKids_{{Random: 3,4}}}}",
+        "TwoKids_1": "{{i18n: CFE_Sebastian_Married_TwoKids_{{Random: 3,4}} |LovePortraitsExpression7={{LovePortraitsExpression7Token}}}}",
         "TwoKids_2": "{{i18n: CFE_Sebastian_Married_TwoKids_{{Random: 5,6}}}}",
-        "TwoKids_3": "{{i18n: CFE_Sebastian_Married_TwoKids_{{Random: 7,8}}}}",
+        "TwoKids_3": "{{i18n: CFE_Sebastian_Married_TwoKids_{{Random: 7,8}} |LovePortraitsExpression7={{LovePortraitsExpression7Token}}}}",
 
         "Outdoor_0": "{{i18n: CFE_Sebastian_Married_Outdoor_1}}",
         "Outdoor_1": "{{i18n: CFE_Sebastian_Married_Outdoor_{{Random: 2,3}}}}",
@@ -229,8 +227,7 @@
 
         //Seasonal Dialogue
         //Affection Specific Dialogue
-      },
-      "When": { "Query: '{{CFE_Sebastian}}' = 'true' OR ('{{CFE_Sebastian}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

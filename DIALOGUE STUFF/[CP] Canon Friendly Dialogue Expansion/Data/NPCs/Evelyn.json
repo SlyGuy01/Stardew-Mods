@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Evelyn_Compat",
+      "LogName": "CFE_Evelyn_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Evelyn",
       "Entries": {
@@ -9,8 +9,22 @@
         "AcceptGift_(O)595": "{{i18n: CFE_Evelyn_FairyRose{{GenderNeutralCompat}}}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Evelyn}}' = 'true' OR ('{{CFE_Evelyn}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
+      }
+    },
+    {
+      "LogName": "CFE_Evelyn_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Evelyn",
+      "Entries": {
+        "AcceptGift_(O)284": "{{i18n: CFE_Evelyn_Beet}}",
+        "AcceptGift_(O)220": "{{i18n: CFE_Evelyn_ChocolateCake}}",
+        "AcceptGift_(O)72": "{{i18n: CFE_Evelyn_Diamond}}",
+        "AcceptGift_(O)239": "{{i18n: CFE_Evelyn_Stuffing}}",
+        "AcceptGift_(O)591": "{{i18n: CFE_Evelyn_Tulip}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -21,24 +35,19 @@
         "AcceptGift_(O)279": "{{i18n: CFE_Evelyn_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Evelyn_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Evelyn_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Evelyn_RabbitsFoot}}",
-        "AcceptGift_(O)284": "{{i18n: CFE_Evelyn_Beet}}",
-        "AcceptGift_(O)220": "{{i18n: CFE_Evelyn_ChocolateCake}}",
-        "AcceptGift_(O)72": "{{i18n: CFE_Evelyn_Diamond}}",
-        "AcceptGift_(O)239": "{{i18n: CFE_Evelyn_Stuffing}}",
-        "AcceptGift_(O)591": "{{i18n: CFE_Evelyn_Tulip}}"
-      },
-      "When": { "Query: '{{CFE_Evelyn}}' = 'true' OR ('{{CFE_Evelyn}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Evelyn_RabbitsFoot}}"
+      }
     },
+
     {
       "LogName": "CFE_Evelyn_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Evelyn": "{{i18n: CFE_Evelyn_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Evelyn}}' = 'true' OR ('{{CFE_Evelyn}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Evelyn_Dialogue",
       "Action": "EditData",
@@ -52,8 +61,10 @@
         "spring_21_2": "{{i18n: CFE_Evelyn_spring21}}",
         "spring_23_1": "{{i18n: CFE_Evelyn_spring23}}",
         "spring_23_2": "{{i18n: CFE_Evelyn_spring23}}",
-        "summer_10_1": "{{i18n: CFE_Evelyn_summer10}}",
-        "summer_10_2": "{{i18n: CFE_Evelyn_summer10}}",
+
+        "summer_10_1": "{{i18n: CFE_Evelyn_summer10 | LongLuauName={{LongLuauName}}}}",
+        "summer_10_2": "{{i18n: CFE_Evelyn_summer10 | LongLuauName={{LongLuauName}}}}",
+
         "winter_1_1": "{{i18n: CFE_Evelyn_winter1}}",
         "winter_1_2": "{{i18n: CFE_Evelyn_winter1}}",
         "winter_7_1": "{{i18n: CFE_Evelyn_winter7}}",
@@ -110,8 +121,7 @@
         "Sun6": "{{i18n: CFE_Evelyn_Sun6}}"
 
         //Generic Weekday Dialogue
-      },
-      "When": { "Query: '{{CFE_Evelyn}}' = 'true' OR ('{{CFE_Evelyn}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

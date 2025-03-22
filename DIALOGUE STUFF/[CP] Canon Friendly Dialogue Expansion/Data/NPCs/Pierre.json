@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Pierre_Compat",
+      "LogName": "CFE_Pierre_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Pierre",
       "Entries": {
@@ -9,8 +9,7 @@
         "AcceptGift_(O)202": "{{i18n: CFE_Pierre_FriedCalamari}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Pierre}}' = 'true' OR ('{{CFE_Pierre}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {
@@ -23,18 +22,18 @@
         "AcceptGift_(O)797": "{{i18n: CFE_Pierre_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Pierre_PrismaticShard}}",
         "AcceptGift_(O)446": "{{i18n: CFE_Pierre_RabbitsFoot}}"
-      },
-      "When": { "Query: '{{CFE_Pierre}}' = 'true' OR ('{{CFE_Pierre}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Pierre_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Pierre": "{{i18n: CFE_Pierre_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Pierre}}' = 'true' OR ('{{CFE_Pierre}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Pierre_Dialogue",
       "Action": "EditData",
@@ -119,8 +118,7 @@
         "winter_Mon_inlaw_Abigail": "{{i18n: CFE_Pierre_repeated_7{{GenderNeutralCompat}} |AdultFamilialNoun={{lowercase:{{Random:{{GNMTAdultFamilialNoun}}}}}}}}",
         "winter_Wed": "{{i18n: CFE_Pierre_winterWed}}",
         "winter_Sat": "{{i18n: CFE_Pierre_winterSat}}"
-      },
-      "When": { "Query: '{{CFE_Pierre}}' = 'true' OR ('{{CFE_Pierre}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

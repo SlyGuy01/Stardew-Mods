@@ -1,15 +1,14 @@
 {
   "Changes": [
     /*{
-      "LogName": "CFE_Jodi_Compat",
+      "LogName": "CFE_Jodi_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Jodi",
       "Entries": {
         //any keys that overlap go here
       },
       "When": {
-     "ModdedDialogCompat": "true" 
-     "Query: '{{CFE_Jodi}}' = 'true' OR ('{{CFE_Jodi}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+     "ModdedDialogCompat.GiftTaste": "true"
       }
     },*/
     {
@@ -30,18 +29,18 @@
         "AcceptGift_(O)211": "{{i18n: CFE_Jodi_Pancakes}}",
         "AcceptGift_(O)222": "{{i18n: CFE_Jodi_RhubarbPie}}",
         "AcceptGift_(O)200": "{{i18n: CFE_Jodi_VegetableMedley}}"
-      },
-      "When": { "Query: '{{CFE_Jodi}}' = 'true' OR ('{{CFE_Jodi}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Jodi_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Jodi": "{{i18n: CFE_Jodi_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Jodi}}' = 'true' OR ('{{CFE_Jodi}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Jodi_Dialogue",
       "Action": "EditData",
@@ -51,6 +50,7 @@
 
         //Date Specific Dialogue
         "spring_1_2": "{{i18n: CFE_Jodi_spring1y2}}",
+
         "winter_24_1": "{{i18n: CFE_Jodi_winter24}}",
         "winter_24_2": "{{i18n: CFE_Jodi_winter24}}",
         "winter_28_1": "{{i18n: CFE_Jodi_winter28}}",
@@ -141,8 +141,7 @@
         "Sun_116": "{{i18n: CFE_Jodi_Sun_116}}",
         "Sun_117": "{{i18n: CFE_Jodi_Sun_117}}",
         "Sun_2": "{{i18n: CFE_Jodi_Suny2}}"
-      },
-      "When": { "Query: '{{CFE_Jodi}}' = 'true' OR ('{{CFE_Jodi}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

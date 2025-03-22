@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Gus_Compat",
+      "LogName": "CFE_Gus_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Gus",
       "Entries": {
@@ -11,8 +11,19 @@
         "AcceptGift_(O)213": "{{i18n: CFE_Gus_FishTaco}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Gus}}' = 'true' OR ('{{CFE_Gus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
+      }
+    },
+    {
+      "LogName": "CFE_Gus_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Gus",
+      "Entries": {
+        "AcceptGift_(O)635": "{{i18n: CFE_Gus_Orange}}",
+        "AcceptGift_(O)907": "{{i18n: CFE_Gus_TropicalCurry}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -23,21 +34,19 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Gus_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Gus_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Gus_Pearl}}",
-        "AcceptGift_(O)74": "{{i18n: CFE_Gus_PrismaticShard}}",
-        "AcceptGift_(O)635": "{{i18n: CFE_Gus_Orange}}",
-        "AcceptGift_(O)907": "{{i18n: CFE_Gus_TropicalCurry}}"
-      },
-      "When": { "Query: '{{CFE_Gus}}' = 'true' OR ('{{CFE_Gus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)74": "{{i18n: CFE_Gus_PrismaticShard}}"
+      }
     },
+
     {
       "LogName": "CFE_Gus_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Gus": "{{i18n: CFE_Gus_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Gus}}' = 'true' OR ('{{CFE_Gus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Gus_Dialogue",
       "Action": "EditData",
@@ -56,8 +65,8 @@
         "spring_12_1": "{{i18n: CFE_Gus_spring12}}",
         "spring_12_2": "{{i18n: CFE_Gus_spring12}}",
 
-        "summer_10_1": "{{i18n: CFE_Gus_summer10}}",
-        "summer_10_2": "{{i18n: CFE_Gus_summer10}}",
+        "summer_10_1": "{{i18n: CFE_Gus_summer10 | ShortLuauName={{ShortLuauName}}}}",
+        "summer_10_2": "{{i18n: CFE_Gus_summer10 | ShortLuauName={{ShortLuauName}}}}",
 
         "fall_15_1": "{{i18n: CFE_Gus_fall15}}",
         "fall_15_2": "{{i18n: CFE_Gus_fall15}}",
@@ -67,8 +76,16 @@
         "winter_24_1": "{{i18n: CFE_Gus_winter24}}",
         "winter_24_2": "{{i18n: CFE_Gus_winter24}}",
         "winter_28_1": "{{i18n: CFE_Gus_winter28}}",
-        "winter_28_2": "{{i18n: CFE_Gus_winter28}}",
+        "winter_28_2": "{{i18n: CFE_Gus_winter28}}"
+      }
+    },
 
+    {
+      "LogName": "CFE_Gus_Dialogue_Compat.Haywrites",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Gus",
+      "When": { "ModdedDialogCompat.Hay": "true" },
+      "Entries": {
         //Heart Specific Dialogue
         "summer_Mon10": "{{i18n: CFE_Gus_summerMon10}}",
         "summer_Tue10": "{{i18n: CFE_Gus_summerTue10}}",
@@ -133,8 +150,7 @@
         "Wed_014": "{{i18n: CFE_Gus_Wed_014}}",
         "Wed_015": "{{i18n: CFE_Gus_Wed_015}}",
         "Sat": "{{i18n: CFE_Gus_Sat}}"
-      },
-      "When": { "Query: '{{CFE_Gus}}' = 'true' OR ('{{CFE_Gus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Caroline_Compat",
+      "LogName": "CFE_Caroline_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Caroline",
       "Entries": {
@@ -9,8 +9,20 @@
         "AcceptGift_(O)213": "{{i18n: CFE_Caroline_FishTaco}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Caroline}}' = 'true' OR ('{{CFE_Caroline}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
+      }
+    },
+    {
+      "LogName": "CFE_Caroline_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Caroline",
+      "Entries": {
+        "AcceptGift_(O)614": "{{i18n: CFE_Caroline_GreenTea}}",
+        "AcceptGift_(O)593": "{{i18n: CFE_Caroline_SummerSpangle}}",
+        "AcceptGift_(O)907": "{{i18n: CFE_Caroline_TropicalCurry}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -21,22 +33,19 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Caroline_GoldPumpkin}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Caroline_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Caroline_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Caroline_RabbitsFoot}}",
-        "AcceptGift_(O)614": "{{i18n: CFE_Caroline_GreenTea}}",
-        "AcceptGift_(O)593": "{{i18n: CFE_Caroline_SummerSpangle}}",
-        "AcceptGift_(O)907": "{{i18n: CFE_Caroline_TropicalCurry}}"
-      },
-      "When": { "Query: '{{CFE_Caroline}}' = 'true' OR ('{{CFE_Caroline}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Caroline_RabbitsFoot}}"
+      }
     },
+
     {
       "LogName": "CFE_Caroline_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Caroline": "{{i18n: CFE_Caroline_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Caroline}}' = 'true' OR ('{{CFE_Caroline}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Caroline_Dialogue",
       "Action": "EditData",
@@ -116,8 +125,7 @@
 
         "Tue": "{{i18n: CFE_Caroline_Tue}}",
         "Sat": "{{i18n: CFE_Caroline_Sat}}"
-      },
-      "When": { "Query: '{{CFE_Caroline}}' = 'true' OR ('{{CFE_Caroline}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

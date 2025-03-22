@@ -1,26 +1,29 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Lewis_Compat",
+      "LogName": "CFE_Lewis_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Lewis",
       "Entries": {
         "AcceptGift_(O)200": "{{i18n: CFE_Lewis_VegetableMedley}}"
-        //every time UGDE updates, or someone requests special compat with a different mod, this section may be updated to include the conflicting key. Mods other than UGDE will need to be added to the list of mods to recognize, found in the dynamic tokens section of content.json
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Lewis}}' = 'true' OR ('{{CFE_Lewis}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {
-      "LogName": "CFE_Lewis_Rainy",
+      "LogName": "CFE_Lewis_Compat.MSGR",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/rainy",
+      "Target": "Characters/Dialogue/Lewis",
       "Entries": {
-        "Lewis": "{{i18n: CFE_Lewis_rainy_{{random: 1,2,3}}}}"
+        "AcceptGift_(O)235": "{{i18n: CFE_Lewis_AutumnsBounty}}",
+        "AcceptGift_(O)614": "{{i18n: CFE_Lewis_GreenTea{{GenderNeutralCompat}}}}",
+        "AcceptGift_(O)208": "{{i18n: CFE_Lewis_GlazedYams}}",
+        "AcceptGift_(O)260": "{{i18n: CFE_Lewis_HotPepper}}"
       },
-      "When": { "Query: '{{CFE_Lewis}}' = 'true' OR ('{{CFE_Lewis}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
+      }
     },
     {
       "LogName": "CFE_Lewis_GiftTastes",
@@ -30,14 +33,19 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Lewis_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Lewis_RockCandy}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Lewis_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Lewis_RabbitsFoot}}",
-        "AcceptGift_(O)235": "{{i18n: CFE_Lewis_AutumnsBounty}}",
-        "AcceptGift_(O)614": "{{i18n: CFE_Lewis_GreenTea{{GenderNeutralCompat}}}}",
-        "AcceptGift_(O)208": "{{i18n: CFE_Lewis_GlazedYams}}",
-        "AcceptGift_(O)260": "{{i18n: CFE_Lewis_HotPepper}}"
-      },
-      "When": { "Query: '{{CFE_Lewis}}' = 'true' OR ('{{CFE_Lewis}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Lewis_RabbitsFoot}}"
+      }
     },
+
+    {
+      "LogName": "CFE_Lewis_Rainy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "Lewis": "{{i18n: CFE_Lewis_rainy_{{random: 1,2,3}}}}"
+      }
+    },
+
     {
       "LogName": "CFE_Lewis_Dialogue",
       "Action": "EditData",
@@ -54,10 +62,10 @@
         "spring_23_1": "{{i18n: CFE_Lewis_spring23}}",
         "spring_23_2": "{{i18n: CFE_Lewis_spring23}}",
 
-        "summer_10_1": "{{i18n: CFE_Lewis_summer10}}",
-        "summer_10_2": "{{i18n: CFE_Lewis_summer10}}",
-        "summer_28_1": "{{i18n: CFE_Lewis_summer28}}",
-        "summer_28_2": "{{i18n: CFE_Lewis_summer28}}",
+        "summer_10_1": "{{i18n: CFE_Lewis_summer10 | LongLuauName={{LongLuauName}}}}",
+        "summer_10_2": "{{i18n: CFE_Lewis_summer10 | LongLuauName={{LongLuauName}}}}",
+        "summer_28_1": "{{i18n: CFE_Lewis_summer28 | LongLuauName={{LongLuauName}}}}",
+        "summer_28_2": "{{i18n: CFE_Lewis_summer28 | LongLuauName={{LongLuauName}}}}",
 
         "fall_15_1": "{{i18n: CFE_Lewis_fall15}}",
         "fall_15_2": "{{i18n: CFE_Lewis_fall15}}",
@@ -129,8 +137,7 @@
 
         "Thu": "{{i18n: CFE_Lewis_Thu}}",
         "Sun": "{{i18n: CFE_Lewis_Sun}}"
-      },
-      "When": { "Query: '{{CFE_Lewis}}' = 'true' OR ('{{CFE_Lewis}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Elliott_Compat",
+      "LogName": "CFE_Elliott_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Elliott",
       "Entries": {
@@ -9,8 +9,20 @@
         "AcceptGift_(O)715": "{{i18n: CFE_Elliott_Lobster}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
+      }
+    },
+    {
+      "LogName": "CFE_Elliott_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Elliott",
+      "Entries": {
+        "AcceptGift_(O)732": "{{i18n: CFE_Elliott_CrabCakes}}",
+        "AcceptGift_(O)218": "{{i18n: CFE_Elliott_TomKhaSoup}}",
+        "AcceptGift_(O)637": "{{i18n: CFE_Elliott_Pomegranate}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -21,22 +33,19 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Elliott_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Elliott_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Elliott_Pearl}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Elliott_RabbitsFoot}}",
-        "AcceptGift_(O)732": "{{i18n: CFE_Elliott_CrabCakes}}",
-        "AcceptGift_(O)637": "{{i18n: CFE_Elliott_Pomegranate}}",
-        "AcceptGift_(O)218": "{{i18n: CFE_Elliott_TomKhaSoup}}"
-      },
-      "When": { "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Elliott_RabbitsFoot}}"
+      }
     },
+
     {
       "LogName": "CFE_Elliott_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Elliott": "{{i18n: CFE_Elliott_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Elliott_Dialogue",
       "Action": "EditData",
@@ -61,7 +70,7 @@
         "summer_Wed10": "{{i18n: CFE_Elliott_summerWed10}}",
         "summer_Wed6": "{{i18n: CFE_Elliott_summerWed6}}",
         "summer_Wed4": "{{i18n: CFE_Elliott_summerWed4}}",
-        "summer_Thu10": "{{i18n: CFE_Elliott_summerThu10}}",
+        "summer_Thu10": "{{i18n: CFE_Elliott_summerThu10 |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "summer_Thu6": "{{i18n: CFE_Elliott_summerThu6}}",
         "summer_Thu4": "{{i18n: CFE_Elliott_repeated_4}}",
         "summer_Thu2": "{{i18n: CFE_Elliott_summerThu2}}",
@@ -71,7 +80,7 @@
         "summer_Sat8": "{{i18n: CFE_Elliott_summerSat8}}",
         "summer_Sat6": "{{i18n: CFE_Elliott_summerSat6}}",
         "summer_Sat4": "{{i18n: CFE_Elliott_summerSat4}}",
-        "summer_Sun10": "{{i18n: CFE_Elliott_repeated_5}}",
+        "summer_Sun10": "{{i18n: CFE_Elliott_repeated_5 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "summer_Sun6": "{{i18n: CFE_Elliott_summerSun6}}",
         "summer_Sun4": "{{i18n: CFE_Elliott_summerSun4}}",
 
@@ -83,7 +92,7 @@
         "fall_Wed2": "{{i18n: CFE_Elliott_repeated_6}}",
         "fall_Thu10": "{{i18n: CFE_Elliott_fallThu10}}",
         "fall_Thu6": "{{i18n: CFE_Elliott_fallThu6}}",
-        "fall_Thu4": "{{i18n: CFE_Elliott_fallThu4}}",
+        "fall_Thu4": "{{i18n: CFE_Elliott_fallThu4 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "fall_Thu2": "{{i18n: CFE_Elliott_fallThu2}}",
         "fall_Fri8": "{{i18n: CFE_Elliott_fallFri8}}",
         "fall_Fri6": "{{i18n: CFE_Elliott_fallFri6}}",
@@ -111,7 +120,7 @@
         "winter_Thu10": "{{i18n: CFE_Elliott_winterThu10}}",
         "winter_Thu8": "{{i18n: CFE_Elliott_winterThu8}}",
         "winter_Thu6": "{{i18n: CFE_Elliott_winterThu6}}",
-        "winter_Fri10": "{{i18n: CFE_Elliott_repeated_5}}",
+        "winter_Fri10": "{{i18n: CFE_Elliott_repeated_5 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "winter_Fri8": "{{i18n: CFE_Elliott_repeated_4}}",
         "winter_Fri6": "{{i18n: CFE_Elliott_winterFri6}}",
         "winter_Fri4": "{{i18n: CFE_Elliott_repeated_4}}",
@@ -119,16 +128,16 @@
         "winter_Sun8": "{{i18n: CFE_Elliott_winterSun8}}",
         "winter_Sun6": "{{i18n: CFE_Elliott_winterSun6}}",
 
-        "Mon10": "{{i18n: CFE_Elliott_Mon10}}",
+        "Mon10": "{{i18n: CFE_Elliott_Mon10 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "Mon6": "{{i18n: CFE_Elliott_repeated_1}}",
         "Mon4": "{{i18n: CFE_Elliott_Mon4}}",
         "Mon2": "{{i18n: CFE_Elliott_Mon2}}",
-        "Tue10": "{{i18n: CFE_Elliott_Tue10}}",
+        "Tue10": "{{i18n: CFE_Elliott_Tue10 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "Tue8": "{{i18n: CFE_Elliott_repeated_2}}",
         "Tue2": "{{i18n: CFE_Elliott_Tue2}}",
         "Wed4": "{{i18n: CFE_Elliott_Wed4}}",
         "Wed2": "{{i18n: CFE_Elliott_Wed2}}",
-        "Thu10": "{{i18n: CFE_Elliott_Thu10}}",
+        "Thu10": "{{i18n: CFE_Elliott_Thu10 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "Fri10": "{{i18n: CFE_Elliott_Fri10}}",
         "Fri8": "{{i18n: CFE_Elliott_Fri8}}",
         "Fri2": "{{i18n: CFE_Elliott_Fri2}}",
@@ -142,17 +151,16 @@
 
         //Generic Weekday Dialogue
         "winter_Wed": "{{i18n: CFE_Elliott_repeated_2}}"
-      },
-      "When": { "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Elliott_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Elliott": "{{i18n: CFE_Elliott_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      },
-      "When": { "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
       "LogName": "CFE_Elliott_Marriage",
@@ -239,8 +247,7 @@
         //currently unused. key looks like "fall_Elliott"
 
         //Affection Specific Dialogue
-      },
-      "When": { "Query: '{{CFE_Elliott}}' = 'true' OR ('{{CFE_Elliott}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

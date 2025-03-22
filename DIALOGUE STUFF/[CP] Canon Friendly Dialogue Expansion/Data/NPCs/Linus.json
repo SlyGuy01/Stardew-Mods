@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Linus_Compat",
+      "LogName": "CFE_Linus_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Linus",
       "Entries": {
@@ -9,19 +9,21 @@
         "AcceptGift_(O)88": "{{i18n: CFE_Linus_Coconut}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Linus}}' = 'true' OR ('{{CFE_Linus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
       }
-      //every time UGDE updates, or someone requests special compat with this mod, this section may be updated to include the conflicting key. Mods other than UGDE will need to be added to the list of mods to recognize, found in the dynamic tokens section of content.json
     },
     {
-      "LogName": "CFE_Linus_Rainy",
+      "LogName": "CFE_Linus_Compat.MSGR",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/rainy",
+      "Target": "Characters/Dialogue/Linus",
       "Entries": {
-        "Linus": "{{i18n: CFE_Linus_rainy_{{random: 1,2,3}}}}"
+        "AcceptGift_(O)234": "{{i18n: CFE_Linus_BlueberryTart}}",
+        "AcceptGift_(O)242": "{{i18n: CFE_Linus_DishotheSea}}",
+        "AcceptGift_(O)280": "{{i18n: CFE_Linus_Yam}}"
       },
-      "When": { "Query: '{{CFE_Linus}}' = 'true' OR ('{{CFE_Linus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
+      }
     },
     {
       "LogName": "CFE_Linus_GiftTastes",
@@ -31,12 +33,17 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Linus_GoldPumpkin}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Linus_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Linus_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Linus_RabbitsFoot}}",
-        "AcceptGift_(O)234": "{{i18n: CFE_Linus_BlueberryTart}}",
-        "AcceptGift_(O)242": "{{i18n: CFE_Linus_DishotheSea}}",
-        "AcceptGift_(O)280": "{{i18n: CFE_Linus_Yam}}"
-      },
-      "When": { "Query: '{{CFE_Linus}}' = 'true' OR ('{{CFE_Linus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Linus_RabbitsFoot}}"
+      }
+    },
+
+    {
+      "LogName": "CFE_Linus_Rainy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "Linus": "{{i18n: CFE_Linus_rainy_{{random: 1,2,3}}}}"
+      }
     },
     {
       "LogName": "CFE_Linus_Dialogue",
@@ -45,13 +52,23 @@
       "Entries": {
         //Date Specific Dialogue
         "spring_1_2": "{{i18n: CFE_Linus_spring1y2}}",
-        "summer_10_1": "{{i18n: CFE_Linus_summer10}}",
-        "summer_10_2": "{{i18n: CFE_Linus_summer10}}",
+
+        "summer_10_1": "{{i18n: CFE_Linus_summer10 | ShortLuauName={{ShortLuauName}}}}",
+        "summer_10_2": "{{i18n: CFE_Linus_summer10 | ShortLuauName={{ShortLuauName}}}}",
+
         "winter_15_1": "{{i18n: CFE_Linus_winter15}}",
         "winter_15_2": "{{i18n: CFE_Linus_winter15}}",
         "winter_28_1": "{{i18n: CFE_Linus_winter15}}",
-        "winter_28_2": "{{i18n: CFE_Linus_winter28}}",
+        "winter_28_2": "{{i18n: CFE_Linus_winter28}}"
+      }
+    },
 
+    {
+      "LogName": "CFE_Linus_Dialogue_Compat.Haywrites",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Linus",
+      "When": { "ModdedDialogCompat.Hay": "true" },
+      "Entries": {
         //Heart Specific Dialogue
         "summer_Mon10": "{{i18n: CFE_Linus_summerMon10}}",
         "summer_Tue8": "{{i18n: CFE_Linus_summerTue8}}",
@@ -96,8 +113,7 @@
         "Sun8": "{{i18n: CFE_Linus_Sun8}}",
         "Sun2": "{{i18n: CFE_Linus_Sun2}}"
         //Generic Weekday Dialogue
-      },
-      "When": { "Query: '{{CFE_Linus}}' = 'true' OR ('{{CFE_Linus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

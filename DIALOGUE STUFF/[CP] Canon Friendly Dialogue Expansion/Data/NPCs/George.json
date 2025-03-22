@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_George_Compat",
+      "LogName": "CFE_George_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/George",
       "Entries": {
@@ -10,8 +10,7 @@
         "AcceptGift_(O)205": "{{i18n: CFE_George_FriedMushroom}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_George}}' = 'true' OR ('{{CFE_George}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {
@@ -23,25 +22,25 @@
         "AcceptGift_(O)279": "{{i18n: CFE_George_RockCandy}}",
         "AcceptGift_(O)797": "{{i18n: CFE_George_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_George_PrismaticShard}}"
-      },
-      "When": { "Query: '{{CFE_George}}' = 'true' OR ('{{CFE_George}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_George_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "George": "{{i18n: CFE_George_rainy_{{random: 1,2,3}}}}"
-      },
-      "Query: '{{CFE_George}}' = 'true' OR ('{{CFE_George}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     },
+
     {
       "LogName": "CFE_George_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/George",
       "Entries": {
         //special dialogue
-        //
+
         //Date Specific Dialogue
         "spring_1_2": "{{i18n: CFE_George_spring1y2}}",
 
@@ -105,8 +104,7 @@
         //Generic Weekday Dialogue
         "Fri": "{{i18n: CFE_George_Fri}}",
         "Sun": "{{i18n: CFE_George_Sun}}"
-      },
-      "Query: '{{CFE_George}}' = 'true' OR ('{{CFE_George}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+      }
     }
   ]
 }

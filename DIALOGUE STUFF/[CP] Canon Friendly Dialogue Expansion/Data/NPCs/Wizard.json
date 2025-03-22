@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Wizard_Compat",
+      "LogName": "CFE_Wizard_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Wizard",
       "Entries": {
@@ -10,8 +10,20 @@
         "AcceptGift_(O)155": "{{i18n: CFE_Wizard_SuperCucumber}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Wizard}}' = 'true' OR ('{{CFE_Wizard}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
+      }
+    },
+    {
+      "LogName": "CFE_Wizard_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Wizard",
+      "Entries": {
+        "AcceptGift_(O)446": "{{i18n: CFE_Wizard_RabbitsFoot}}",
+        "AcceptGift_(O)768": "{{i18n: CFE_Wizard_SolarEssence}}",
+        "AcceptGift_(O)769": "{{i18n: CFE_Wizard_VoidEssence}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -22,27 +34,26 @@
         // we can also add reveal gift taste code to these now that they use i18n.
         "AcceptGift_(O)373": "{{i18n: CFE_Wizard_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Wizard_RockCandy}}",
-        "AcceptGift_(O)74": "{{i18n: CFE_Wizard_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Wizard_RabbitsFoot}}",
-        "AcceptGift_(O)768": "{{i18n: CFE_Wizard_SolarEssence}}",
-        "AcceptGift_(O)769": "{{i18n: CFE_Wizard_VoidEssence}}"
-      },
-      "When": { "Query: '{{CFE_Wizard}}' = 'true' OR ('{{CFE_Wizard}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)74": "{{i18n: CFE_Wizard_PrismaticShard}}"
+      }
     },
+
     {
       "LogName": "CFE_Wizard_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Wizard": "{{i18n: CFE_Wizard_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Wizard}}' = 'true' OR ('{{CFE_Wizard}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Wizard_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Wizard",
       "Entries": {
+        //special dialogue
+
         //Date Specific Dialogue
         "spring_1_2": "{{i18n: CFE_Wizard_spring1y2}}",
 
@@ -50,8 +61,15 @@
         "fall_26_2": "{{i18n: CFE_Wizard_fall26}}",
 
         "winter_28_1": "{{i18n: CFE_Wizard_winter28}}",
-        "winter_28_2": "{{i18n: CFE_Wizard_winter28}}",
-
+        "winter_28_2": "{{i18n: CFE_Wizard_winter28}}"
+      }
+    },
+    {
+      "LogName": "CFE_Wizard_Dialogue_Compat.Haywrites",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Wizard",
+      "When": { "ModdedDialogCompat.Hay": "true" },
+      "Entries": {
         //Heart Specific Dialogue
         "summer_Mon10": "{{i18n: CFE_Wizard_repeated_1}}",
         "summer_Mon4": "{{i18n: CFE_Wizard_summerMon4}}",
@@ -94,8 +112,7 @@
         "summer_Fri": "{{i18n: CFE_Wizard_repeated_5}}",
         "fall_Wed": "{{i18n: CFE_Wizard_repeated_5}}",
         "Fri": "{{i18n: CFE_Wizard_Fri}}"
-      },
-      "When": { "Query: '{{CFE_Wizard}}' = 'true' OR ('{{CFE_Wizard}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

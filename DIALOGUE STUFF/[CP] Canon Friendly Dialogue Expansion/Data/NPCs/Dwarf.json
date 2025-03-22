@@ -1,16 +1,15 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Dwarf_Compat",
+      "LogName": "CFE_Dwarf_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Dwarf",
       "Entries": {
+        "AcceptGift_(O)749": "{{i18n: CFE_Dwarf_OmniGeode}}", //this line is not actually added by UGDE yet, but maybe this will inspire them! added here for ease of compat with MSGD
         "AcceptGift_(O)554": "{{i18n: CFE_Dwarf_LemonStone}}"
-        //any keys that overlap go here
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Dwarf}}' = 'true' OR ('{{CFE_Dwarf}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {
@@ -29,21 +28,20 @@
         "AcceptGift_(O)66": "{{i18n: CFE_Dwarf_Emerald}}",
         "AcceptGift_(O)68": "{{i18n: CFE_Dwarf_Topaz}}",
         "AcceptGift_(O)70": "{{i18n: CFE_Dwarf_Jade}}",
-        "AcceptGift_(O)749": "{{i18n: CFE_Dwarf_OmniGeode}}",
         "AcceptGift_(O)162": "{{i18n: CFE_Dwarf_LavaEel}}"
-      },
-      "When": { "Query: '{{CFE_Dwarf}}' = 'true' OR ('{{CFE_Dwarf}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Dwarf_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Dwarf": "{{i18n: CFE_Dwarf_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Dwarf}}' = 'true' OR ('{{CFE_Dwarf}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
-    {
+
+    /*    {
       "LogName": "CFE_Dwarf_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Dwarf",
@@ -51,7 +49,14 @@
         //special dialogue
 
         //Date Specific Dialogue
-
+      }
+    }, */
+    {
+      "LogName": "CFE_Dwarf_Dialogue_Compat.Haywrites",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Dwarf",
+      "When": { "ModdedDialogCompat.Hay": "true" },
+      "Entries": {
         //Heart Specific Dialogue
         "summer_Mon10": "{{i18n: CFE_Dwarf_summerMon10}}",
         "summer_Tue10": "{{i18n: CFE_Dwarf_summerTue10}}",
@@ -113,8 +118,7 @@
         "Mon": "{{i18n: CFE_Dwarf_Mon}}",
         "Tue": "{{i18n: CFE_Dwarf_Tue}}",
         "Sun": "{{i18n: CFE_Dwarf_Sun}}"
-      },
-      "When": { "Query: '{{CFE_Dwarf}}' = 'true' OR ('{{CFE_Dwarf}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

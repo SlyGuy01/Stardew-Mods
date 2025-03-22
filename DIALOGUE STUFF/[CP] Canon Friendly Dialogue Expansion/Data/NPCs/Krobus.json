@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Krobus_Compat",
+      "LogName": "CFE_Krobus_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Krobus",
       "Entries": {
@@ -9,18 +9,22 @@
         "AcceptGift_(O)16": "{{i18n: CFE_Krobus_WildHorseradish}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Krobus}}' = 'true' OR ('{{CFE_Krobus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {
-      "LogName": "CFE_Krobus_Rainy",
+      "LogName": "CFE_Krobus_Compat.MSGR",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/rainy",
+      "Target": "Characters/Dialogue/Krobus",
       "Entries": {
-        "Krobus": "{{i18n: CFE_Krobus_rainy_{{random: 1,2,3}}}}"
+        "AcceptGift_(O)305": "{{i18n: CFE_Krobus_VoidEgg}}",
+        "AcceptGift_(O)72": "{{i18n: CFE_Krobus_Diamond}}",
+        "AcceptGift_(O)337": "{{i18n: CFE_Krobus_IridiumBar}}",
+        "AcceptGift_(O)276": "{{i18n: CFE_Krobus_Pumpkin}}"
       },
-      "When": { "Query: '{{CFE_Krobus}}' = 'true' OR ('{{CFE_Krobus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
+      }
     },
     {
       "LogName": "CFE_Krobus_GiftTastes",
@@ -30,23 +34,36 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Krobus_GoldPumpkin}}",
         "AcceptGift_(O)279": "{{i18n: CFE_Krobus_RockCandy}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Krobus_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Krobus_RabbitsFoot}}",
-
-        "AcceptGift_(O)305": "{{i18n: CFE_Krobus_VoidEgg}}",
-        "AcceptGift_(O)72": "{{i18n: CFE_Krobus_Diamond}}",
-        "AcceptGift_(O)337": "{{i18n: CFE_Krobus_IridiumBar}}",
-        "AcceptGift_(O)276": "{{i18n: CFE_Krobus_Pumpkin}}"
-      },
-      "When": { "Query: '{{CFE_Krobus}}' = 'true' OR ('{{CFE_Krobus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Krobus_RabbitsFoot}}"
+      }
     },
+
     {
+      "LogName": "CFE_Krobus_Rainy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "Krobus": "{{i18n: CFE_Krobus_rainy_{{random: 1,2,3}}}}"
+      }
+    },
+
+    /*    {
       "LogName": "CFE_Krobus_Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Krobus",
       "Entries": {
         //special dialogue
-        //Date Specific Dialogue
 
+        //Date Specific Dialogue
+      }
+    }, */
+
+    {
+      "LogName": "CFE_Krobus_Dialogue_Compat.Haywrites",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Krobus",
+      "When": { "ModdedDialogCompat.Hay": "true" },
+      "Entries": {
         //Heart Specific Dialogue
         "summer_Mon10": "{{i18n: CFE_Krobus_summerMon10}}",
         "summer_Tue10": "{{i18n: CFE_Krobus_summerTue10}}",
@@ -92,17 +109,16 @@
         "Sun2": "{{i18n: CFE_Krobus_Sun2}}"
 
         //Generic Weekday Dialogue
-      },
-      "When": { "Query: '{{CFE_Krobus}}' = 'true' OR ('{{CFE_Krobus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Krobus_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Krobus": "{{i18n: CFE_Krobus_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      },
-      "When": { "Query: '{{CFE_Krobus}}' = 'true' OR ('{{CFE_Krobus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
       "LogName": "CFE_Krobus_Marriage",
@@ -168,8 +184,7 @@
         //only shown inside the farmhouse between 11 and 6pm, or at the start of day if no other dialogue is chosen first.
         //Bad or Neutral responses are randomly chosen between if the player has less than 9 hearts, Good or Neutral responses have a 50/50 chance with 10+ hearts, and the likelihood of a Good response goes up to 87% with 11+ hearts
         //currently unused. key looks like "Bad_3"
-      },
-      "When": { "Query: '{{CFE_Krobus}}' = 'true' OR ('{{CFE_Krobus}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

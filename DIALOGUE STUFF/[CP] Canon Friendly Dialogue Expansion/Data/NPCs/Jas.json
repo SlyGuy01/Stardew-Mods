@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Jas_Compat",
+      "LogName": "CFE_Jas_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Jas",
       "Entries": {
@@ -9,8 +9,7 @@
         "AcceptGift_(O)221": "{{i18n: CFE_Jas_PinkCake}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Jas}}' = 'true' OR ('{{CFE_Jas}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {
@@ -24,9 +23,9 @@
         "AcceptGift_(O)74": "{{i18n: CFE_Jas_PrismaticShard}}",
         "AcceptGift_(O)595": "{{i18n: CFE_Jas_FairyRose{{GenderNeutralCompat}} |Title={{Random:{{GNMTTitle}}}}}}",
         "AcceptGift_(O)604": "{{i18n: CFE_Jas_PlumPudding}}"
-      },
-      "When": { "Query: '{{CFE_Jas}}' = 'true' OR ('{{CFE_Jas}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     /*{
       "LogName": "CFE_Jas_Rainy",
       "Action": "EditData",
@@ -34,8 +33,8 @@
       "Entries": {
         //no rainy dialogue currently
       }
-          "When": { "Query: '{{CFE_Jas}}' = 'true' OR ('{{CFE_Jas}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
       }, */
+
     {
       "LogName": "CFE_Jas_Dialogue",
       "Action": "EditData",
@@ -94,8 +93,7 @@
 
         //Generic Weekday Dialogue
         "Tue_inlaw_Shane": "{{i18n: CFE_Jas_TueinlawShane}}"
-      },
-      "When": { "Query: '{{CFE_Jas}}' = 'true' OR ('{{CFE_Jas}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

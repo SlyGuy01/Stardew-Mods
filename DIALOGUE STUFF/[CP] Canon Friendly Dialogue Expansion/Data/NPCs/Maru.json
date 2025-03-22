@@ -1,24 +1,10 @@
 {
   "Changes": [
-    /*{
-      "LogName": "CFE_Maru_Compat",
-      "Action": "EditData",
-      "Target": "Characters/Dialogue/Maru",
-      "Entries": {
-        //any keys that overlap go here
-      },
-      "When": { "ModdedDialogCompat": "true",  "Query: '{{CFE_Maru}}' = 'true' OR ('{{CFE_Maru}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
-    }, */
     {
-      "LogName": "CFE_Maru_GiftTastes",
+      "LogName": "CFE_Maru_Compat.MSGR",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Maru",
       "Entries": {
-        "AcceptGift_(O)373": "{{i18n: CFE_Maru_GoldPumpkin}}",
-        "AcceptGift_(O)279": "{{i18n: CFE_Maru_RockCandy}}",
-        "AcceptGift_(O)797": "{{i18n: CFE_Maru_Pearl}}",
-        "AcceptGift_(O)74": "{{i18n: CFE_Maru_PrismaticShard}}",
-
         "AcceptGift_(O)72": "{{i18n: CFE_Maru_Diamond}}",
         "AcceptGift_(O)190": "{{i18n: CFE_Maru_Cauliflower}}",
         "AcceptGift_(O)197": "{{i18n: CFE_Maru_CheeseCauliflower}}",
@@ -27,17 +13,31 @@
         "AcceptGift_(O)222": "{{i18n: CFE_Maru_RhubarbPie}}",
         "AcceptGift_(O)400": "{{i18n: CFE_Maru_Strawberry}}"
       },
-      "When": { "Query: '{{CFE_Maru}}' = 'true' OR ('{{CFE_Maru}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
+      }
     },
+    {
+      "LogName": "CFE_Maru_GiftTastes",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Maru",
+      "Entries": {
+        "AcceptGift_(O)373": "{{i18n: CFE_Maru_GoldPumpkin}}",
+        "AcceptGift_(O)279": "{{i18n: CFE_Maru_RockCandy}}",
+        "AcceptGift_(O)797": "{{i18n: CFE_Maru_Pearl}}",
+        "AcceptGift_(O)74": "{{i18n: CFE_Maru_PrismaticShard}}"
+      }
+    },
+
     {
       "LogName": "CFE_Maru_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Maru": "{{i18n: CFE_Maru_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Maru}}' = 'true' OR ('{{CFE_Maru}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Maru_Dialogue",
       "Action": "EditData",
@@ -175,9 +175,9 @@
 
         //Generic Weekday Dialogue
         "fall_Mon_inlaw_Sebastian": "{{i18n: CFE_Maru_fallMoninlawSebastian}}"
-      },
-      "When": { "Query: '{{CFE_Maru}}' = 'true' OR ('{{CFE_Maru}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Maru_Marriage_GenericDialogue",
       "Action": "EditData",
@@ -186,8 +186,7 @@
         "spouseRoom_Maru": "{{i18n: CFE_Maru_Married_spouseRoom_{{random: 1,2,3,4,5}}}}",
         "jobLeave_Maru": "{{i18n: CFE_Maru_Married_jobLeave_{{Random: 1,2,3,4}}}}",
         "jobReturn_Maru": "{{i18n: CFE_Maru_Married_jobReturn_{{Random: 1,2,3,4}}}}"
-      },
-      "When": { "Query: '{{CFE_Maru}}' = 'true' OR ('{{CFE_Maru}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
       "LogName": "CFE_Maru_Marriage",
@@ -264,8 +263,7 @@
         "winter_22": "{{i18n: CFE_Maru_Married_winter22}}",
         "winter_23": "{{i18n: CFE_Maru_Married_winter23}}",
         "winter_28": "{{i18n: CFE_Maru_Married_winter28}}"
-      },
-      "When": { "Query: '{{CFE_Maru}}' = 'true' OR ('{{CFE_Maru}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

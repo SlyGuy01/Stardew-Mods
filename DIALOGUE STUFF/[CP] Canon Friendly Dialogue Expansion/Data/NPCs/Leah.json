@@ -1,26 +1,28 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Leah_Compat",
+      "LogName": "CFE_Leah_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Leah",
       "Entries": {
-        //any keys that overlap go here
         "AcceptGift_(O)348": "{{i18n: CFE_Leah_Wine}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
       }
     },
     {
-      "LogName": "CFE_Leah_Rainy",
+      "LogName": "CFE_Leah_Compat.MSGR",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/rainy",
+      "Target": "Characters/Dialogue/Leah",
       "Entries": {
-        "Leah": "{{i18n: CFE_Leah_rainy_{{random: 1,2,3}}}}"
+        "AcceptGift_(O)426": "{{i18n: CFE_Leah_GoatCheese}}",
+        "AcceptGift_(O)651": "{{i18n: CFE_Leah_PoppyseedMuffin}}",
+        "AcceptGift_(O)606": "{{i18n: CFE_Leah_StirFry}}"
       },
-      "When": { "Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
+      }
     },
     {
       "LogName": "CFE_Leah_GiftTastes",
@@ -28,16 +30,21 @@
       "Target": "Characters/Dialogue/Leah",
       "Entries": {
         "AcceptGift_(O)373": "{{i18n: CFE_Leah_GoldPumpkin}}",
-        "AcceptGift_(O)797": "{{i18n: CFE_Leah_Pearl}}",
+        "AcceptGift_(O)797": "{{i18n: CFE_Leah_Pearl |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Leah_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Leah_RabbitsFoot}}",
-
-        "AcceptGift_(O)426": "{{i18n: CFE_Leah_GoatCheese}}",
-        "AcceptGift_(O)651": "{{i18n: CFE_Leah_PoppyseedMuffin}}",
-        "AcceptGift_(O)606": "{{i18n: CFE_Leah_StirFry}}"
-      },
-      "When": { "Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Leah_RabbitsFoot}}"
+      }
     },
+
+    {
+      "LogName": "CFE_Leah_Rainy",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "Leah": "{{i18n: CFE_Leah_rainy_{{random: 1,2,3}}}}"
+      }
+    },
+
     {
       "LogName": "CFE_Leah_Dialogue",
       "Action": "EditData",
@@ -81,7 +88,7 @@
         "summer_Sat6": "{{i18n: CFE_Leah_summerSat6}}",
         "summer_Sat4": "{{i18n: CFE_Leah_summerSat4}}",
         "summer_Sat2": "{{i18n: CFE_Leah_repeated_10}}",
-        "summer_Sun10": "{{i18n: CFE_Leah_repeated_2}}",
+        "summer_Sun10": "{{i18n: CFE_Leah_repeated_2 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "summer_Sun8": "{{i18n: CFE_Leah_summerSun8}}",
         "summer_Sun6": "{{i18n: CFE_Leah_summerSun6}}",
         "summer_Sun4": "{{i18n: CFE_Leah_summerSun4}}",
@@ -90,7 +97,7 @@
         "fall_Mon8": "{{i18n: CFE_Leah_fallMon8}}",
         "fall_Mon6": "{{i18n: CFE_Leah_fallMon6_{{Random: 1,2}}}}",
         "fall_Mon4": "{{i18n: CFE_Leah_fallMon4}}",
-        "fall_Tue10": "{{i18n: CFE_Leah_fallTue10}}",
+        "fall_Tue10": "{{i18n: CFE_Leah_fallTue10 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "fall_Tue8": "{{i18n: CFE_Leah_fallTue8}}",
         "fall_Tue2": "{{i18n: CFE_Leah_fallTue2}}",
         "fall_Wed10": "{{i18n: CFE_Leah_repeated_11}}",
@@ -118,7 +125,7 @@
         "winter_Mon6": "{{i18n: CFE_Leah_winterMon6}}",
         "winter_Mon4": "{{i18n: CFE_Leah_repeated_10}}",
         "winter_Tue10": "{{i18n: CFE_Leah_winterTue10}}",
-        "winter_Tue8": "{{i18n: CFE_Leah_winterTue8}}",
+        "winter_Tue8": "{{i18n: CFE_Leah_winterTue8 |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
         "winter_Tue6": "{{i18n: CFE_Leah_winterTue6}}",
         "winter_Tue4": "{{i18n: CFE_Leah_winterTue4}}",
         "winter_Wed8": "{{i18n: CFE_Leah_winterWed8}}",
@@ -141,7 +148,7 @@
         "winter_Sun4": "{{i18n: CFE_Leah_repeated_12}}",
         "winter_Sun2": "{{i18n: CFE_Leah_winterSun2}}",
 
-        "Mon8": "{{i18n: CFE_Leah_Mon8}}",
+        "Mon8": "{{i18n: CFE_Leah_Mon8 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "Mon6": "{{i18n: CFE_Leah_Mon6}}",
         "Mon4": "{{i18n: CFE_Leah_repeated_1}}",
         "Tue10": "{{i18n: CFE_Leah_Tue10}}",
@@ -156,7 +163,7 @@
         "Wed8_226": "{{i18n: CFE_Leah_Wed8_226}}",
         "Wed4": "{{i18n: CFE_Leah_Wed4}}",
         "Wed2": "{{i18n: CFE_Leah_Wed2}}",
-        "Thu10": "{{i18n: CFE_Leah_repeated_2}}",
+        "Thu10": "{{i18n: CFE_Leah_repeated_2 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "Thu8": "{{i18n: CFE_Leah_Thu8}}",
         "Thu6": "{{i18n: CFE_Leah_Thu6}}",
         "Thu4": "{{i18n: CFE_Leah_Thu4}}",
@@ -181,17 +188,16 @@
         "winter_Tue": "{{i18n: CFE_Leah_winterTue}}",
         "winter_Thu": "{{i18n: CFE_Leah_winterThu}}",
         "Thu": "{{i18n: CFE_Leah_Thu}}"
-      },
-      "When": { "Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Leah_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Leah": "{{i18n: CFE_Leah_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      },
-      "When": { "Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
       "LogName": "CFE_Leah_Marriage",
@@ -204,13 +210,13 @@
         //note that Indoor_Day is the key for any weather besides rain, even when the Leah is outside. Day means prior to 6pm. Indoor_Night is specific to inside the farmhouse when it's not raining after 6pm.
         "Rainy_Day_0": "{{i18n: CFE_Leah_Married_RainyDay_{{Random: 1,2}}}}",
         "Rainy_Day_1": "{{i18n: CFE_Leah_Married_RainyDay_{{Random: 3,4}}}}",
-        "Rainy_Day_2": "{{i18n: CFE_Leah_Married_RainyDay_{{Random: 5,6}}}}",
+        "Rainy_Day_2": "{{i18n: CFE_Leah_Married_RainyDay_{{Random: 5,6}} |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "Rainy_Day_3": "{{i18n: CFE_Leah_Married_RainyDay_{{Random: 7,8}}}}",
         "Rainy_Day_4": "{{i18n: CFE_Leah_Married_RainyDay_{{Random: 9,10}}}}",
 
         "Rainy_Night_0": "{{i18n: CFE_Leah_Married_RainyNight_{{Random: 1,2}}}}",
         "Rainy_Night_1": "{{i18n: CFE_Leah_Married_RainyNight_{{Random: 3,4}}}}",
-        "Rainy_Night_2": "{{i18n: CFE_Leah_Married_RainyNight_{{Random: 5,6}}}}",
+        "Rainy_Night_2": "{{i18n: CFE_Leah_Married_RainyNight_{{Random: 5,6}} |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "Rainy_Night_3": "{{i18n: CFE_Leah_Married_RainyNight_{{Random: 7,8}}}}",
         "Rainy_Night_4": "{{i18n: CFE_Leah_Married_RainyNight_{{Random: 9,10}}{{GenderNeutralCompat}} |TermOfEndearment={{lowercase:{{Random:{{GNMTTermOfEndearment}}}}}}}}",
 
@@ -218,12 +224,12 @@
         "Indoor_Day_1": "{{i18n: CFE_Leah_Married_IndoorDay_{{Random: 4,5,6}}}}",
         "Indoor_Day_2": "{{i18n: CFE_Leah_Married_IndoorDay_{{Random: 7,8,9}}}}",
         "Indoor_Day_3": "{{i18n: CFE_Leah_Married_IndoorDay_{{Random: 10,11,12}}}}",
-        "Indoor_Day_4": "{{i18n: CFE_Leah_Married_IndoorDay_{{Random: 13,14,15}}}}",
+        "Indoor_Day_4": "{{i18n: CFE_Leah_Married_IndoorDay_{{Random: 13,14,15}} |LovePortraitsHappy={{LovePortraitsHappyToken}}}}",
 
         "Indoor_Night_0": "{{i18n: CFE_Leah_Married_IndoorNight_{{Random: 1,2}}}}",
         "Indoor_Night_1": "{{i18n: CFE_Leah_Married_IndoorNight_{{Random: 3,4}}}}",
         "Indoor_Night_2": "{{i18n: CFE_Leah_Married_IndoorNight_{{Random: 5,6}}}}",
-        "Indoor_Night_3": "{{i18n: CFE_Leah_Married_IndoorNight_{{Random: 7,8}}}}",
+        "Indoor_Night_3": "{{i18n: CFE_Leah_Married_IndoorNight_{{Random: 7,8}} |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "Indoor_Night_4": "{{i18n: CFE_Leah_Married_IndoorNight_{{Random: 9,10}}}}",
 
         //locational specific dialogue
@@ -271,7 +277,7 @@
 
         "winter_4": "{{i18n: CFE_Leah_Married_winter4}}",
         "winter_11": "{{i18n: CFE_Leah_Married_winter11}}",
-        "winter_16": "{{i18n: CFE_Leah_Married_winter16}}",
+        "winter_16": "{{i18n: CFE_Leah_Married_winter16 |LovePortraitsNeutral={{LovePortraitsNeutralToken}}}}",
         "winter_20": "{{i18n: CFE_Leah_Married_winter20}}",
         "winter_27": "{{i18n: CFE_Leah_Married_winter27}}"
 
@@ -283,8 +289,7 @@
         //only shown inside the farmhouse between 11 and 6pm, or at the start of day if no other dialogue is chosen first.
         //Bad or Neutral responses are randomly chosen between if the player has less than 9 hearts, Good or Neutral responses have a 50/50 chance with 10+ hearts, and the likelihood of a Good response goes up to 87% with 11+ hearts
         //currently unused. key looks like "Bad_3"
-      },
-      "When": { "Query: '{{CFE_Leah}}' = 'true' OR ('{{CFE_Leah}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }

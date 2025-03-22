@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "LogName": "CFE_Shane_Compat",
+      "LogName": "CFE_Shane_Compat.GiftTaste",
       "Action": "EditData",
       "Target": "Characters/Dialogue/Shane",
       "Entries": {
@@ -10,8 +10,19 @@
         "AcceptGift_(O)206": "{{i18n: CFE_Shane_Pizza}}"
       },
       "When": {
-        "ModdedDialogCompat": "true",
-        "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true
+        "ModdedDialogCompat.GiftTaste": "true"
+      }
+    },
+    {
+      "LogName": "CFE_Shane_Compat.MSGR",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Shane",
+      "Entries": {
+        "AcceptGift_(O)260": "{{i18n: CFE_Shane_HotPepper}}",
+        "AcceptGift_(O)215": "{{i18n: CFE_Shane_PepperPoppers}}"
+      },
+      "When": {
+        "ModdedDialogCompat.MSGR": "true"
       }
     },
     {
@@ -23,21 +34,19 @@
         "AcceptGift_(O)373": "{{i18n: CFE_Shane_GoldPumpkin}}",
         "AcceptGift_(O)797": "{{i18n: CFE_Shane_Pearl}}",
         "AcceptGift_(O)74": "{{i18n: CFE_Shane_PrismaticShard}}",
-        "AcceptGift_(O)446": "{{i18n: CFE_Shane_RabbitsFoot}}",
-        "AcceptGift_(O)260": "{{i18n: CFE_Shane_HotPepper}}",
-        "AcceptGift_(O)215": "{{i18n: CFE_Shane_PepperPoppers}}"
-      },
-      "When": { "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+        "AcceptGift_(O)446": "{{i18n: CFE_Shane_RabbitsFoot}}"
+      }
     },
+
     {
       "LogName": "CFE_Shane_Rainy",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
       "Entries": {
         "Shane": "{{i18n: CFE_Shane_rainy_{{random: 1,2,3}}}}"
-      },
-      "When": { "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
       "LogName": "CFE_Shane_Dialogue",
       "Action": "EditData",
@@ -74,7 +83,7 @@
         "fall_Mon10": "{{i18n: CFE_Shane_fallMon10}}",
         "fall_Mon8": "{{i18n: CFE_Shane_fallMon8}}",
         "fall_Mon6": "{{i18n: CFE_Shane_repeated_4}}",
-        "fall_Tue10": "{{i18n: CFE_Shane_fallTue10}}",
+        "fall_Tue10": "{{i18n: CFE_Shane_fallTue10 |LovePortraitsExpression6={{LovePortraitsExpression6Token}}}}",
         "fall_Tue8": "{{i18n: CFE_Shane_fallTue8}}",
         "fall_Wed10": "{{i18n: CFE_Shane_fallWed10}}",
         "fall_Wed8": "{{i18n: CFE_Shane_fallWed8}}",
@@ -124,17 +133,16 @@
 
         //Generic Weekday Dialogue
         "Mon": "{{i18n: CFE_Shane_Mon}}"
-      },
-      "When": { "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
+
     {
-      "LogName": "CFE_Shane_Married_spouseRoom",
+      "LogName": "CFE_Shane_Marriage_GenericDialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/MarriageDialogue",
       "Entries": {
         "spouseRoom_Shane": "{{i18n: CFE_Shane_Married_spouseRoom_{{random: 1,2,3,4,5}}}}"
-      },
-      "When": { "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     },
     {
       "LogName": "CFE_Shane_Marriage",
@@ -160,15 +168,14 @@
         "Indoor_Day_0": "{{i18n: CFE_Shane_Married_IndoorDay_{{Random: 1,2,3}}}}",
         "Indoor_Day_1": "{{i18n: CFE_Shane_Married_IndoorDay_{{Random: 4,5,6}}}}",
         "Indoor_Day_2": "{{i18n: CFE_Shane_Married_IndoorDay_{{Random: 7,8,9}}}}",
-        "Indoor_Day_3": "{{i18n: CFE_Shane_Married_IndoorDay_{{Random: 10,11,12}}}}",
+        "Indoor_Day_3": "{{i18n: CFE_Shane_Married_IndoorDay_{{Random: 10,11,12}} |LovePortraitsExpression6={{LovePortraitsExpression6Token}}}}",
         "Indoor_Day_4": "{{i18n: CFE_Shane_Married_IndoorDay_{{Random: 13,14,15}}}}",
 
         "Indoor_Night_0": "{{i18n: CFE_Shane_Married_IndoorNight_{{Random: 1,2}}}}",
         "Indoor_Night_1": "{{i18n: CFE_Shane_Married_IndoorNight_{{Random: 3,4}}}}",
         "Indoor_Night_2": "{{i18n: CFE_Shane_Married_IndoorNight_{{Random: 5,6}}}}",
         "Indoor_Night_3": "{{i18n: CFE_Shane_Married_IndoorNight_{{Random: 7,8}}}}",
-        "Indoor_Night_4": "{{i18n: CFE_Shane_Married_IndoorNight_{{Random: 9,10}}}}",
-
+        "Indoor_Night_4": "{{i18n: CFE_Shane_Married_IndoorNight_{{Random: 9,10}} |LovePortraitsExpression6={{LovePortraitsExpression6Token}}}}",
         //locational specific dialogue
         //funleave and return only show up on Mondays or Fridays (except for characters with jobs), and only while the npc is leaving or entering the farmhouse. fun return will not display once the NPC has reached their target location.
         //Kid dialogue only displays when the NPC is standing in the farmhouse kitchen
@@ -205,7 +212,7 @@
         "summer_4": "{{i18n: CFE_Shane_Married_summer4}}",
         "summer_12": "{{i18n: CFE_Shane_Married_summer12}}",
         "summer_16": "{{i18n: CFE_Shane_Married_summer16}}",
-        "summer_17": "{{i18n: CFE_Shane_Married_summer17}}",
+        "summer_17": "{{i18n: CFE_Shane_Married_summer17 |LovePortraitsExpression6={{LovePortraitsExpression6Token}}}}",
 
         "fall_3": "{{i18n: CFE_Shane_Married_fall3}}",
         "fall_7": "{{i18n: CFE_Shane_Married_fall7}}",
@@ -224,8 +231,7 @@
         //only shown inside the farmhouse between 11 and 6pm, or at the start of day if no other dialogue is chosen first.
         //Bad or Neutral responses are randomly chosen between if the player has less than 9 hearts, Good or Neutral responses have a 50/50 chance with 10+ hearts, and the likelihood of a Good response goes up to 87% with 11+ hearts
         //currently unused. key looks like "Bad_3"
-      },
-      "When": { "Query: '{{CFE_Shane}}' = 'true' OR ('{{CFE_Shane}}' = 'random' AND '{{Random: true, false}}' = 'true')": true }
+      }
     }
   ]
 }
